@@ -1,0 +1,1020 @@
+{
+  "nodes": [
+    {
+      "id": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "paper",
+      "title": "Attention is All you Need",
+      "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "year": 2017,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "citation_count": 116294,
+      "reference_count": 41,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "A new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely is proposed, which generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "external_id_mag": "2963403868",
+      "external_id_dblp": "journals/corr/VaswaniSPUJGKP17",
+      "external_id_arxiv": "1706.03762",
+      "external_id_corpusid": 13756489,
+      "publication_date": "2017-06-12",
+      "journal_pages": "5998-6008"
+    },
+    {
+      "id": "40348417",
+      "type": "author",
+      "name": "Ashish Vaswani"
+    },
+    {
+      "id": "1846258",
+      "type": "author",
+      "name": "Noam M. Shazeer"
+    },
+    {
+      "id": "3877127",
+      "type": "author",
+      "name": "Niki Parmar"
+    },
+    {
+      "id": "39328010",
+      "type": "author",
+      "name": "Jakob Uszkoreit"
+    },
+    {
+      "id": "145024664",
+      "type": "author",
+      "name": "Llion Jones"
+    },
+    {
+      "id": "19177000",
+      "type": "author",
+      "name": "Aidan N. Gomez"
+    },
+    {
+      "id": "40527594",
+      "type": "author",
+      "name": "Lukasz Kaiser"
+    },
+    {
+      "id": "3443442",
+      "type": "author",
+      "name": "Illia Polosukhin"
+    },
+    {
+      "id": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "paper",
+      "title": "MSAByNet: A multiscale subtraction attention network framework based on Bayesian loss for medical image segmentation",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/eba122f6ffcd430037ea753f47385126caebf5b1",
+      "citation_count": 0,
+      "reference_count": 37,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/ZhaoWCZTZTCT25",
+      "external_id_doi": "10.1016/j.bspc.2024.107393",
+      "external_id_corpusid": 275021943,
+      "publication_date": "2025-05-01",
+      "journal_name": "Biomed. Signal Process. Control.",
+      "journal_volume": "103",
+      "journal_pages": "107393"
+    },
+    {
+      "id": "2261258970",
+      "type": "author",
+      "name": "Longxuan Zhao"
+    },
+    {
+      "id": "2257008742",
+      "type": "author",
+      "name": "Tao Wang"
+    },
+    {
+      "id": "2232946813",
+      "type": "author",
+      "name": "Yuanbin Chen"
+    },
+    {
+      "id": "2261251068",
+      "type": "author",
+      "name": "Xinlin Zhang"
+    },
+    {
+      "id": "2261259483",
+      "type": "author",
+      "name": "Hui Tang"
+    },
+    {
+      "id": "2236703737",
+      "type": "author",
+      "name": "Ruige Zong"
+    },
+    {
+      "id": "2261121285",
+      "type": "author",
+      "name": "Tao Tan"
+    },
+    {
+      "id": "2337150125",
+      "type": "author",
+      "name": "Shun Chen"
+    },
+    {
+      "id": "2284530727",
+      "type": "author",
+      "name": "Tong Tong"
+    },
+    {
+      "id": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "paper",
+      "title": "Direction-guided network for retinal vessel segmentation in OCTA images",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "citation_count": 0,
+      "reference_count": 30,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/LiZZSZ25",
+      "external_id_doi": "10.1016/j.bspc.2024.107455",
+      "external_id_corpusid": 275417915,
+      "publication_date": "2025-05-01",
+      "journal_name": "Biomed. Signal Process. Control.",
+      "journal_volume": "103",
+      "journal_pages": "107455"
+    },
+    {
+      "id": "2339412438",
+      "type": "author",
+      "name": "Zhenli Li"
+    },
+    {
+      "id": "2108083657",
+      "type": "author",
+      "name": "Xinpeng Zhang"
+    },
+    {
+      "id": "2339501181",
+      "type": "author",
+      "name": "Meng Zhao"
+    },
+    {
+      "id": "2053741160",
+      "type": "author",
+      "name": "Fan Shi"
+    },
+    {
+      "id": "2339419387",
+      "type": "author",
+      "name": "Wei Zhou"
+    },
+    {
+      "id": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "paper",
+      "title": "LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "citation_count": 0,
+      "reference_count": 36,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/HuDLJZP25",
+      "external_id_doi": "10.1016/j.bspc.2024.107456",
+      "external_id_corpusid": 275461577,
+      "publication_date": "2025-05-01",
+      "journal_name": "Biomed. Signal Process. Control.",
+      "journal_volume": "103",
+      "journal_pages": "107456"
+    },
+    {
+      "id": "2339736402",
+      "type": "author",
+      "name": "Mengxiang Hu"
+    },
+    {
+      "id": "2332719665",
+      "type": "author",
+      "name": "Yongquan Dong"
+    },
+    {
+      "id": "2339716351",
+      "type": "author",
+      "name": "Junchi Li"
+    },
+    {
+      "id": "2339721710",
+      "type": "author",
+      "name": "Le Jiang"
+    },
+    {
+      "id": "2340251765",
+      "type": "author",
+      "name": "Peilin Zhang"
+    },
+    {
+      "id": "2332598099",
+      "type": "author",
+      "name": "Yuchao Ping"
+    },
+    {
+      "id": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "paper",
+      "title": "Advances in attention mechanisms for medical image segmentation",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Computer Science Review",
+      "url": "https://www.semanticscholar.org/paper/d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "citation_count": 0,
+      "reference_count": 132,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/csr/ZhangCYGCCWXX25",
+      "external_id_doi": "10.1016/j.cosrev.2024.100721",
+      "external_id_corpusid": 275517495,
+      "publication_date": "2025-05-01",
+      "journal_name": "Comput. Sci. Rev.",
+      "journal_volume": "56",
+      "journal_pages": "100721"
+    },
+    {
+      "id": "49049926",
+      "type": "author",
+      "name": "Jianpeng Zhang"
+    },
+    {
+      "id": "2340079194",
+      "type": "author",
+      "name": "Xiaomin Chen"
+    },
+    {
+      "id": "2254298657",
+      "type": "author",
+      "name": "Bing Yang"
+    },
+    {
+      "id": "2210643082",
+      "type": "author",
+      "name": "Qingbiao Guan"
+    },
+    {
+      "id": "2295678067",
+      "type": "author",
+      "name": "Qi Chen"
+    },
+    {
+      "id": "2331688396",
+      "type": "author",
+      "name": "Jian Chen"
+    },
+    {
+      "id": "2190940933",
+      "type": "author",
+      "name": "Qi Wu"
+    },
+    {
+      "id": "2154709897",
+      "type": "author",
+      "name": "Yutong Xie"
+    },
+    {
+      "id": "2284828594",
+      "type": "author",
+      "name": "Yong Xia"
+    },
+    {
+      "id": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "type": "paper",
+      "title": "Understandable time frame-based biosignal processing",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "citation_count": 0,
+      "reference_count": 46,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/RafieiA25",
+      "external_id_doi": "10.1016/j.bspc.2024.107429",
+      "external_id_corpusid": 276004643,
+      "publication_date": "2025-05-01",
+      "journal_name": "Biomed. Signal Process. Control.",
+      "journal_volume": "103",
+      "journal_pages": "107429"
+    },
+    {
+      "id": "2077186815",
+      "type": "author",
+      "name": "Hamed Rafiei"
+    },
+    {
+      "id": "2324108063",
+      "type": "author",
+      "name": "Mohammad R. Akbarzadeh-Totonchi"
+    },
+    {
+      "id": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "paper",
+      "title": "SASU-Net: Hyperspectral video tracker based on spectral adaptive aggregation weighting and scale updating",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Expert systems with applications",
+      "url": "https://www.semanticscholar.org/paper/bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "citation_count": 1,
+      "reference_count": 39,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/eswa/ZhaoZHZAJLPZ25",
+      "external_id_doi": "10.1016/j.eswa.2025.126721",
+      "external_id_corpusid": 276204872,
+      "publication_date": "2025-05-01",
+      "journal_name": "Expert Syst. Appl.",
+      "journal_volume": "272",
+      "journal_pages": "126721"
+    },
+    {
+      "id": "2210675334",
+      "type": "author",
+      "name": "Dong Zhao"
+    },
+    {
+      "id": "2259299392",
+      "type": "author",
+      "name": "Haorui Zhang"
+    },
+    {
+      "id": "2260847568",
+      "type": "author",
+      "name": "Kunpeng Huang"
+    },
+    {
+      "id": "2259641412",
+      "type": "author",
+      "name": "Xuguang Zhu"
+    },
+    {
+      "id": "2259021188",
+      "type": "author",
+      "name": "P. V. Arun"
+    },
+    {
+      "id": "2344611643",
+      "type": "author",
+      "name": "Wenhao Jiang"
+    },
+    {
+      "id": "2304014903",
+      "type": "author",
+      "name": "Shiyu Li"
+    },
+    {
+      "id": "2332001684",
+      "type": "author",
+      "name": "Xiaofang Pei"
+    },
+    {
+      "id": "2259333099",
+      "type": "author",
+      "name": "Huixin Zhou"
+    },
+    {
+      "id": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "type": "paper",
+      "title": "OCSCNet-Tracker: Hyperspectral Video Tracker Based on Octave Convolution and Spatial–Spectral Capsule Network",
+      "abstract": "In the field of hyperspectral video tracking (HVT), occclusion poses a challenging issue without a satisfactory solution. To address this challenge, the current study explores the application of capsule networks in HVT and proposes an approach based on octave convolution and a spatial–spectral capsule network (OCSCNet). Specifically, the spatial–spectral octave convolution module is designed to learn features from hyperspectral images by integrating spatial and spectral information. Hence, unlike traditional convolution, which is limited to learning spatial features, the proposed strategy also focuses on learning and modeling the spectral features. The proposed spatial–spectral capsule network integrates spectral information to distinguish among underlying capsule categories based on their spectral similarity. The approach enhances separability and establishes relationships between different components and targets at various scales. Finally, a confidence threshold judgment module utilizes the information from the initial and adjacent frames for relocating the lost target. Experiments conducted on the HOT2023 dataset illustrate that the proposed model outperforms state-of-the-art methods, achieving a success rate of 65.2% and a precision of 89.3%. In addition, extensive experimental results and visualizations further demonstrate the effectiveness and interpretability of the proposed OCSCNet.",
+      "year": 2025,
+      "venue": "Remote Sensing",
+      "url": "https://www.semanticscholar.org/paper/2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "citation_count": 0,
+      "reference_count": 43,
+      "fields_of_study": "",
+      "is_open_access": true,
+      "tldr": "This study explores the application of capsule networks in HVT and proposes an approach based on octave convolution and a spatial–spectral capsule network (OCSCNet), designed to learn features from hyperspectral images by integrating spatial and spectral information.",
+      "external_id_doi": "10.3390/rs17040693",
+      "external_id_corpusid": 276474341,
+      "publication_date": "2025-02-18",
+      "journal_name": "Remote Sensing"
+    },
+    {
+      "id": "2346506042",
+      "type": "author",
+      "name": "Mengyuan Wang"
+    },
+    {
+      "id": "2346504984",
+      "type": "author",
+      "name": "Weixiang Zhong"
+    },
+    {
+      "id": "2346893753",
+      "type": "author",
+      "name": "Yunpeng Li"
+    },
+    {
+      "id": "2346237065",
+      "type": "author",
+      "name": "Yuta Asano"
+    },
+    {
+      "id": "2346274461",
+      "type": "author",
+      "name": "Li Wu"
+    },
+    {
+      "id": "63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "type": "paper",
+      "title": "Retrieval augmented generation-driven information retrieval and question answering in construction management",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Advanced Engineering Informatics",
+      "url": "https://www.semanticscholar.org/paper/63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "citation_count": 0,
+      "reference_count": 44,
+      "fields_of_study": "",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_doi": "10.1016/j.aei.2025.103158",
+      "external_id_corpusid": 276210473,
+      "publication_date": "2025-05-01",
+      "journal_name": "Advanced Engineering Informatics"
+    },
+    {
+      "id": "71854808",
+      "type": "author",
+      "name": "Chengke Wu"
+    },
+    {
+      "id": "2344728212",
+      "type": "author",
+      "name": "Wenjun Ding"
+    },
+    {
+      "id": "2344388688",
+      "type": "author",
+      "name": "Qisen Jin"
+    },
+    {
+      "id": "2274903373",
+      "type": "author",
+      "name": "Junjie Jiang"
+    },
+    {
+      "id": "2344443470",
+      "type": "author",
+      "name": "Rui Jiang"
+    },
+    {
+      "id": "2344994587",
+      "type": "author",
+      "name": "Qinge Xiao"
+    },
+    {
+      "id": "2344326506",
+      "type": "author",
+      "name": "Longhui Liao"
+    },
+    {
+      "id": "2303478105",
+      "type": "author",
+      "name": "Xiao Li"
+    },
+    {
+      "id": "b7aad266e52b5017709f029401a055692201e1e3",
+      "type": "paper",
+      "title": "Combining profile features for offensiveness detection on Spanish social media",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Expert systems with applications",
+      "url": "https://www.semanticscholar.org/paper/b7aad266e52b5017709f029401a055692201e1e3",
+      "citation_count": 0,
+      "reference_count": 25,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/eswa/RodriguezAM25",
+      "external_id_doi": "10.1016/j.eswa.2025.126705",
+      "external_id_corpusid": 276218624,
+      "publication_date": "2025-05-01",
+      "journal_name": "Expert Syst. Appl.",
+      "journal_volume": "272",
+      "journal_pages": "126705"
+    },
+    {
+      "id": "2261474776",
+      "type": "author",
+      "name": "María Estrella Vallecillo Rodríguez"
+    },
+    {
+      "id": "3455118",
+      "type": "author",
+      "name": "Flor Miriam Plaza del Arco"
+    },
+    {
+      "id": "2261403337",
+      "type": "author",
+      "name": "Arturo Montejo Ráez"
+    },
+    {
+      "id": "b69ead1205e77bdf404f04c7131314870f7dd036",
+      "type": "paper",
+      "title": "Improved two-stage deep learning algorithm and lightweight YOLOv5n for classifying cottonseed damage",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Computers and Electronics in Agriculture",
+      "url": "https://www.semanticscholar.org/paper/b69ead1205e77bdf404f04c7131314870f7dd036",
+      "citation_count": 0,
+      "reference_count": 27,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": true,
+      "tldr": "",
+      "external_id_dblp": "journals/cea/HeWSCWX25",
+      "external_id_doi": "10.1016/j.compag.2025.110042",
+      "external_id_corpusid": 276226313,
+      "publication_date": "2025-05-01",
+      "journal_name": "Comput. Electron. Agric.",
+      "journal_volume": "232",
+      "journal_pages": "110042"
+    },
+    {
+      "id": "2306766694",
+      "type": "author",
+      "name": "Weilong He"
+    },
+    {
+      "id": "2312701292",
+      "type": "author",
+      "name": "Fan Wu"
+    },
+    {
+      "id": "2344512147",
+      "type": "author",
+      "name": "Lori Unruh Snyder"
+    },
+    {
+      "id": "2344564067",
+      "type": "author",
+      "name": "Jean Cheng"
+    },
+    {
+      "id": "2344516558",
+      "type": "author",
+      "name": "Evelynn Wilcox"
+    },
+    {
+      "id": "2303653185",
+      "type": "author",
+      "name": "Lirong Xiang"
+    }
+  ],
+  "edges": [
+    {
+      "source": "40348417",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "1846258",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "3877127",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "39328010",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "145024664",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "19177000",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "40527594",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "3443442",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2261258970",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2257008742",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2232946813",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2261251068",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2261259483",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2236703737",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2261121285",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2337150125",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2284530727",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2339412438",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "authored"
+    },
+    {
+      "source": "2108083657",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "authored"
+    },
+    {
+      "source": "2339501181",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "authored"
+    },
+    {
+      "source": "2053741160",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "authored"
+    },
+    {
+      "source": "2339419387",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "authored"
+    },
+    {
+      "source": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2339736402",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "2332719665",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "2339716351",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "2339721710",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "2340251765",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "2332598099",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "49049926",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2340079194",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2254298657",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2210643082",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2295678067",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2331688396",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2190940933",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2154709897",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2284828594",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2077186815",
+      "target": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "type": "authored"
+    },
+    {
+      "source": "2324108063",
+      "target": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "type": "authored"
+    },
+    {
+      "source": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2210675334",
+      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "authored"
+    },
+    {
+      "source": "2210675334",
+      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "type": "authored"
+    },
+    {
+      "source": "2259299392",
+      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "authored"
+    },
+    {
+      "source": "2260847568",
+      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "authored"
+    },
+    {
+      "source": "2260847568",
+      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "type": "authored"
+    },
+    {
+      "source": "2259641412",
+      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "authored"
+    },
+    {
+      "source": "2259021188",
+      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "authored"
+    },
+    {
+      "source": "2259021188",
+      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "type": "authored"
+    },
+    {
+      "source": "2344611643",
+      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "authored"
+    },
+    {
+      "source": "2304014903",
+      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "authored"
+    },
+    {
+      "source": "2332001684",
+      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "authored"
+    },
+    {
+      "source": "2259333099",
+      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "authored"
+    },
+    {
+      "source": "2259333099",
+      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "type": "authored"
+    },
+    {
+      "source": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2346506042",
+      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "type": "authored"
+    },
+    {
+      "source": "2346504984",
+      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "type": "authored"
+    },
+    {
+      "source": "2346893753",
+      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "type": "authored"
+    },
+    {
+      "source": "2346237065",
+      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "type": "authored"
+    },
+    {
+      "source": "2346274461",
+      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "type": "authored"
+    },
+    {
+      "source": "63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "71854808",
+      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "type": "authored"
+    },
+    {
+      "source": "2344728212",
+      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "type": "authored"
+    },
+    {
+      "source": "2344388688",
+      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "type": "authored"
+    },
+    {
+      "source": "2274903373",
+      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "type": "authored"
+    },
+    {
+      "source": "2344443470",
+      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "type": "authored"
+    },
+    {
+      "source": "2344994587",
+      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "type": "authored"
+    },
+    {
+      "source": "2344326506",
+      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "type": "authored"
+    },
+    {
+      "source": "2303478105",
+      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
+      "type": "authored"
+    },
+    {
+      "source": "b7aad266e52b5017709f029401a055692201e1e3",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2261474776",
+      "target": "b7aad266e52b5017709f029401a055692201e1e3",
+      "type": "authored"
+    },
+    {
+      "source": "3455118",
+      "target": "b7aad266e52b5017709f029401a055692201e1e3",
+      "type": "authored"
+    },
+    {
+      "source": "2261403337",
+      "target": "b7aad266e52b5017709f029401a055692201e1e3",
+      "type": "authored"
+    },
+    {
+      "source": "b69ead1205e77bdf404f04c7131314870f7dd036",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2306766694",
+      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
+      "type": "authored"
+    },
+    {
+      "source": "2312701292",
+      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
+      "type": "authored"
+    },
+    {
+      "source": "2344512147",
+      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
+      "type": "authored"
+    },
+    {
+      "source": "2344564067",
+      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
+      "type": "authored"
+    },
+    {
+      "source": "2344516558",
+      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
+      "type": "authored"
+    },
+    {
+      "source": "2303653185",
+      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
+      "type": "authored"
+    }
+  ]
+}
