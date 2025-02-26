@@ -1,0 +1,4131 @@
+{
+  "nodes": [
+    {
+      "id": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "paper",
+      "title": "Attention is All you Need",
+      "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "year": 2017,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "citation_count": 116294,
+      "reference_count": 41,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "A new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely is proposed, which generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "external_id_mag": "2963403868",
+      "external_id_dblp": "journals/corr/VaswaniSPUJGKP17",
+      "external_id_arxiv": "1706.03762",
+      "external_id_corpusid": 13756489
+    },
+    {
+      "id": "40348417",
+      "type": "author",
+      "name": "Ashish Vaswani"
+    },
+    {
+      "id": "1846258",
+      "type": "author",
+      "name": "Noam M. Shazeer"
+    },
+    {
+      "id": "3877127",
+      "type": "author",
+      "name": "Niki Parmar"
+    },
+    {
+      "id": "39328010",
+      "type": "author",
+      "name": "Jakob Uszkoreit"
+    },
+    {
+      "id": "145024664",
+      "type": "author",
+      "name": "Llion Jones"
+    },
+    {
+      "id": "19177000",
+      "type": "author",
+      "name": "Aidan N. Gomez"
+    },
+    {
+      "id": "40527594",
+      "type": "author",
+      "name": "Lukasz Kaiser"
+    },
+    {
+      "id": "3443442",
+      "type": "author",
+      "name": "Illia Polosukhin"
+    },
+    {
+      "id": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "paper",
+      "title": "MSAByNet: A multiscale subtraction attention network framework based on Bayesian loss for medical image segmentation",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/eba122f6ffcd430037ea753f47385126caebf5b1",
+      "citation_count": 0,
+      "reference_count": 37,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/ZhaoWCZTZTCT25",
+      "external_id_doi": "10.1016/j.bspc.2024.107393",
+      "external_id_corpusid": 275021943
+    },
+    {
+      "id": "2261258970",
+      "type": "author",
+      "name": "Longxuan Zhao"
+    },
+    {
+      "id": "2257008742",
+      "type": "author",
+      "name": "Tao Wang"
+    },
+    {
+      "id": "2232946813",
+      "type": "author",
+      "name": "Yuanbin Chen"
+    },
+    {
+      "id": "2261251068",
+      "type": "author",
+      "name": "Xinlin Zhang"
+    },
+    {
+      "id": "2261259483",
+      "type": "author",
+      "name": "Hui Tang"
+    },
+    {
+      "id": "2236703737",
+      "type": "author",
+      "name": "Ruige Zong"
+    },
+    {
+      "id": "2261121285",
+      "type": "author",
+      "name": "Tao Tan"
+    },
+    {
+      "id": "2337150125",
+      "type": "author",
+      "name": "Shun Chen"
+    },
+    {
+      "id": "2284530727",
+      "type": "author",
+      "name": "Tong Tong"
+    },
+    {
+      "id": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "paper",
+      "title": "Direction-guided network for retinal vessel segmentation in OCTA images",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "citation_count": 0,
+      "reference_count": 30,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/LiZZSZ25",
+      "external_id_doi": "10.1016/j.bspc.2024.107455",
+      "external_id_corpusid": 275417915
+    },
+    {
+      "id": "2339412438",
+      "type": "author",
+      "name": "Zhenli Li"
+    },
+    {
+      "id": "2108083657",
+      "type": "author",
+      "name": "Xinpeng Zhang"
+    },
+    {
+      "id": "2339501181",
+      "type": "author",
+      "name": "Meng Zhao"
+    },
+    {
+      "id": "2053741160",
+      "type": "author",
+      "name": "Fan Shi"
+    },
+    {
+      "id": "2339419387",
+      "type": "author",
+      "name": "Wei Zhou"
+    },
+    {
+      "id": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "paper",
+      "title": "LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "citation_count": 0,
+      "reference_count": 36,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/HuDLJZP25",
+      "external_id_doi": "10.1016/j.bspc.2024.107456",
+      "external_id_corpusid": 275461577
+    },
+    {
+      "id": "2339736402",
+      "type": "author",
+      "name": "Mengxiang Hu"
+    },
+    {
+      "id": "2332719665",
+      "type": "author",
+      "name": "Yongquan Dong"
+    },
+    {
+      "id": "2339716351",
+      "type": "author",
+      "name": "Junchi Li"
+    },
+    {
+      "id": "2339721710",
+      "type": "author",
+      "name": "Le Jiang"
+    },
+    {
+      "id": "2340251765",
+      "type": "author",
+      "name": "Peilin Zhang"
+    },
+    {
+      "id": "2332598099",
+      "type": "author",
+      "name": "Yuchao Ping"
+    },
+    {
+      "id": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "paper",
+      "title": "Advances in attention mechanisms for medical image segmentation",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Computer Science Review",
+      "url": "https://www.semanticscholar.org/paper/d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "citation_count": 0,
+      "reference_count": 132,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/csr/ZhangCYGCCWXX25",
+      "external_id_doi": "10.1016/j.cosrev.2024.100721",
+      "external_id_corpusid": 275517495
+    },
+    {
+      "id": "49049926",
+      "type": "author",
+      "name": "Jianpeng Zhang"
+    },
+    {
+      "id": "2340079194",
+      "type": "author",
+      "name": "Xiaomin Chen"
+    },
+    {
+      "id": "2254298657",
+      "type": "author",
+      "name": "Bing Yang"
+    },
+    {
+      "id": "2210643082",
+      "type": "author",
+      "name": "Qingbiao Guan"
+    },
+    {
+      "id": "2295678067",
+      "type": "author",
+      "name": "Qi Chen"
+    },
+    {
+      "id": "2331688396",
+      "type": "author",
+      "name": "Jian Chen"
+    },
+    {
+      "id": "2190940933",
+      "type": "author",
+      "name": "Qi Wu"
+    },
+    {
+      "id": "2154709897",
+      "type": "author",
+      "name": "Yutong Xie"
+    },
+    {
+      "id": "2284828594",
+      "type": "author",
+      "name": "Yong Xia"
+    },
+    {
+      "id": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "type": "paper",
+      "title": "Understandable time frame-based biosignal processing",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "citation_count": 0,
+      "reference_count": 46,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/RafieiA25",
+      "external_id_doi": "10.1016/j.bspc.2024.107429",
+      "external_id_corpusid": 276004643
+    },
+    {
+      "id": "2077186815",
+      "type": "author",
+      "name": "Hamed Rafiei"
+    },
+    {
+      "id": "2324108063",
+      "type": "author",
+      "name": "Mohammad R. Akbarzadeh-Totonchi"
+    },
+    {
+      "id": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "paper",
+      "title": "Convolutional Sequence to Sequence Learning",
+      "abstract": "The prevalent approach to sequence to sequence learning maps an input sequence to a variable length output sequence via recurrent neural networks. We introduce an architecture based entirely on convolutional neural networks. Compared to recurrent models, computations over all elements can be fully parallelized during training and optimization is easier since the number of non-linearities is fixed and independent of the input length. Our use of gated linear units eases gradient propagation and we equip each decoder layer with a separate attention module. We outperform the accuracy of the deep LSTM setup of Wu et al. (2016) on both WMT'14 English-German and WMT'14 English-French translation at an order of magnitude faster speed, both on GPU and CPU.",
+      "year": 2017,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "citation_count": 3183,
+      "reference_count": 51,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "This work introduces an architecture based entirely on convolutional neural networks, which outperform the accuracy of the deep LSTM setup of Wu et al. (2016) on both WMT'14 English-German and WMT-French translation at an order of magnitude faster speed, both on GPU and CPU.",
+      "external_id_arxiv": "1705.03122",
+      "external_id_mag": "2950686565",
+      "external_id_dblp": "journals/corr/GehringAGYD17",
+      "external_id_corpusid": 3648736
+    },
+    {
+      "id": "2401865",
+      "type": "author",
+      "name": "Jonas Gehring"
+    },
+    {
+      "id": "2325985",
+      "type": "author",
+      "name": "Michael Auli"
+    },
+    {
+      "id": "2529182",
+      "type": "author",
+      "name": "David Grangier"
+    },
+    {
+      "id": "13759615",
+      "type": "author",
+      "name": "Denis Yarats"
+    },
+    {
+      "id": "2921469",
+      "type": "author",
+      "name": "Yann Dauphin"
+    },
+    {
+      "id": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "type": "paper",
+      "title": "Can Active Memory Replace Attention?",
+      "abstract": "Several mechanisms to focus attention of a neural network on selected parts of its input or memory have been used successfully in deep learning models in recent years. Attention has improved image classification, image captioning, speech recognition, generative models, and learning algorithmic tasks, but it had probably the largest impact on neural machine translation. Recently, similar improvements have been obtained using alternative mechanisms that do not focus on a single part of a memory but operate on all of it in parallel, in a uniform way. Such mechanism, which we call active memory, improved over attention in algorithmic tasks, image processing, and in generative modelling. So far, however, active memory has not improved over attention for most natural language processing tasks, in particular for machine translation. We analyze this shortcoming in this paper and propose an extended model of active memory that matches existing attention models on neural machine translation and generalizes better to longer sentences. We investigate this model and explain why previous active memory models did not succeed. Finally, we discuss when active memory brings most benefits and where attention can be a better choice.",
+      "year": 2016,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "citation_count": 58,
+      "reference_count": 27,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "An extended model of active memory is proposed that matches existing attention models on neural machine translation and generalizes better to longer sentences and discusses when active memory brings most benefits and where attention can be a better choice.",
+      "external_id_dblp": "journals/corr/KaiserB16",
+      "external_id_arxiv": "1610.08613",
+      "external_id_mag": "2545625743",
+      "external_id_corpusid": 11250862
+    },
+    {
+      "id": "1751569",
+      "type": "author",
+      "name": "Samy Bengio"
+    },
+    {
+      "id": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "paper",
+      "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
+      "abstract": "Neural Machine Translation (NMT) is an end-to-end learning approach for automated translation, with the potential to overcome many of the weaknesses of conventional phrase-based translation systems. Unfortunately, NMT systems are known to be computationally expensive both in training and in translation inference. Also, most NMT systems have difficulty with rare words. These issues have hindered NMT's use in practical deployments and services, where both accuracy and speed are essential. In this work, we present GNMT, Google's Neural Machine Translation system, which attempts to address many of these issues. Our model consists of a deep LSTM network with 8 encoder and 8 decoder layers using attention and residual connections. To improve parallelism and therefore decrease training time, our attention mechanism connects the bottom layer of the decoder to the top layer of the encoder. To accelerate the final translation speed, we employ low-precision arithmetic during inference computations. To improve handling of rare words, we divide words into a limited set of common sub-word units (\"wordpieces\") for both input and output. This method provides a good balance between the flexibility of \"character\"-delimited models and the efficiency of \"word\"-delimited models, naturally handles translation of rare words, and ultimately improves the overall accuracy of the system. Our beam search technique employs a length-normalization procedure and uses a coverage penalty, which encourages generation of an output sentence that is most likely to cover all the words in the source sentence. On the WMT'14 English-to-French and English-to-German benchmarks, GNMT achieves competitive results to state-of-the-art. Using a human side-by-side evaluation on a set of isolated simple sentences, it reduces translation errors by an average of 60% compared to Google's phrase-based production system.",
+      "year": 2016,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "citation_count": 6608,
+      "reference_count": 54,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "GNMT, Google's Neural Machine Translation system, is presented, which attempts to address many of the weaknesses of conventional phrase-based translation systems and provides a good balance between the flexibility of \"character\"-delimited models and the efficiency of \"word\"-delicited models.",
+      "external_id_arxiv": "1609.08144",
+      "external_id_mag": "2525778437",
+      "external_id_dblp": "journals/corr/WuSCLNMKCGMKSJL16",
+      "external_id_corpusid": 3603249
+    },
+    {
+      "id": "48607963",
+      "type": "author",
+      "name": "Yonghui Wu"
+    },
+    {
+      "id": "144927151",
+      "type": "author",
+      "name": "M. Schuster"
+    },
+    {
+      "id": "2545358",
+      "type": "author",
+      "name": "Z. Chen"
+    },
+    {
+      "id": "2827616",
+      "type": "author",
+      "name": "Quoc V. Le"
+    },
+    {
+      "id": "144739074",
+      "type": "author",
+      "name": "Mohammad Norouzi"
+    },
+    {
+      "id": "3153147",
+      "type": "author",
+      "name": "Wolfgang Macherey"
+    },
+    {
+      "id": "2048712",
+      "type": "author",
+      "name": "M. Krikun"
+    },
+    {
+      "id": "145144022",
+      "type": "author",
+      "name": "Yuan Cao"
+    },
+    {
+      "id": "145312180",
+      "type": "author",
+      "name": "Qin Gao"
+    },
+    {
+      "id": "113439369",
+      "type": "author",
+      "name": "Klaus Macherey"
+    },
+    {
+      "id": "2367620",
+      "type": "author",
+      "name": "J. Klingner"
+    },
+    {
+      "id": "145825976",
+      "type": "author",
+      "name": "Apurva Shah"
+    },
+    {
+      "id": "145657834",
+      "type": "author",
+      "name": "Melvin Johnson"
+    },
+    {
+      "id": "2109059862",
+      "type": "author",
+      "name": "Xiaobing Liu"
+    },
+    {
+      "id": "2776283",
+      "type": "author",
+      "name": "Stephan Gouws"
+    },
+    {
+      "id": "2739610",
+      "type": "author",
+      "name": "Yoshikiyo Kato"
+    },
+    {
+      "id": "1765329",
+      "type": "author",
+      "name": "Taku Kudo"
+    },
+    {
+      "id": "1754386",
+      "type": "author",
+      "name": "H. Kazawa"
+    },
+    {
+      "id": "144077726",
+      "type": "author",
+      "name": "K. Stevens"
+    },
+    {
+      "id": "1753079661",
+      "type": "author",
+      "name": "George Kurian"
+    },
+    {
+      "id": "2056800684",
+      "type": "author",
+      "name": "Nishant Patil"
+    },
+    {
+      "id": "49337181",
+      "type": "author",
+      "name": "Wei Wang"
+    },
+    {
+      "id": "39660914",
+      "type": "author",
+      "name": "C. Young"
+    },
+    {
+      "id": "2119125158",
+      "type": "author",
+      "name": "Jason R. Smith"
+    },
+    {
+      "id": "2909504",
+      "type": "author",
+      "name": "Jason Riesa"
+    },
+    {
+      "id": "29951847",
+      "type": "author",
+      "name": "Alex Rudnick"
+    },
+    {
+      "id": "1689108",
+      "type": "author",
+      "name": "O. Vinyals"
+    },
+    {
+      "id": "32131713",
+      "type": "author",
+      "name": "G. Corrado"
+    },
+    {
+      "id": "48342565",
+      "type": "author",
+      "name": "Macduff Hughes"
+    },
+    {
+      "id": "49959210",
+      "type": "author",
+      "name": "J. Dean"
+    },
+    {
+      "id": "7345843e87c81e24e42264859b214d26042f8d51",
+      "type": "paper",
+      "title": "Recurrent Neural Network Grammars",
+      "abstract": "We introduce recurrent neural network grammars, probabilistic models of sentences with explicit phrase structure. We explain efficient inference procedures that allow application to both parsing and language modeling. Experiments show that they provide better parsing in English than any single previously published supervised generative model and better language modeling than state-of-the-art sequential RNNs in English and Chinese.",
+      "year": 2016,
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "url": "https://www.semanticscholar.org/paper/7345843e87c81e24e42264859b214d26042f8d51",
+      "citation_count": 522,
+      "reference_count": 56,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": true,
+      "tldr": "",
+      "open_access_pdf_url": "https://www.aclweb.org/anthology/N16-1024.pdf",
+      "open_access_status": "HYBRID",
+      "external_id_mag": "2963073938",
+      "external_id_dblp": "journals/corr/DyerKBS16",
+      "external_id_acl": "N16-1024",
+      "external_id_arxiv": "1602.07776",
+      "external_id_doi": "10.18653/v1/N16-1024",
+      "external_id_corpusid": 1949831
+    },
+    {
+      "id": "1745899",
+      "type": "author",
+      "name": "Chris Dyer"
+    },
+    {
+      "id": "3376845",
+      "type": "author",
+      "name": "A. Kuncoro"
+    },
+    {
+      "id": "143668305",
+      "type": "author",
+      "name": "Miguel Ballesteros"
+    },
+    {
+      "id": "144365875",
+      "type": "author",
+      "name": "Noah A. Smith"
+    },
+    {
+      "id": "7c69a7061e1ec610152722e330db14c260abaf98",
+      "type": "paper",
+      "title": "FDUM-Net: An enhanced FPN and U-Net architecture for skin lesion segmentation",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/7c69a7061e1ec610152722e330db14c260abaf98",
+      "citation_count": 4,
+      "reference_count": 40,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/HJARAS24",
+      "external_id_doi": "10.1016/j.bspc.2024.106037",
+      "external_id_corpusid": 267550170
+    },
+    {
+      "id": "2154627738",
+      "type": "author",
+      "name": "H. Sharen"
+    },
+    {
+      "id": "145517354",
+      "type": "author",
+      "name": "M. Jawahar"
+    },
+    {
+      "id": "2557150",
+      "type": "author",
+      "name": "L. Anbarasi"
+    },
+    {
+      "id": "2264902313",
+      "type": "author",
+      "name": "Vinayakumar Ravi"
+    },
+    {
+      "id": "2500712",
+      "type": "author",
+      "name": "N. Alghamdi"
+    },
+    {
+      "id": "2283328270",
+      "type": "author",
+      "name": "Wael Suliman"
+    },
+    {
+      "id": "5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "type": "paper",
+      "title": "DFBU-Net: Double-branch flat bottom U-Net for efficient medical image segmentation",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "citation_count": 6,
+      "reference_count": 38,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/YinWWWLYRZ24",
+      "external_id_doi": "10.1016/j.bspc.2023.105818",
+      "external_id_corpusid": 266074028
+    },
+    {
+      "id": "2272308520",
+      "type": "author",
+      "name": "Hao Yin"
+    },
+    {
+      "id": "2272279615",
+      "type": "author",
+      "name": "Yi Wang"
+    },
+    {
+      "id": "2167998592",
+      "type": "author",
+      "name": "Jing Wen"
+    },
+    {
+      "id": "2272427148",
+      "type": "author",
+      "name": "Guangxian Wang"
+    },
+    {
+      "id": "2272916948",
+      "type": "author",
+      "name": "Bo Lin"
+    },
+    {
+      "id": "2272331553",
+      "type": "author",
+      "name": "Weibin Yang"
+    },
+    {
+      "id": "2271453774",
+      "type": "author",
+      "name": "Jian Ruan"
+    },
+    {
+      "id": "2266139832",
+      "type": "author",
+      "name": "Yi Zhang"
+    },
+    {
+      "id": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "paper",
+      "title": "HTC-Net: A hybrid CNN-transformer framework for medical image segmentation",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "citation_count": 22,
+      "reference_count": 38,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/TangCWZZGDTZT24",
+      "external_id_doi": "10.1016/j.bspc.2023.105605",
+      "external_id_corpusid": 264416524
+    },
+    {
+      "id": "2261253070",
+      "type": "author",
+      "name": "Yuanbo Zhou"
+    },
+    {
+      "id": "40214487",
+      "type": "author",
+      "name": "Qinquan Gao"
+    },
+    {
+      "id": "2054400422",
+      "type": "author",
+      "name": "Min Du"
+    },
+    {
+      "id": "2244260994",
+      "type": "author",
+      "name": "Tong Tong"
+    },
+    {
+      "id": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "paper",
+      "title": "A statistical deformation model-based data augmentation method for volumetric medical image segmentation",
+      "abstract": "",
+      "year": 2023,
+      "venue": "Medical Image Anal.",
+      "url": "https://www.semanticscholar.org/paper/0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "citation_count": 12,
+      "reference_count": 61,
+      "fields_of_study": "[\"Computer Science\", \"Medicine\"]",
+      "is_open_access": false,
+      "tldr": "A statistical deformation model-based data augmentation method for volumetric medical image segmentation that significantly improves the fully automated segmentation of OARs across various body parts in computed tomography images.",
+      "external_id_dblp": "journals/mia/HeZDLWLJLXWXL24",
+      "external_id_doi": "10.1016/j.media.2023.102984",
+      "external_id_corpusid": 263820985,
+      "external_id_pubmed": "37837690"
+    },
+    {
+      "id": "2153475884",
+      "type": "author",
+      "name": "Wenfeng He"
+    },
+    {
+      "id": "2143347853",
+      "type": "author",
+      "name": "Chulong Zhang"
+    },
+    {
+      "id": "2154759662",
+      "type": "author",
+      "name": "Jingjing Dai"
+    },
+    {
+      "id": "2202532211",
+      "type": "author",
+      "name": "Lin Liu"
+    },
+    {
+      "id": "2209018630",
+      "type": "author",
+      "name": "Tangsheng Wang"
+    },
+    {
+      "id": "2256925715",
+      "type": "author",
+      "name": "Xuan Liu"
+    },
+    {
+      "id": "2249768498",
+      "type": "author",
+      "name": "Yuming Jiang"
+    },
+    {
+      "id": "2157949237",
+      "type": "author",
+      "name": "Na Li"
+    },
+    {
+      "id": "2000781357",
+      "type": "author",
+      "name": "Jing Xiong"
+    },
+    {
+      "id": "2152508056",
+      "type": "author",
+      "name": "Lei Wang"
+    },
+    {
+      "id": "2242514788",
+      "type": "author",
+      "name": "Yaoqin Xie"
+    },
+    {
+      "id": "2153397881",
+      "type": "author",
+      "name": "Xiaokun Liang"
+    },
+    {
+      "id": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "paper",
+      "title": "CoTrFuse: a novel framework by fusing CNN and transformer for medical image segmentation",
+      "abstract": "Medical image segmentation is a crucial and intricate process in medical image processing and analysis. With the advancements in artificial intelligence, deep learning techniques have been widely used in recent years for medical image segmentation. One such technique is the U-Net framework based on the U-shaped convolutional neural networks (CNN) and its variants. However, these methods have limitations in simultaneously capturing both the global and the remote semantic information due to the restricted receptive domain caused by the convolution operation’s intrinsic features. Transformers are attention-based models with excellent global modeling capabilities, but their ability to acquire local information is limited. To address this, we propose a network that combines the strengths of both CNN and Transformer, called CoTrFuse. The proposed CoTrFuse network uses EfficientNet and Swin Transformer as dual encoders. The Swin Transformer and CNN Fusion module are combined to fuse the features of both branches before the skip connection structure. We evaluated the proposed network on two datasets: the ISIC-2017 challenge dataset and the COVID-QU-Ex dataset. Our experimental results demonstrate that the proposed CoTrFuse outperforms several state-of-the-art segmentation methods, indicating its superiority in medical image segmentation. The codes are available at https://github.com/BinYCn/CoTrFuse.",
+      "year": 2023,
+      "venue": "Physics in Medicine and Biology",
+      "url": "https://www.semanticscholar.org/paper/413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "citation_count": 20,
+      "reference_count": 70,
+      "fields_of_study": "[\"Medicine\", \"Physics\"]",
+      "is_open_access": true,
+      "tldr": "The proposed CoTrFuse network is a network that combines the strengths of both CNN and Transformer that outperforms several state-of-the-art segmentation methods, indicating its superiority in medical image segmentation.",
+      "open_access_pdf_url": "https://iopscience.iop.org/article/10.1088/1361-6560/acede8/pdf",
+      "open_access_status": "HYBRID",
+      "external_id_doi": "10.1088/1361-6560/acede8",
+      "external_id_corpusid": 261063641,
+      "external_id_pubmed": "37605997"
+    },
+    {
+      "id": "2112700478",
+      "type": "author",
+      "name": "Hui Tang"
+    },
+    {
+      "id": "2109091209",
+      "type": "author",
+      "name": "Longxuan Zhao"
+    },
+    {
+      "id": "2108029549",
+      "type": "author",
+      "name": "Xinlin Zhang"
+    },
+    {
+      "id": "2184837813",
+      "type": "author",
+      "name": "Tao Tan"
+    },
+    {
+      "id": "144061555",
+      "type": "author",
+      "name": "T. Tong"
+    },
+    {
+      "id": "b2b41dac933cceed1faf3e27e335c3ef8e2908ef",
+      "type": "paper",
+      "title": "HRD-Net: High resolution segmentation network with adaptive learning ability of retinal vessel features",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Comput. Biol. Medicine",
+      "url": "https://www.semanticscholar.org/paper/b2b41dac933cceed1faf3e27e335c3ef8e2908ef",
+      "citation_count": 12,
+      "reference_count": 29,
+      "fields_of_study": "[\"Computer Science\", \"Medicine\"]",
+      "is_open_access": false,
+      "tldr": "A high-resolution network based on Deformable Convolution v3, called HRD-Net, that outperforms existing segmentation methods on several evaluation metrics such as F1, ACC, SE, SP, AUC, and IOU and is refined from a spatial domain perspective to release redundant computational loads.",
+      "external_id_dblp": "journals/cbm/LiuZSGZYZ24",
+      "external_id_doi": "10.1016/j.compbiomed.2024.108295",
+      "external_id_corpusid": 268566100,
+      "external_id_pubmed": "38520920"
+    },
+    {
+      "id": "2292660409",
+      "type": "author",
+      "name": "Jianhua Liu"
+    },
+    {
+      "id": "2292680169",
+      "type": "author",
+      "name": "Dongxin Zhao"
+    },
+    {
+      "id": "2292681020",
+      "type": "author",
+      "name": "Juncai Shen"
+    },
+    {
+      "id": "2257974085",
+      "type": "author",
+      "name": "Peng Geng"
+    },
+    {
+      "id": "2291991362",
+      "type": "author",
+      "name": "Ying Zhang"
+    },
+    {
+      "id": "2292672647",
+      "type": "author",
+      "name": "Jiaxin Yang"
+    },
+    {
+      "id": "2292883013",
+      "type": "author",
+      "name": "Ziqian Zhang"
+    },
+    {
+      "id": "a6f2f252c88983965f60dfa8325afcd2eed03eb1",
+      "type": "paper",
+      "title": "SAM-OCTA: A Fine-Tuning Strategy for Applying Foundation Model OCTA Image Segmentation Tasks",
+      "abstract": "In the analysis of optical coherence tomography angiography (OCTA) images, the operation of segmenting specific targets is necessary. Existing methods typically train on supervised datasets with limited samples (approximately a few hundred), which can lead to overfitting. To address this, the low-rank adaptation technique is adopted for foundation model fine-tuning and proposed corresponding prompt point generation strategies to process various segmentation tasks on OCTA datasets. This method is named SAM-OCTA and has been experimented on the publicly available OCTA-500 dataset. While achieving state-of-the-art performance metrics, this method accomplishes local vessel segmentation as well as effective artery-vein segmentation, which was not well-solved in previous works. The code is available at: https://github.com/ShellRedia/SAM-OCTA.",
+      "year": 2023,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "url": "https://www.semanticscholar.org/paper/a6f2f252c88983965f60dfa8325afcd2eed03eb1",
+      "citation_count": 11,
+      "reference_count": 23,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": true,
+      "tldr": "The low-rank adaptation technique is adopted for foundation model fine-tuning and corresponding prompt point generation strategies to process various segmentation tasks on OCTA datasets to achieve state-of-the-art performance metrics.",
+      "open_access_pdf_url": "https://arxiv.org/pdf/2309.11758",
+      "open_access_status": "GREEN",
+      "external_id_dblp": "conf/icassp/WangCNL24",
+      "external_id_arxiv": "2309.11758",
+      "external_id_doi": "10.1109/ICASSP48485.2024.10446904",
+      "external_id_corpusid": 262083710
+    },
+    {
+      "id": "2243437545",
+      "type": "author",
+      "name": "Chengliang Wang"
+    },
+    {
+      "id": "2243298334",
+      "type": "author",
+      "name": "Xinrun Chen"
+    },
+    {
+      "id": "2216447644",
+      "type": "author",
+      "name": "Haojian Ning"
+    },
+    {
+      "id": "48831702",
+      "type": "author",
+      "name": "Shiying Li"
+    },
+    {
+      "id": "05aa3f348b3a4237907ef4615dcaad851e88262a",
+      "type": "paper",
+      "title": "DB-UNet: MLP Based Dual Branch UNet for Accurate Vessel Segmentation in OCTA Images",
+      "abstract": "Optical coherence tomography angiography (OCTA) is a new non-invasive imaging technology that has been widely used in clinical practice. Automatic segmentation of retina vessels in OCTA images helps to improve the efficiency of disease diagnosis. However, due to the slender and tiny structure of retina vessels, classical deep learning segmentation methods, such as UNet and some of its variants, cannot handle it very accurately. In this work, we propose a dual branch UNet (DB-UNet), which has a pure-convolutional branch to extract detailed features such as microvessels, and a UNet branch to extract high-level features. The final output of the network is synthesized from the outputs of the two branches. We also design and apply a multilayer perceptron (MLP) block to further improve the performance of our model. Experiments on two OCTA vessel segmentation datasets show that the proposed method has better segmentation performance than existing methods.",
+      "year": 2023,
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "url": "https://www.semanticscholar.org/paper/05aa3f348b3a4237907ef4615dcaad851e88262a",
+      "citation_count": 7,
+      "reference_count": 21,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": true,
+      "tldr": "A dual branch UNet (DB-UNet), which has a pure-convolutional branch to extract detailed features such as microvessels, and a UNet branch to Extract high-level features, is proposed, which has better segmentation performance than existing methods.",
+      "external_id_dblp": "conf/icassp/WangNCL23",
+      "external_id_doi": "10.1109/ICASSP49357.2023.10095868",
+      "external_id_corpusid": 258534613
+    },
+    {
+      "id": "2109452502",
+      "type": "author",
+      "name": "Chengliang Wang"
+    },
+    {
+      "id": "000a3aabf022728020bdbf32a132112a48ad57fe",
+      "type": "paper",
+      "title": "Transformer and convolutional based dual branch network for retinal vessel segmentation in OCTA images",
+      "abstract": "",
+      "year": 2023,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/000a3aabf022728020bdbf32a132112a48ad57fe",
+      "citation_count": 41,
+      "reference_count": 39,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/LiuZYT23",
+      "external_id_doi": "10.1016/j.bspc.2023.104604",
+      "external_id_corpusid": 256384369
+    },
+    {
+      "id": "2108960018",
+      "type": "author",
+      "name": "Xiaoming Liu"
+    },
+    {
+      "id": "2189877362",
+      "type": "author",
+      "name": "Di Zhang"
+    },
+    {
+      "id": "46759532",
+      "type": "author",
+      "name": "Junping Yao"
+    },
+    {
+      "id": "37756048",
+      "type": "author",
+      "name": "Jinshan Tang"
+    },
+    {
+      "id": "84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "type": "paper",
+      "title": "OCT2Former: A retinal OCT-angiography vessel segmentation transformer",
+      "abstract": "",
+      "year": 2023,
+      "venue": "Comput. Methods Programs Biomed.",
+      "url": "https://www.semanticscholar.org/paper/84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "citation_count": 21,
+      "reference_count": 56,
+      "fields_of_study": "[\"Computer Science\", \"Medicine\"]",
+      "is_open_access": false,
+      "tldr": "The experimental results have demonstrated that the proposed OCT2Former can achieve competitive performance on retinal OCTA vessel segmentation tasks.",
+      "external_id_dblp": "journals/cmpb/TanCMSXCPZ23",
+      "external_id_doi": "10.1016/j.cmpb.2023.107454",
+      "external_id_corpusid": 257370018,
+      "external_id_pubmed": "36921468"
+    },
+    {
+      "id": "2210927292",
+      "type": "author",
+      "name": "Xiao Tan"
+    },
+    {
+      "id": "51046120",
+      "type": "author",
+      "name": "Xinjian Chen"
+    },
+    {
+      "id": "12676114",
+      "type": "author",
+      "name": "Qingquan Meng"
+    },
+    {
+      "id": "144619020",
+      "type": "author",
+      "name": "Fei Shi"
+    },
+    {
+      "id": "145258783",
+      "type": "author",
+      "name": "Dehui Xiang"
+    },
+    {
+      "id": "2049680571",
+      "type": "author",
+      "name": "Zhongyue Chen"
+    },
+    {
+      "id": "51064932",
+      "type": "author",
+      "name": "Lingjiao Pan"
+    },
+    {
+      "id": "2970085",
+      "type": "author",
+      "name": "Weifang Zhu"
+    },
+    {
+      "id": "10a6edd78e84edfb193bc10bad4f42378c89c374",
+      "type": "paper",
+      "title": "PAMSNet: A medical image segmentation network based on spatial pyramid and attention mechanism",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/10a6edd78e84edfb193bc10bad4f42378c89c374",
+      "citation_count": 4,
+      "reference_count": 40,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/FengZZLL24",
+      "external_id_doi": "10.1016/j.bspc.2024.106285",
+      "external_id_corpusid": 268864857
+    },
+    {
+      "id": "2293174982",
+      "type": "author",
+      "name": "Yu Feng"
+    },
+    {
+      "id": "2295357065",
+      "type": "author",
+      "name": "Xiaoyan Zhu"
+    },
+    {
+      "id": "1391221817",
+      "type": "author",
+      "name": "Xiaoli Zhang"
+    },
+    {
+      "id": "2294810287",
+      "type": "author",
+      "name": "Yang Li"
+    },
+    {
+      "id": "2264462200",
+      "type": "author",
+      "name": "Huimin Lu"
+    },
+    {
+      "id": "f5a1e0b59c53290409119444a434e55566f89101",
+      "type": "paper",
+      "title": "IMFF-Net: An integrated multi-scale feature fusion network for accurate retinal vessel segmentation from fundus images",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/f5a1e0b59c53290409119444a434e55566f89101",
+      "citation_count": 8,
+      "reference_count": 33,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/LiuWWHWG24",
+      "external_id_doi": "10.1016/j.bspc.2024.105980",
+      "external_id_corpusid": 267527832
+    },
+    {
+      "id": "1995670243",
+      "type": "author",
+      "name": "Mingtao Liu"
+    },
+    {
+      "id": "2136961838",
+      "type": "author",
+      "name": "Yunyu Wang"
+    },
+    {
+      "id": "2283213205",
+      "type": "author",
+      "name": "Lei Wang"
+    },
+    {
+      "id": "2283350129",
+      "type": "author",
+      "name": "Shunbo Hu"
+    },
+    {
+      "id": "2283167283",
+      "type": "author",
+      "name": "Xing Wang"
+    },
+    {
+      "id": "2283166599",
+      "type": "author",
+      "name": "Qingman Ge"
+    },
+    {
+      "id": "a599d52cae8e9df2ca641f441691c8f2199bdfe0",
+      "type": "paper",
+      "title": "Sparse Dynamic Volume TransUNet with multi-level edge fusion for brain tumor segmentation",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Comput. Biol. Medicine",
+      "url": "https://www.semanticscholar.org/paper/a599d52cae8e9df2ca641f441691c8f2199bdfe0",
+      "citation_count": 44,
+      "reference_count": 43,
+      "fields_of_study": "[\"Medicine\", \"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "A 3D brain tumor segmentation network SDV-TUNet (Sparse Dynamic Volume TransUNet) based on an encoder-decoder architecture is proposed to achieve accurate segmentation by effectively combining voxel information, inter-layer feature connections, and intra-axis information.",
+      "external_id_dblp": "journals/cbm/ZhuSQLGL24",
+      "external_id_doi": "10.1016/j.compbiomed.2024.108284",
+      "external_id_corpusid": 268434326,
+      "external_id_pubmed": "38503086"
+    },
+    {
+      "id": "2141361957",
+      "type": "author",
+      "name": "Zhiqin Zhu"
+    },
+    {
+      "id": "2291886356",
+      "type": "author",
+      "name": "Mengwei Sun"
+    },
+    {
+      "id": "2783094",
+      "type": "author",
+      "name": "Guanqiu Qi"
+    },
+    {
+      "id": "2110616123",
+      "type": "author",
+      "name": "Yuanyuan Li"
+    },
+    {
+      "id": "2239964615",
+      "type": "author",
+      "name": "Xinbo Gao"
+    },
+    {
+      "id": "2256807035",
+      "type": "author",
+      "name": "Yu Liu"
+    },
+    {
+      "id": "ccd8e6ebaba5c1edf78ae209dbb9c1b9f262d24b",
+      "type": "paper",
+      "title": "CANet: Context aware network with dual-stream pyramid for medical image segmentation",
+      "abstract": "",
+      "year": 2023,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/ccd8e6ebaba5c1edf78ae209dbb9c1b9f262d24b",
+      "citation_count": 43,
+      "reference_count": 45,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/XieZPXSZA23",
+      "external_id_doi": "10.1016/j.bspc.2022.104437",
+      "external_id_corpusid": 254561039
+    },
+    {
+      "id": "1411370729",
+      "type": "author",
+      "name": "Xiwang Xie"
+    },
+    {
+      "id": "40538943",
+      "type": "author",
+      "name": "Weidong Zhang"
+    },
+    {
+      "id": "2115622662",
+      "type": "author",
+      "name": "Xipeng Pan"
+    },
+    {
+      "id": "2088588647",
+      "type": "author",
+      "name": "Lijie Xie"
+    },
+    {
+      "id": "2166597539",
+      "type": "author",
+      "name": "Feng Shao"
+    },
+    {
+      "id": "50771379",
+      "type": "author",
+      "name": "Wenyi Zhao"
+    },
+    {
+      "id": "3078465",
+      "type": "author",
+      "name": "Jubai An"
+    },
+    {
+      "id": "848a049060f1228fb4428c20841dafa424390d81",
+      "type": "paper",
+      "title": "A comprehensive review on transformer network for natural and medical image analysis",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Computer Science Review",
+      "url": "https://www.semanticscholar.org/paper/848a049060f1228fb4428c20841dafa424390d81",
+      "citation_count": 6,
+      "reference_count": 111,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/csr/ThirunavukarasuK24",
+      "external_id_doi": "10.1016/j.cosrev.2024.100648",
+      "external_id_corpusid": 270543266
+    },
+    {
+      "id": "29836894",
+      "type": "author",
+      "name": "Ramkumar Thirunavukarasu"
+    },
+    {
+      "id": "100833170",
+      "type": "author",
+      "name": "Evans Kotei"
+    },
+    {
+      "id": "dda9d5ae72ccabcbbe7bcae39d7d0083b1e7f950",
+      "type": "paper",
+      "title": "UniMiSS+: Universal Medical Self-Supervised Learning From Cross-Dimensional Unpaired Data",
+      "abstract": "Self-supervised learning (SSL) opens up huge opportunities for medical image analysis that is well known for its lack of annotations. However, aggregating massive (unlabeled) 3D medical images like computerized tomography (CT) remains challenging due to its high imaging cost and privacy restrictions. In our pilot study, we advocated bringing a wealth of 2D images like X-rays as compensation for the lack of 3D data, aiming to build a universal medical self-supervised representation learning framework, called UniMiSS. Especially, we designed a pyramid U-like medical Transformer (MiT) as the backbone to make UniMiSS possible to perform SSL with both 2D and 3D images. UniMiSS surpasses current 3D-specific SSL in effectiveness and versatility, excelling in various downstream tasks and overcoming the limitations of dimensionality. However, the initial version did not fully explore the anatomical correlations between 2D and 3D images due to the absence of paired multi-modal patient data. In this extension, we introduce UniMiSS+, which leverages digitally reconstructed radiographs (DRR) technology to simulate X-rays from CT volumes, providing access to paired data. Benefiting from the paired group, we introduce an extra pair-wise constraint to boost the cross modality correlation learning, which also can be adopted as a cross dimension regularization to further improve the representations. We conduct expensive experiments on multiple 3D/2D medical image analysis tasks, including segmentation and classification. The results show that our UniMiSS+ achieves promising performance on various downstream tasks, not only outperforming ImageNet pre-training and other advanced SSL counterparts but also improving the predecessor UniMiSS pre-training.",
+      "year": 2024,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "url": "https://www.semanticscholar.org/paper/dda9d5ae72ccabcbbe7bcae39d7d0083b1e7f950",
+      "citation_count": 2,
+      "reference_count": 71,
+      "fields_of_study": "[\"Medicine\", \"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "UniMiSS surpasses current 3D-specific SSL in effectiveness and versatility, excelling in various downstream tasks and overcoming the limitations of dimensionality, and UniMiSS+, which leverages digitally reconstructed radiographs (DRR) technology to simulate X-rays from CT volumes, providing access to paired data.",
+      "external_id_dblp": "journals/pami/XieZXW24",
+      "external_id_doi": "10.1109/TPAMI.2024.3436105",
+      "external_id_corpusid": 271598966,
+      "external_id_pubmed": "39083391"
+    },
+    {
+      "id": "2256029669",
+      "type": "author",
+      "name": "Yong Xia"
+    },
+    {
+      "id": "7eddaf7b7a264ff50f241b39782283612a21b3f3",
+      "type": "paper",
+      "title": "D-TrAttUnet: Toward Hybrid CNN-Transformer Architecture for Generic and Subtle Segmentation in Medical Images",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Comput. Biol. Medicine",
+      "url": "https://www.semanticscholar.org/paper/7eddaf7b7a264ff50f241b39782283612a21b3f3",
+      "citation_count": 3,
+      "reference_count": 51,
+      "fields_of_study": "[\"Engineering\", \"Computer Science\", \"Medicine\"]",
+      "is_open_access": false,
+      "tldr": "The D-TrAttUnet architecture, a novel architecture based on the observation that different diseases often target specific organs, showed exceptional performance in the segmentation of glands and nuclei, solidifying its role in modern medical image analysis.",
+      "external_id_dblp": "journals/corr/abs-2405-04169",
+      "external_id_arxiv": "2405.04169",
+      "external_id_doi": "10.1016/j.compbiomed.2024.108590",
+      "external_id_corpusid": 269614075,
+      "external_id_pubmed": "38763066"
+    },
+    {
+      "id": "73543637",
+      "type": "author",
+      "name": "F. Bougourzi"
+    },
+    {
+      "id": "2254142473",
+      "type": "author",
+      "name": "Fadi Dornaika"
+    },
+    {
+      "id": "1741861",
+      "type": "author",
+      "name": "C. Distante"
+    },
+    {
+      "id": "2254591937",
+      "type": "author",
+      "name": "Abdelmalik Taleb-Ahmed"
+    },
+    {
+      "id": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "paper",
+      "title": "ScribFormer: Transformer Makes CNN Work Better for Scribble-Based Medical Image Segmentation",
+      "abstract": "Most recent scribble-supervised segmentation methods commonly adopt a CNN framework with an encoder-decoder architecture. Despite its multiple benefits, this framework generally can only capture small-range feature dependency for the convolutional layer with the local receptive field, which makes it difficult to learn global shape information from the limited information provided by scribble annotations. To address this issue, this paper proposes a new CNN-Transformer hybrid solution for scribble-supervised medical image segmentation called ScribFormer. The proposed ScribFormer model has a triple-branch structure, i.e., the hybrid of a CNN branch, a Transformer branch, and an attention-guided class activation map (ACAM) branch. Specifically, the CNN branch collaborates with the Transformer branch to fuse the local features learned from CNN with the global representations obtained from Transformer, which can effectively overcome limitations of existing scribble-supervised segmentation methods. Furthermore, the ACAM branch assists in unifying the shallow convolution features and the deep convolution features to improve model’s performance further. Extensive experiments on two public datasets and one private dataset show that our ScribFormer has superior performance over the state-of-the-art scribble-supervised segmentation methods, and achieves even better results than the fully-supervised segmentation methods. The code is released at https://github.com/HUANGLIZI/ScribFormer.",
+      "year": 2024,
+      "venue": "IEEE Transactions on Medical Imaging",
+      "url": "https://www.semanticscholar.org/paper/82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "citation_count": 24,
+      "reference_count": 67,
+      "fields_of_study": "[\"Computer Science\", \"Medicine\"]",
+      "is_open_access": true,
+      "tldr": "The proposed ScribFormer model has a triple-branch structure, i.e., the hybrid of a CNN branch, a Transformer branch, and an attention-guided class activation map (ACAM) branch that can effectively overcome limitations of existing scribble-supervised segmentation methods.",
+      "open_access_pdf_url": "https://hull-repository.worktribe.com/preview/4539058/IEEE%20TMI__2024_AccptedVer2.pdf",
+      "open_access_status": "GREEN",
+      "external_id_dblp": "journals/corr/abs-2402-02029",
+      "external_id_arxiv": "2402.02029",
+      "external_id_doi": "10.1109/TMI.2024.3363190",
+      "external_id_corpusid": 267412312,
+      "external_id_pubmed": "38324425"
+    },
+    {
+      "id": "2118273929",
+      "type": "author",
+      "name": "Zihan Li"
+    },
+    {
+      "id": "2283310452",
+      "type": "author",
+      "name": "Yuan Zheng"
+    },
+    {
+      "id": "2141688991",
+      "type": "author",
+      "name": "Dandan Shan"
+    },
+    {
+      "id": "2283132148",
+      "type": "author",
+      "name": "Shuzhou Yang"
+    },
+    {
+      "id": "2199110414",
+      "type": "author",
+      "name": "Qingde Li"
+    },
+    {
+      "id": "2282602010",
+      "type": "author",
+      "name": "Beizhan Wang"
+    },
+    {
+      "id": "2237415582",
+      "type": "author",
+      "name": "Yuan-ting Zhang"
+    },
+    {
+      "id": "2254309552",
+      "type": "author",
+      "name": "Qingqi Hong"
+    },
+    {
+      "id": "2254295524",
+      "type": "author",
+      "name": "Dinggang Shen"
+    },
+    {
+      "id": "20486e25b91fb166dcf6a0bc483382cb531f6e45",
+      "type": "paper",
+      "title": "CiT-Net: Convolutional Neural Networks Hand in Hand with Vision Transformers for Medical Image Segmentation",
+      "abstract": "The hybrid architecture of convolutional neural networks (CNNs) and Transformer are very popular for medical image segmentation. However, it suffers from two challenges. First, although a CNNs branch can capture the local image features using vanilla convolution, it cannot achieve adaptive feature learning. Second, although a Transformer branch can capture the global features, it ignores the channel and cross-dimensional self-attention, resulting in a low segmentation accuracy on complex-content images. To address these challenges, we propose a novel hybrid architecture of convolutional neural networks hand in hand with vision Transformers (CiT-Net) for medical image segmentation. Our network has two advantages. First, we design a dynamic deformable convolution and apply it to the CNNs branch, which overcomes the weak feature extraction ability due to fixed-size convolution kernels and the stiff design of sharing kernel parameters among different inputs. Second, we design a shifted-window adaptive complementary attention module and a compact convolutional projection. We apply them to the Transformer branch to learn the cross-dimensional long-term dependency for medical images. Experimental results show that our CiT-Net provides better medical image segmentation results than popular SOTA methods. Besides, our CiT-Net requires lower parameters and less computational costs and does not rely on pre-training. The code is publicly available at https://github.com/SR0920/CiT-Net.",
+      "year": 2023,
+      "venue": "International Joint Conference on Artificial Intelligence",
+      "url": "https://www.semanticscholar.org/paper/20486e25b91fb166dcf6a0bc483382cb531f6e45",
+      "citation_count": 11,
+      "reference_count": 44,
+      "fields_of_study": "[\"Computer Science\", \"Engineering\"]",
+      "is_open_access": true,
+      "tldr": "This work designs a dynamic deformable convolution and applies it to the CNNs branch, which overcomes the weak feature extraction ability due to fixed-size convolution kernels and the stiff design of sharing kernel parameters among different inputs and designs a shifted-window adaptive complementary attention module and a compact convolutional projection.",
+      "open_access_pdf_url": "https://www.ijcai.org/proceedings/2023/0113.pdf",
+      "open_access_status": "BRONZE",
+      "external_id_dblp": "conf/ijcai/LeiSWWHN23",
+      "external_id_arxiv": "2306.03373",
+      "external_id_doi": "10.24963/ijcai.2023/113",
+      "external_id_corpusid": 259088833
+    },
+    {
+      "id": "2143361521",
+      "type": "author",
+      "name": "Tao Lei"
+    },
+    {
+      "id": "2188861172",
+      "type": "author",
+      "name": "Rui Sun"
+    },
+    {
+      "id": "2154990462",
+      "type": "author",
+      "name": "Xuan Wang"
+    },
+    {
+      "id": "2108729094",
+      "type": "author",
+      "name": "Yingbo Wang"
+    },
+    {
+      "id": "41072174",
+      "type": "author",
+      "name": "Xi He"
+    },
+    {
+      "id": "145720325",
+      "type": "author",
+      "name": "A. Nandi"
+    },
+    {
+      "id": "b78d8182e9bc67b506f2caf9c415a20c8bff7a30",
+      "type": "paper",
+      "title": "EMG-based Multi-User Hand Gesture Classification via Unsupervised Transfer Learning Using Unknown Calibration Gestures",
+      "abstract": "The poor generalization performance and heavy training burden of the gesture classification model contribute as two main barriers that hinder the commercialization of sEMG-based human-machine interaction (HMI) systems. To overcome these challenges, eight unsupervised transfer learning (TL) algorithms developed on the basis of convolutional neural networks (CNNs) were explored and compared on a dataset consisting of 10 gestures from 35 subjects. The highest classification accuracy obtained by CORrelation Alignment (CORAL) reaches more than 90%, which is 10% higher than the methods without using TL. In addition, the proposed model outperforms 4 common traditional classifiers (KNN, LDA, SVM, and Random Forest) using the minimal calibration data (two repeated trials for each gesture). The results also demonstrate the model has a great transfer robustness/flexibility for cross-gesture and cross-day scenarios, with an accuracy of 87.94% achieved using calibration gestures that are different with model training, and an accuracy of 84.26% achieved using calibration data collected on a different day, respectively. As the outcomes confirm, the proposed CNN TL method provides a practical solution for freeing new users from the complicated acquisition paradigm in the calibration process before using sEMG-based HMI systems.",
+      "year": 2024,
+      "venue": "IEEE transactions on neural systems and rehabilitation engineering",
+      "url": "https://www.semanticscholar.org/paper/b78d8182e9bc67b506f2caf9c415a20c8bff7a30",
+      "citation_count": 9,
+      "reference_count": 37,
+      "fields_of_study": "[\"Medicine\"]",
+      "is_open_access": true,
+      "tldr": "The proposed CNN TL method provides a practical solution for freeing new users from the complicated acquisition paradigm in the calibration process before using sEMG-based HMI systems.",
+      "open_access_pdf_url": "https://ieeexplore.ieee.org/ielx7/7333/4359219/10456997.pdf",
+      "open_access_status": "GOLD",
+      "external_id_doi": "10.1109/TNSRE.2024.3372002",
+      "external_id_corpusid": 268122771,
+      "external_id_pubmed": "38427548"
+    },
+    {
+      "id": "2290130444",
+      "type": "author",
+      "name": "Haojie Shi"
+    },
+    {
+      "id": "48324368",
+      "type": "author",
+      "name": "Xinyu Jiang"
+    },
+    {
+      "id": "2237246577",
+      "type": "author",
+      "name": "Chenyun Dai"
+    },
+    {
+      "id": "2269387554",
+      "type": "author",
+      "name": "Wei Chen"
+    },
+    {
+      "id": "42b0d3e1208063531702b0303b2df637449e77f0",
+      "type": "paper",
+      "title": "A lightweight SelfONN model for general ECG classification with pretraining",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/42b0d3e1208063531702b0303b2df637449e77f0",
+      "citation_count": 8,
+      "reference_count": 39,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_dblp": "journals/bspc/QinHZZC24",
+      "external_id_doi": "10.1016/j.bspc.2023.105780",
+      "external_id_corpusid": 265636141
+    },
+    {
+      "id": "79298694",
+      "type": "author",
+      "name": "Keke Qin"
+    },
+    {
+      "id": "9393382",
+      "type": "author",
+      "name": "Wu Huang"
+    },
+    {
+      "id": "2146342045",
+      "type": "author",
+      "name": "Tao Zhang"
+    },
+    {
+      "id": "2269773604",
+      "type": "author",
+      "name": "Hengyuan Zhang"
+    },
+    {
+      "id": "2269750042",
+      "type": "author",
+      "name": "Xiangrong Cheng"
+    },
+    {
+      "id": "65b6aa3def17b2045ad3b1d0d94ca69621d5ed2f",
+      "type": "paper",
+      "title": "Generalizing Upper Limb Force Modeling With Transfer Learning: A Multimodal Approach Using EMG and IMU for New Users and Conditions",
+      "abstract": "In the field of EMG-based force modeling, the ability to generalize models across individuals could play a significant role in its adoption across a range of applications, including assistive devices, robotic and rehabilitation devices. However, current studies have predominately focused on intra-subject modeling, largely neglecting the burden of end-user data acquisition. In this work, we propose the use of transfer learning (TL) to generalize force modeling to a new user by first establishing a baseline model trained using other users’ data, and then adapting to the end-user using a small amount of new data (only <inline-formula> <tex-math notation=\"LaTeX\">${10}\\%$ </tex-math></inline-formula>, <inline-formula> <tex-math notation=\"LaTeX\">${20}\\%$ </tex-math></inline-formula>, and <inline-formula> <tex-math notation=\"LaTeX\">${40}\\%$ </tex-math></inline-formula> of the new user data). Using a deep multimodal convolutional neural network, consisting of two CNN models, one with high-density (HD) EMG and one with motion data recorded by an Inertial Measurement Unit (IMU), our proposed TL technique significantly improved force modeling compared to leave-one-subject-out (LOSO) and even intra-subject scenarios. The TL approach increased the average R squared values of the force modeling task by 60.81%, 190.53%, and 199.79% compared to the LOSO case, and by 13.4%, 36.88%, and 45.51% compared to the intra-subject case for isotonic, isokinetic and dynamic conditions, respectively. These results show that it is possible to adapt to a new user with minimal data while improving performance significantly compared to the intra-subject scenario. We also show that TL can be used to generalize on a new experimental condition for a new user.",
+      "year": 2024,
+      "venue": "IEEE transactions on neural systems and rehabilitation engineering",
+      "url": "https://www.semanticscholar.org/paper/65b6aa3def17b2045ad3b1d0d94ca69621d5ed2f",
+      "citation_count": 3,
+      "reference_count": 28,
+      "fields_of_study": "[\"Medicine\"]",
+      "is_open_access": true,
+      "tldr": "This work proposes the use of transfer learning (TL) to generalize force modeling to a new user by first establishing a baseline model trained using other users’ data, and then adapting to the end-user using a small amount of new data.",
+      "open_access_pdf_url": "https://ieeexplore.ieee.org/ielx7/7333/4359219/10385058.pdf",
+      "open_access_status": "GOLD",
+      "external_id_doi": "10.1109/TNSRE.2024.3351829",
+      "external_id_corpusid": 266900408,
+      "external_id_pubmed": "38194392"
+    },
+    {
+      "id": "30620279",
+      "type": "author",
+      "name": "G. Hajian"
+    },
+    {
+      "id": "2239073395",
+      "type": "author",
+      "name": "Evan Campbell"
+    },
+    {
+      "id": "2278807147",
+      "type": "author",
+      "name": "Mahdi Ansari"
+    },
+    {
+      "id": "2278803244",
+      "type": "author",
+      "name": "E. Morin"
+    },
+    {
+      "id": "1379982213",
+      "type": "author",
+      "name": "A. Etemad"
+    },
+    {
+      "id": "2117163",
+      "type": "author",
+      "name": "K. Englehart"
+    },
+    {
+      "id": "2243235837",
+      "type": "author",
+      "name": "Erik J. Scheme"
+    },
+    {
+      "id": "455c1b51dab3e524705e8e774d97c9efd173c08a",
+      "type": "paper",
+      "title": "X-RCRNet: An explainable deep-learning network for COVID-19 detection using ECG beat signals",
+      "abstract": "",
+      "year": 2024,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://www.semanticscholar.org/paper/455c1b51dab3e524705e8e774d97c9efd173c08a",
+      "citation_count": 5,
+      "reference_count": 39,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": true,
+      "tldr": "Considering that electrocardiogram (ECG) has been proved relevant to evolution of COVID-19 symptoms, the proposed wearable system will integrate an explainable Deep Neural Network to realize online monitoring of COVID-19 gravity by using ECG beat signal named X-RCRNet.",
+      "external_id_dblp": "journals/bspc/NkengueZKT24",
+      "external_id_doi": "10.1016/j.bspc.2023.105424",
+      "external_id_corpusid": 262205691
+    },
+    {
+      "id": "2244530558",
+      "type": "author",
+      "name": "Marc Junior Nkengue"
+    },
+    {
+      "id": "2244592691",
+      "type": "author",
+      "name": "Xianyi Zeng"
+    },
+    {
+      "id": "2309698",
+      "type": "author",
+      "name": "L. Koehl"
+    },
+    {
+      "id": "144180338",
+      "type": "author",
+      "name": "Xuyuan Tao"
+    },
+    {
+      "id": "c4b96526d1e23baa98a2bc9805d3f47a35fd6119",
+      "type": "paper",
+      "title": "Neural Machine Translation for the Arabic-English Language Pair",
+      "abstract": "Machine Translation is an early Artificial Intelligence field of research that has a rich history and a substantial body of literature. If statistical methods dominated over two decades, the success of neural approaches opened up new promises, particularly for languages with rich morphology and limited resources like Arabic. We investigate through this research Arabic-English Machine Translation within the new paradigm of Neural Machine Translation. We describe and discuss our implementation of both traditional models, LSTM and F-Conv, and the recent transformer model. If we report fairly honorable results for all models, the transformer model unsurprisingly achieves an outstanding BLEU-score.",
+      "year": 2024,
+      "venue": "International Conference on Pattern Analysis and Intelligent Systems",
+      "url": "https://www.semanticscholar.org/paper/c4b96526d1e23baa98a2bc9805d3f47a35fd6119",
+      "citation_count": 0,
+      "reference_count": 29,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "This research investigates through this research Arabic-English Machine Translation within the new paradigm of Neural Machine Translation, and describes and discusses the implementation of both traditional models, LSTM and F-Conv, and the recent transformer model.",
+      "external_id_dblp": "conf/pais/AlianeSA24",
+      "external_id_doi": "10.1109/PAIS62114.2024.10541155",
+      "external_id_corpusid": 270238637
+    },
+    {
+      "id": "49304180",
+      "type": "author",
+      "name": "A. A. Aliane"
+    },
+    {
+      "id": "1817556",
+      "type": "author",
+      "name": "N. Semmar"
+    },
+    {
+      "id": "3094465",
+      "type": "author",
+      "name": "H. Aliane"
+    },
+    {
+      "id": "94db12288350f71060e2cf5291df06373ccd28d6",
+      "type": "paper",
+      "title": "Omni-scale spatio-temporal attention network for impact localization of sandwich composite panels",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Engineering applications of artificial intelligence",
+      "url": "https://www.semanticscholar.org/paper/94db12288350f71060e2cf5291df06373ccd28d6",
+      "citation_count": 0,
+      "reference_count": 57,
+      "fields_of_study": "",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_doi": "10.1016/j.engappai.2025.110238",
+      "external_id_corpusid": 276305449
+    },
+    {
+      "id": "2243962815",
+      "type": "author",
+      "name": "Yang Zhang"
+    },
+    {
+      "id": "2345304919",
+      "type": "author",
+      "name": "Bo Yang"
+    },
+    {
+      "id": "2283199388",
+      "type": "author",
+      "name": "Shilong Wang"
+    },
+    {
+      "id": "2185393208",
+      "type": "author",
+      "name": "Fan Mo"
+    },
+    {
+      "id": "100591164",
+      "type": "author",
+      "name": "F. Bi"
+    },
+    {
+      "id": "2146003250",
+      "type": "author",
+      "name": "Yan He"
+    },
+    {
+      "id": "797c00b7f8a4b3822a02aba0d9d7962888bfa85c",
+      "type": "paper",
+      "title": "Natural resources dependence and climate vulnerability: Do women's political empowerment and political ideology make the difference?",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Resources policy",
+      "url": "https://www.semanticscholar.org/paper/797c00b7f8a4b3822a02aba0d9d7962888bfa85c",
+      "citation_count": 0,
+      "reference_count": 156,
+      "fields_of_study": "",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_doi": "10.1016/j.resourpol.2025.105511",
+      "external_id_corpusid": 276462321
+    },
+    {
+      "id": "2302356386",
+      "type": "author",
+      "name": "Joseph Keneck-Massil"
+    },
+    {
+      "id": "2197146548",
+      "type": "author",
+      "name": "Suzie Imelda Foudjo"
+    },
+    {
+      "id": "23fcd0f77ef7f98c9b2475f23e5f498f545b21bd",
+      "type": "paper",
+      "title": "An Empirical Evaluation of Encoder Architectures for Fast Real-Time Long Conversational Understanding",
+      "abstract": "Analyzing long text data such as customer call transcripts is a cost-intensive and tedious task. Machine learning methods, namely Transformers, are leveraged to model agent-customer interactions. Unfortunately, Transformers adhere to fixed-length architectures and their self-attention mechanism scales quadratically with input length. Such limitations make it challenging to leverage traditional Transformers for long sequence tasks, such as conversational understanding, especially in real-time use cases. In this paper we explore and evaluate recently proposed efficient Transformer variants (e.g. Performer, Reformer) and a CNN-based architecture for real-time and near real-time long conversational understanding tasks. We show that CNN-based models are dynamic, ~2.6x faster to train, ~80% faster inference and ~72% more memory efficient compared to Transformers on average. Additionally, we evaluate the CNN model using the Long Range Arena benchmark to demonstrate competitiveness in general long document analysis.",
+      "year": 2025,
+      "venue": "",
+      "url": "https://www.semanticscholar.org/paper/23fcd0f77ef7f98c9b2475f23e5f498f545b21bd",
+      "citation_count": 0,
+      "reference_count": 39,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "This paper explores and evaluates recently proposed efficient Transformer variants and a CNN-based architecture for real-time and near real-time long conversational understanding tasks and shows that CNN-based models are dynamic, dynamic, faster to train, faster inference and more memory efficient compared to Transformers.",
+      "external_id_arxiv": "2502.12458",
+      "external_id_corpusid": 276421993
+    },
+    {
+      "id": "2345923190",
+      "type": "author",
+      "name": "Annamalai Senthilnathan"
+    },
+    {
+      "id": "17814101",
+      "type": "author",
+      "name": "Kristjan Arumae"
+    },
+    {
+      "id": "2300103092",
+      "type": "author",
+      "name": "Mohammed Khalilia"
+    },
+    {
+      "id": "2345924723",
+      "type": "author",
+      "name": "Zhengzheng Xing"
+    },
+    {
+      "id": "1403620579",
+      "type": "author",
+      "name": "Aaron Colak"
+    },
+    {
+      "id": "d93b0327fb206afb85cb1b4b5aa3815cf1f420a1",
+      "type": "paper",
+      "title": "DDS-E-Sim: A Transformer-Based Generative Framework for Simulating Error-Prone Sequences in DNA Data Storage",
+      "abstract": "The fast-growing amount of data needs reliable and long-lasting storage solutions. DNA has emerged as a promising medium due to its high information density and long-term stability. However, DNA storage is a complex process where each stage introduces noise and errors, including synthesis errors, storage decay, and sequencing errors, which require error-correcting codes (ECCs) for reliable data recovery. To design an optimal data recovery method, a comprehensive understanding of the noise structure in a DNA data storage channel is crucial. Since running DNA data storage experiments in vitro is still expensive and time-consuming, a simulation model is quite necessary that can mimic the error patterns in the real data and simulate the experiments. Existing simulation tools often rely on fixed error probabilities or are specific to certain technologies. In this study, we present a transformer-based generative framework for simulating errors in a DNA data storage channel. Our simulator takes oligos (DNA sequences to write) as input and generates erroneous output DNA reads that closely resemble the real-life output of common DNA data storage pipelines. It captures both random and biased error patterns, such as k-mer and transition errors, regardless of the process or technology. We demonstrate the effectiveness of our simulator by analyzing two datasets processed with distinct technologies. In the first case, processed with Illumina MiSeq, sequences simulated by DDS-E-SIM exhibit a total error rate deviation of only 0.1% from the original dataset. The second, processed with Oxford Nanopore Technologies, shows a 0.7% deviation. Both base-level and k-mer errors closely align with the original dataset. Additionally, our simulator generates 100,743 unique oligos from 35,329 sequences, with each sequence read five times, demonstrating its ability to simulate biased errors and stochastic properties simultaneously. Our simulator outperforms existing simulators with superior accuracy and the ability to handle diverse sequencing technologies. CCS Concepts Do Not Use This Code → Generate the Correct Terms for Your Paper; Generate the Correct Terms for Your Paper; Generate the Correct Terms for Your Paper; Generate the Correct Terms for Your Paper. ACM Reference Format Anonymous Author(s). 2018. DDS-E-Sim: A Transformer-Based Generative Framework for Simulating Error-Prone Sequences in DNA Data Storage. In Proceedings of Make sure to enter the correct conference title from your rights confirmation email (Conference acronym ‘XX). ACM, New York, NY, USA, 13 pages. https://doi.org/XXXXXXX.XXXXXXX",
+      "year": 2025,
+      "venue": "bioRxiv",
+      "url": "https://www.semanticscholar.org/paper/d93b0327fb206afb85cb1b4b5aa3815cf1f420a1",
+      "citation_count": 0,
+      "reference_count": 75,
+      "fields_of_study": "[\"Biology\"]",
+      "is_open_access": false,
+      "tldr": "This study presents a transformer-based generative framework for simulating errors in a DNA data storage channel and presents a simulator that outperforms existing simulators with superior accuracy and the ability to handle diverse sequencing technologies.",
+      "external_id_doi": "10.1101/2025.02.14.637785",
+      "external_id_corpusid": 276450395
+    },
+    {
+      "id": "2345702359",
+      "type": "author",
+      "name": "Mst. Fahmida Sultana Naznin"
+    },
+    {
+      "id": "2346116938",
+      "type": "author",
+      "name": "Swarup Sidhartho Mondol"
+    },
+    {
+      "id": "2346118356",
+      "type": "author",
+      "name": "Adnan Ibney Faruq"
+    },
+    {
+      "id": "2346118280",
+      "type": "author",
+      "name": "Ahmed Mahir Sultan Rumi"
+    },
+    {
+      "id": "2346117930",
+      "type": "author",
+      "name": "Debashmita Saha"
+    },
+    {
+      "id": "2346121450",
+      "type": "author",
+      "name": "A. B. M. A. A. Islam"
+    },
+    {
+      "id": "88caa4a0253a8b0076176745ebc072864eab66e1",
+      "type": "paper",
+      "title": "Language Modeling with Gated Convolutional Networks",
+      "abstract": "The pre-dominant approach to language modeling to date is based on recurrent neural networks. Their success on this task is often linked to their ability to capture unbounded context. In this paper we develop a finite context approach through stacked convolutions, which can be more efficient since they allow parallelization over sequential tokens. We propose a novel simplified gating mechanism that outperforms Oord et al (2016) and investigate the impact of key architectural decisions. The proposed approach achieves state-of-the-art on the WikiText-103 benchmark, even though it features long-term dependencies, as well as competitive results on the Google Billion Words benchmark. Our model reduces the latency to score a sentence by an order of magnitude compared to a recurrent baseline. To our knowledge, this is the first time a non-recurrent approach is competitive with strong recurrent models on these large scale language tasks.",
+      "year": 2016,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/88caa4a0253a8b0076176745ebc072864eab66e1",
+      "citation_count": 2255,
+      "reference_count": 36,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "A finite context approach through stacked convolutions, which can be more efficient since they allow parallelization over sequential tokens, is developed and is the first time a non-recurrent approach is competitive with strong recurrent models on these large scale language tasks.",
+      "external_id_dblp": "conf/icml/DauphinFAG17",
+      "external_id_arxiv": "1612.08083",
+      "external_id_mag": "2567070169",
+      "external_id_corpusid": 16119010
+    },
+    {
+      "id": "144270981",
+      "type": "author",
+      "name": "Angela Fan"
+    },
+    {
+      "id": "98445f4172659ec5e891e031d8202c102135c644",
+      "type": "paper",
+      "title": "Neural Machine Translation in Linear Time",
+      "abstract": "We present a novel neural network for processing sequences. The ByteNet is a one-dimensional convolutional neural network that is composed of two parts, one to encode the source sequence and the other to decode the target sequence. The two network parts are connected by stacking the decoder on top of the encoder and preserving the temporal resolution of the sequences. To address the differing lengths of the source and the target, we introduce an efficient mechanism by which the decoder is dynamically unfolded over the representation of the encoder. The ByteNet uses dilation in the convolutional layers to increase its receptive field. The resulting network has two core properties: it runs in time that is linear in the length of the sequences and it sidesteps the need for excessive memorization. The ByteNet decoder attains state-of-the-art performance on character-level language modelling and outperforms the previous best results obtained with recurrent networks. The ByteNet also achieves state-of-the-art performance on character-to-character machine translation on the English-to-German WMT translation task, surpassing comparable neural translation models that are based on recurrent networks with attentional pooling and run in quadratic time. We find that the latent alignment structure contained in the representations reflects the expected alignment between the tokens.",
+      "year": 2016,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/98445f4172659ec5e891e031d8202c102135c644",
+      "citation_count": 542,
+      "reference_count": 40,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "The ByteNet decoder attains state-of-the-art performance on character-level language modelling and outperforms the previous best results obtained with recurrent networks and the latent alignment structure contained in the representations reflects the expected alignment between the tokens.",
+      "external_id_dblp": "journals/corr/KalchbrennerESO16",
+      "external_id_mag": "2540404261",
+      "external_id_arxiv": "1610.10099",
+      "external_id_corpusid": 13895969
+    },
+    {
+      "id": "2583391",
+      "type": "author",
+      "name": "Nal Kalchbrenner"
+    },
+    {
+      "id": "2311318",
+      "type": "author",
+      "name": "L. Espeholt"
+    },
+    {
+      "id": "34838386",
+      "type": "author",
+      "name": "K. Simonyan"
+    },
+    {
+      "id": "3422336",
+      "type": "author",
+      "name": "Aäron van den Oord"
+    },
+    {
+      "id": "1753223",
+      "type": "author",
+      "name": "Alex Graves"
+    },
+    {
+      "id": "2645384",
+      "type": "author",
+      "name": "K. Kavukcuoglu"
+    },
+    {
+      "id": "b60abe57bc195616063be10638c6437358c81d1e",
+      "type": "paper",
+      "title": "Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation",
+      "abstract": "Neural machine translation (NMT) aims at solving machine translation (MT) problems using neural networks and has exhibited promising results in recent years. However, most of the existing NMT models are shallow and there is still a performance gap between a single NMT model and the best conventional MT system. In this work, we introduce a new type of linear connections, named fast-forward connections, based on deep Long Short-Term Memory (LSTM) networks, and an interleaved bi-directional architecture for stacking the LSTM layers. Fast-forward connections play an essential role in propagating the gradients and building a deep topology of depth 16. On the WMT’14 English-to-French task, we achieve BLEU=37.7 with a single attention model, which outperforms the corresponding single shallow model by 6.2 BLEU points. This is the first time that a single NMT model achieves state-of-the-art performance and outperforms the best conventional model by 0.7 BLEU points. We can still achieve BLEU=36.3 even without using an attention mechanism. After special handling of unknown words and model ensembling, we obtain the best score reported to date on this task with BLEU=40.4. Our models are also validated on the more difficult WMT’14 English-to-German task.",
+      "year": 2016,
+      "venue": "Transactions of the Association for Computational Linguistics",
+      "url": "https://www.semanticscholar.org/paper/b60abe57bc195616063be10638c6437358c81d1e",
+      "citation_count": 214,
+      "reference_count": 33,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": true,
+      "tldr": "This work introduces a new type of linear connections, named fast-forward connections, based on deep Long Short-Term Memory (LSTM) networks, and an interleaved bi-directional architecture for stacking the LSTM layers, and achieves state-of-the-art performance and outperforms the best conventional model by 0.7 BLEU points.",
+      "open_access_pdf_url": "http://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00105",
+      "open_access_status": "GOLD",
+      "external_id_dblp": "journals/tacl/ZhouCWLX16",
+      "external_id_mag": "2963991316",
+      "external_id_arxiv": "1606.04199",
+      "external_id_acl": "Q16-1027",
+      "external_id_doi": "10.1162/tacl_a_00105",
+      "external_id_corpusid": 8586038
+    },
+    {
+      "id": "49178343",
+      "type": "author",
+      "name": "Jie Zhou"
+    },
+    {
+      "id": "2112866139",
+      "type": "author",
+      "name": "Ying Cao"
+    },
+    {
+      "id": "2108084524",
+      "type": "author",
+      "name": "Xuguang Wang"
+    },
+    {
+      "id": "144326610",
+      "type": "author",
+      "name": "Peng Li"
+    },
+    {
+      "id": "145738410",
+      "type": "author",
+      "name": "W. Xu"
+    },
+    {
+      "id": "03ee3c8994edfc3bca62b51fb4d4cc13595b5046",
+      "type": "paper",
+      "title": "Neural Headline Generation with Sentence-wise Optimization",
+      "abstract": "Recently, neural models have been proposed for headline generation by learning to map documents to headlines with recurrent neural networks. Nevertheless, as traditional neural network utilizes maximum likelihood estimation for parameter optimization, it essentially constrains the expected training objective within word level rather than sentence level. Moreover, the performance of model prediction significantly relies on training data distribution. To overcome these drawbacks, we employ minimum risk training strategy in this paper, which directly optimizes model parameters in sentence level with respect to evaluation metrics and leads to significant improvements for headline generation. Experiment results show that our models outperforms state-of-the-art systems on both English and Chinese headline generation tasks.",
+      "year": 2016,
+      "venue": "",
+      "url": "https://www.semanticscholar.org/paper/03ee3c8994edfc3bca62b51fb4d4cc13595b5046",
+      "citation_count": 41,
+      "reference_count": 28,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "This paper employs minimum risk training strategy in this paper, which directly optimizes model parameters in sentence level with respect to evaluation metrics and leads to significant improvements for headline generation.",
+      "external_id_mag": "2536575466",
+      "external_id_corpusid": 16921413
+    },
+    {
+      "id": "3393818",
+      "type": "author",
+      "name": "Ayana"
+    },
+    {
+      "id": "2589625",
+      "type": "author",
+      "name": "Shiqi Shen"
+    },
+    {
+      "id": "2110263406",
+      "type": "author",
+      "name": "Yu Zhao"
+    },
+    {
+      "id": "49293587",
+      "type": "author",
+      "name": "Zhiyuan Liu"
+    },
+    {
+      "id": "1753344",
+      "type": "author",
+      "name": "Maosong Sun"
+    },
+    {
+      "id": "858bf51cb8275935e1bb50e2579a59413cd88869",
+      "type": "paper",
+      "title": "Predicting Actions of Users Using Heterogeneous Online Signals",
+      "abstract": "Advertising platforms have a growing need for improving prediction quality, as missing out on ad opportunities can have a negative effect on their performance. To that end, prediction tasks such as conversion prediction need to be continuously advanced through the inclusion of data from new sources or through algorithmic development that tackles existing challenges. The introduction of different data sources naturally brings unwanted noise, whereas underexplored areas still exist in modeling approaches, such as temporal information of events in sequences. In this study, we propose extensions for modeling online user activity trails that address two very important aspects of activities-time and noise, through dedicated layers that can be used in existing deep sequence-learning approaches. Our proposed method exhibited area under the receiver operating characteristic curve improvement of up to 3% and 1.75% compared with production and best baseline approaches, respectively, across two major advertiser data sets and several predictive tasks.",
+      "year": 2022,
+      "venue": "Big Data",
+      "url": "https://www.semanticscholar.org/paper/858bf51cb8275935e1bb50e2579a59413cd88869",
+      "citation_count": 0,
+      "reference_count": 45,
+      "fields_of_study": "[\"Computer Science\", \"Medicine\"]",
+      "is_open_access": false,
+      "tldr": "This study proposes extensions for modeling online user activity trails that address two very important aspects of activities-time and noise, through dedicated layers that can be used in existing deep sequence-learning approaches.",
+      "external_id_dblp": "journals/bigdata/GligorijevicGF22",
+      "external_id_doi": "10.1089/big.2021.0320",
+      "external_id_corpusid": 248403987,
+      "external_id_pubmed": "35475707"
+    },
+    {
+      "id": "2486589",
+      "type": "author",
+      "name": "Djordje Gligorijevic"
+    },
+    {
+      "id": "50371776",
+      "type": "author",
+      "name": "J. Gligorijevic"
+    },
+    {
+      "id": "144944214",
+      "type": "author",
+      "name": "Aaron Flores"
+    },
+    {
+      "id": "7b0c42e4076104e8ffa4981350af7019fe5447f1",
+      "type": "paper",
+      "title": "Is Attention All What You Need? - An Empirical Investigation on Convolution-Based Active Memory and Self-Attention",
+      "abstract": "The key to a Transformer model is the self-attention mechanism, which allows the model to analyze an entire sequence in a computationally efficient manner. Recent work has suggested the possibility that general attention mechanisms used by RNNs could be replaced by active-memory mechanisms. In this work, we evaluate whether various active-memory mechanisms could replace self-attention in a Transformer. Our experiments suggest that active-memory alone achieves comparable results to the self-attention mechanism for language modelling, but optimal results are mostly achieved by using both active-memory and self-attention mechanisms together. We also note that, for some specific algorithmic tasks, active-memory mechanisms alone outperform both self-attention and a combination of the two.",
+      "year": 2019,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/7b0c42e4076104e8ffa4981350af7019fe5447f1",
+      "citation_count": 3,
+      "reference_count": 24,
+      "fields_of_study": "[\"Computer Science\", \"Mathematics\"]",
+      "is_open_access": false,
+      "tldr": "The experiments suggest that active-memory alone achieves comparable results to the self-attention mechanism for language modelling, but optimal results are mostly achieved by using both active- memory and self-Attention mechanisms together.",
+      "external_id_arxiv": "1912.11959",
+      "external_id_dblp": "journals/corr/abs-1912-11959",
+      "external_id_mag": "2997101510",
+      "external_id_corpusid": 209500587
+    },
+    {
+      "id": "118838347",
+      "type": "author",
+      "name": "Thomas D. Dowdell"
+    },
+    {
+      "id": "46702864",
+      "type": "author",
+      "name": "Hongyu Zhang"
+    },
+    {
+      "id": "c2d8b10fd6d411afbbdc017ef9ca0e947e4ead3a",
+      "type": "paper",
+      "title": "Fast Reading Comprehension with ConvNets",
+      "abstract": "State-of-the-art deep reading comprehension models are dominated by recurrent neural nets. Their sequential nature is a natural fit for language, but it also precludes parallelization within an instances and often becomes the bottleneck for deploying such models to latency critical scenarios. This is particularly problematic for longer texts. Here we present a convolutional architecture as an alternative to these recurrent architectures. Using simple dilated convolutional units in place of recurrent ones, we achieve results comparable to the state of the art on two question answering tasks, while at the same time achieving up to two orders of magnitude speedups for question answering.",
+      "year": 2017,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/c2d8b10fd6d411afbbdc017ef9ca0e947e4ead3a",
+      "citation_count": 16,
+      "reference_count": 29,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "Using simple dilated convolutional units in place of recurrent ones, this work achieves results comparable to the state of the art on two question answering tasks, while at the same time achieving up to two orders of magnitude speedups for question answering.",
+      "external_id_mag": "2770564921",
+      "external_id_dblp": "journals/corr/abs-1711-04352",
+      "external_id_arxiv": "1711.04352",
+      "external_id_corpusid": 31642488
+    },
+    {
+      "id": "24277779",
+      "type": "author",
+      "name": "Felix Wu"
+    },
+    {
+      "id": "1914797",
+      "type": "author",
+      "name": "N. Lao"
+    },
+    {
+      "id": "2116927",
+      "type": "author",
+      "name": "John Blitzer"
+    },
+    {
+      "id": "29983981",
+      "type": "author",
+      "name": "Guandao Yang"
+    },
+    {
+      "id": "7446832",
+      "type": "author",
+      "name": "Kilian Q. Weinberger"
+    },
+    {
+      "id": "e62e0494084d2ce854b39cb118e5eabe1cb21a15",
+      "type": "paper",
+      "title": "Advanced Techniques in Training and Applying Large Language Models",
+      "abstract": "This research, examines the progress and use of large language models (LLMs). The research analyses the development process of LLMs, concentrating on the many models now accessible. We will begin by addressing fundamental concepts, including the mathematical models used in the process. Large Language Models provide a robust basis for the development of forthcoming applications in artificial intelligence and natural language processing.",
+      "year": 2024,
+      "venue": "International Conferences on Contemporary Computing and Informatics",
+      "url": "https://www.semanticscholar.org/paper/e62e0494084d2ce854b39cb118e5eabe1cb21a15",
+      "citation_count": 0,
+      "reference_count": 29,
+      "fields_of_study": "",
+      "is_open_access": false,
+      "tldr": "This research examines the progress and use of large language models, focusing on the many models now accessible, and addresses fundamental concepts, including the mathematical models used in the process.",
+      "external_id_doi": "10.1109/IC3I61595.2024.10828787",
+      "external_id_corpusid": 275545667
+    },
+    {
+      "id": "47472462",
+      "type": "author",
+      "name": "Lipsa Das"
+    },
+    {
+      "id": "2281344788",
+      "type": "author",
+      "name": "Pooja Anand"
+    },
+    {
+      "id": "2281346435",
+      "type": "author",
+      "name": "Swati Vashisht"
+    },
+    {
+      "id": "2340228863",
+      "type": "author",
+      "name": "Neelanjan Mukherji"
+    },
+    {
+      "id": "49244135",
+      "type": "author",
+      "name": "B. Lohani"
+    },
+    {
+      "id": "2287972484",
+      "type": "author",
+      "name": "Akanksha Singh"
+    },
+    {
+      "id": "5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+      "type": "paper",
+      "title": "Neural GPUs Learn Algorithms",
+      "abstract": "Learning an algorithm from examples is a fundamental problem that has been widely studied. Recently it has been addressed using neural networks, in particular by Neural Turing Machines (NTMs). These are fully differentiable computers that use backpropagation to learn their own programming. Despite their appeal NTMs have a weakness that is caused by their sequential nature: they are not parallel and are are hard to train due to their large depth when unfolded. \nWe present a neural network architecture to address this problem: the Neural GPU. It is based on a type of convolutional gated recurrent unit and, like the NTM, is computationally universal. Unlike the NTM, the Neural GPU is highly parallel which makes it easier to train and efficient to run. \nAn essential property of algorithms is their ability to handle inputs of arbitrary size. We show that the Neural GPU can be trained on short instances of an algorithmic task and successfully generalize to long instances. We verified it on a number of tasks including long addition and long multiplication of numbers represented in binary. We train the Neural GPU on numbers with upto 20 bits and observe no errors whatsoever while testing it, even on much longer numbers. \nTo achieve these results we introduce a technique for training deep recurrent networks: parameter sharing relaxation. We also found a small amount of dropout and gradient noise to have a large positive effect on learning and generalization.",
+      "year": 2015,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+      "citation_count": 366,
+      "reference_count": 36,
+      "fields_of_study": "[\"Computer Science\", \"Mathematics\"]",
+      "is_open_access": false,
+      "tldr": "It is shown that the Neural GPU can be trained on short instances of an algorithmic task and successfully generalize to long instances, and a technique for training deep recurrent networks: parameter sharing relaxation is introduced.",
+      "external_id_mag": "2173051530",
+      "external_id_dblp": "journals/corr/KaiserS15",
+      "external_id_arxiv": "1511.08228",
+      "external_id_corpusid": 2009318
+    },
+    {
+      "id": "1701686",
+      "type": "author",
+      "name": "I. Sutskever"
+    },
+    {
+      "id": "5b791cd374c7109693aaddee2c12d659ae4e3ec0",
+      "type": "paper",
+      "title": "Grid Long Short-Term Memory",
+      "abstract": "This paper introduces Grid Long Short-Term Memory, a network of LSTM cells arranged in a multidimensional grid that can be applied to vectors, sequences or higher dimensional data such as images. The network differs from existing deep LSTM architectures in that the cells are connected between network layers as well as along the spatiotemporal dimensions of the data. The network provides a unified way of using LSTM for both deep and sequential computation. We apply the model to algorithmic tasks such as 15-digit integer addition and sequence memorization, where it is able to significantly outperform the standard LSTM. We then give results for two empirical tasks. We find that 2D Grid LSTM achieves 1.47 bits per character on the Wikipedia character prediction benchmark, which is state-of-the-art among neural approaches. In addition, we use the Grid LSTM to define a novel two-dimensional translation model, the Reencoder, and show that it outperforms a phrase-based reference system on a Chinese-to-English translation task.",
+      "year": 2015,
+      "venue": "International Conference on Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/5b791cd374c7109693aaddee2c12d659ae4e3ec0",
+      "citation_count": 358,
+      "reference_count": 43,
+      "fields_of_study": "[\"Computer Science\"]",
+      "is_open_access": false,
+      "tldr": "The Grid LSTM is used to define a novel two-dimensional translation model, the Reencoder, and it is shown that it outperforms a phrase-based reference system on a Chinese-to-English translation task.",
+      "external_id_mag": "2952766932",
+      "external_id_dblp": "journals/corr/KalchbrennerDG15",
+      "external_id_arxiv": "1507.01526",
+      "external_id_corpusid": 7823468
+    },
+    {
+      "id": "1841008",
+      "type": "author",
+      "name": "Ivo Danihelka"
+    },
+    {
+      "id": "4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "type": "paper",
+      "title": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+      "abstract": "Inspired by recent work in machine translation and object detection, we introduce an attention based model that automatically learns to describe the content of images. We describe how we can train this model in a deterministic manner using standard backpropagation techniques and stochastically by maximizing a variational lower bound. We also show through visualization how the model is able to automatically learn to fix its gaze on salient objects while generating the corresponding words in the output sequence. We validate the use of attention with state-of-the-art performance on three benchmark datasets: Flickr9k, Flickr30k and MS COCO.",
+      "year": 2015,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "citation_count": 9804,
+      "reference_count": 54,
+      "fields_of_study": "[\"Computer Science\", \"Mathematics\"]",
+      "is_open_access": false,
+      "tldr": "An attention based model that automatically learns to describe the content of images is introduced that can be trained in a deterministic manner using standard backpropagation techniques and stochastically by maximizing a variational lower bound.",
+      "external_id_mag": "2950178297",
+      "external_id_dblp": "conf/icml/XuBKCCSZB15",
+      "external_id_arxiv": "1502.03044",
+      "external_id_corpusid": 1055111
+    },
+    {
+      "id": "2117101253",
+      "type": "author",
+      "name": "Ke Xu"
+    },
+    {
+      "id": "2503659",
+      "type": "author",
+      "name": "Jimmy Ba"
+    },
+    {
+      "id": "3450996",
+      "type": "author",
+      "name": "Ryan Kiros"
+    },
+    {
+      "id": "1979489",
+      "type": "author",
+      "name": "Kyunghyun Cho"
+    },
+    {
+      "id": "1760871",
+      "type": "author",
+      "name": "Aaron C. Courville"
+    },
+    {
+      "id": "145124475",
+      "type": "author",
+      "name": "R. Salakhutdinov"
+    },
+    {
+      "id": "1804104",
+      "type": "author",
+      "name": "R. Zemel"
+    },
+    {
+      "id": "1751762",
+      "type": "author",
+      "name": "Yoshua Bengio"
+    },
+    {
+      "id": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "type": "paper",
+      "title": "Grammar as a Foreign Language",
+      "abstract": "Syntactic constituency parsing is a fundamental problem in natural language processing and has been the subject of intensive research and engineering for decades. As a result, the most accurate parsers are domain specific, complex, and inefficient. In this paper we show that the domain agnostic attention-enhanced sequence-to-sequence model achieves state-of-the-art results on the most widely used syntactic constituency parsing dataset, when trained on a large synthetic corpus that was annotated using existing parsers. It also matches the performance of standard parsers when trained only on a small human-annotated dataset, which shows that this model is highly data-efficient, in contrast to sequence-to-sequence models without the attention mechanism. Our parser is also fast, processing over a hundred sentences per second with an unoptimized CPU implementation.",
+      "year": 2014,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://www.semanticscholar.org/paper/47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "citation_count": 925,
+      "reference_count": 36,
+      "fields_of_study": "[\"Computer Science\", \"Mathematics\"]",
+      "is_open_access": false,
+      "tldr": "The domain agnostic attention-enhanced sequence-to-sequence model achieves state-of-the-art results on the most widely used syntactic constituency parsing dataset, when trained on a large synthetic corpus that was annotated using existing parsers.",
+      "external_id_dblp": "conf/nips/VinyalsKKPSH15",
+      "external_id_mag": "2951648188",
+      "external_id_arxiv": "1412.7449",
+      "external_id_corpusid": 14223
+    },
+    {
+      "id": "2060101052",
+      "type": "author",
+      "name": "Terry Koo"
+    },
+    {
+      "id": "1754497",
+      "type": "author",
+      "name": "Slav Petrov"
+    },
+    {
+      "id": "1695689",
+      "type": "author",
+      "name": "Geoffrey E. Hinton"
+    }
+  ],
+  "edges": [
+    {
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "cites",
+      "contexts": "[\"We also experimented with using learned positional embeddings [8] instead, and found that the two versions produced nearly identical results (see Table 3 row (E)).\", \"The goal of reducing sequential computation also forms the foundation of the Extended Neural GPU [20], ByteNet [15] and ConvS2S [8], all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions.\", \"There are many choices of positional encodings, learned and fixed [8].\", \"In these models, the number of operations required to relate signals from two arbitrary input or output positions grows in the distance between positions, linearly for ConvS2S and logarithmically for ByteNet.\", \"This mimics the typical encoder-decoder attention mechanisms in sequence-to-sequence models such as [31, 2, 8].\", \"In row (E) we replace our sinusoidal positional encoding with learned positional embeddings [8], and observe nearly identical results to the base model.\", \"In the following sections, we will describe the Transformer, motivate self-attention and discuss its advantages over models such as [14, 15] and [8].\"]",
+      "is_influential": true
+    },
+    {
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "type": "cites",
+      "contexts": "[\"We trained our models on one machine with 8 NVIDIA P100 GPUs.\", \"We estimate the number of floating point operations used to train a model by multiplying the training time, the number of GPUs used, and an estimate of the sustained single-precision floating-point capacity of each GPU 5.\", \"Training took 3.5 days on 8 P100 GPUs.\", \"The goal of reducing sequential computation also forms the foundation of the Extended Neural GPU [20], ByteNet [15] and ConvS2S [8], all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions.\", \"The Transformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs.\"]",
+      "is_influential": true
+    },
+    {
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "cites",
+      "contexts": "[\"For English-French, we used the significantly larger WMT 2014 English-French dataset consisting of 36M sentences and split tokens into a 32000 word-piece vocabulary [31].\", \"This mimics the typical encoder-decoder attention mechanisms in sequence-to-sequence models such as [31, 2, 8].\", \"In terms of computational complexity, self-attention layers are faster than recurrent layers when the sequence length n is smaller than the representation dimensionality d, which is most often the case with sentence representations used by state-of-the-art models in machine translations, such as word-piece [31] and byte-pair [25] representations.\", \"We set the maximum output length during inference to input length + 50, but terminate early when possible [31].\", \"Numerous efforts have since continued to push the boundaries of recurrent language models and encoder-decoder architectures [31, 21, 13].\"]",
+      "is_influential": true
+    },
+    {
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "7345843e87c81e24e42264859b214d26042f8d51",
+      "type": "cites",
+      "contexts": "[\"(2014) [37] semi-supervised 92.1 Transformer (4 layers) semi-supervised 92.7 Luong et al. (2015) [23] multi-task 93.0 Dyer et al. (2016) [8] generative 93.3 increased the maximum output length to input length + 300 .\", \"Our results in Table 4 show that despite the lack of task-specific tuning our model performs surprisingly well, yielding better results than all previously reported models with the exception of the Recurrent Neural Network Grammar [8].\", \"(2016) [8] WSJ only, discriminative 91.\"]",
+      "is_influential": true
+    },
+    {
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "cites",
+      "is_influential": false
+    },
+    {
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "cites",
+      "is_influential": false
+    },
+    {
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "type": "cites",
+      "is_influential": false
+    },
+    {
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "cites",
+      "is_influential": false
+    },
+    {
+      "source": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "cites",
+      "is_influential": false
+    },
+    {
+      "source": "40348417",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "1846258",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "3877127",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "39328010",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "145024664",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "19177000",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "40527594",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "40527594",
+      "target": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "type": "authored"
+    },
+    {
+      "source": "40527594",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "40527594",
+      "target": "5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+      "type": "authored"
+    },
+    {
+      "source": "40527594",
+      "target": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "type": "authored"
+    },
+    {
+      "source": "3443442",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "authored"
+    },
+    {
+      "source": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "target": "7c69a7061e1ec610152722e330db14c260abaf98",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "target": "5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "target": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2261258970",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2261258970",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "authored"
+    },
+    {
+      "source": "2257008742",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2257008742",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "authored"
+    },
+    {
+      "source": "2257008742",
+      "target": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "authored"
+    },
+    {
+      "source": "2232946813",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2232946813",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "authored"
+    },
+    {
+      "source": "2232946813",
+      "target": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "authored"
+    },
+    {
+      "source": "2261251068",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2261251068",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "authored"
+    },
+    {
+      "source": "2261259483",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2261259483",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "authored"
+    },
+    {
+      "source": "2236703737",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2261121285",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2261121285",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "authored"
+    },
+    {
+      "source": "2337150125",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "2284530727",
+      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "type": "authored"
+    },
+    {
+      "source": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "target": "b2b41dac933cceed1faf3e27e335c3ef8e2908ef",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "target": "a6f2f252c88983965f60dfa8325afcd2eed03eb1",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "target": "05aa3f348b3a4237907ef4615dcaad851e88262a",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "target": "000a3aabf022728020bdbf32a132112a48ad57fe",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "target": "84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2339412438",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "authored"
+    },
+    {
+      "source": "2108083657",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "authored"
+    },
+    {
+      "source": "2339501181",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "authored"
+    },
+    {
+      "source": "2053741160",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "authored"
+    },
+    {
+      "source": "2339419387",
+      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "type": "authored"
+    },
+    {
+      "source": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "target": "10a6edd78e84edfb193bc10bad4f42378c89c374",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "target": "f5a1e0b59c53290409119444a434e55566f89101",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "target": "a599d52cae8e9df2ca641f441691c8f2199bdfe0",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "target": "ccd8e6ebaba5c1edf78ae209dbb9c1b9f262d24b",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2339736402",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "2332719665",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "2339716351",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "2339721710",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "2340251765",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "2332598099",
+      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "type": "authored"
+    },
+    {
+      "source": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "target": "848a049060f1228fb4428c20841dafa424390d81",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "target": "dda9d5ae72ccabcbbe7bcae39d7d0083b1e7f950",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "target": "7eddaf7b7a264ff50f241b39782283612a21b3f3",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "target": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "target": "20486e25b91fb166dcf6a0bc483382cb531f6e45",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "49049926",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "49049926",
+      "target": "dda9d5ae72ccabcbbe7bcae39d7d0083b1e7f950",
+      "type": "authored"
+    },
+    {
+      "source": "2340079194",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2254298657",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2210643082",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2295678067",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2331688396",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2190940933",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2190940933",
+      "target": "dda9d5ae72ccabcbbe7bcae39d7d0083b1e7f950",
+      "type": "authored"
+    },
+    {
+      "source": "2154709897",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2154709897",
+      "target": "dda9d5ae72ccabcbbe7bcae39d7d0083b1e7f950",
+      "type": "authored"
+    },
+    {
+      "source": "2284828594",
+      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "type": "authored"
+    },
+    {
+      "source": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "target": "b78d8182e9bc67b506f2caf9c415a20c8bff7a30",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "target": "42b0d3e1208063531702b0303b2df637449e77f0",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "target": "65b6aa3def17b2045ad3b1d0d94ca69621d5ed2f",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "target": "455c1b51dab3e524705e8e774d97c9efd173c08a",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2077186815",
+      "target": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "type": "authored"
+    },
+    {
+      "source": "2324108063",
+      "target": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "type": "authored"
+    },
+    {
+      "source": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "target": "88caa4a0253a8b0076176745ebc072864eab66e1",
+      "type": "cites",
+      "contexts": "[\"Our model is equipped with gated linear units (Dauphin et al., 2016) and residual connections (He et al., 2015a).\", \"Dauphin et al. (2016) shows that context sizes of 20 words are often suf\\ufb01cient to achieve very good accuracy on language modeling for English.\", \"We choose gated linear units (GLU; Dauphin et al., 2016) as non-linearity which implement a simple gating mechanism over the output of the convolution where A, B \\u2208 R d are the inputs to the non-linearity, \\u2297 is the point-wise multiplication and the output v ([ A B ]) \\u2208 R d is half the size of Y .\", \"A similar non-linearity has been introduced in Oord et al. (2016b) who apply tanh to A but Dauphin et al. (2016) shows that GLUs perform better in the context of language modelling.\"]",
+      "is_influential": true
+    },
+    {
+      "source": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "target": "98445f4172659ec5e891e031d8202c102135c644",
+      "type": "cites",
+      "contexts": "[\"\\u2026English to German translation we compare to the following prior work: Luong et al. (2015) is based on a four layer LSTM attention model, ByteNet (Kalchbrenner et al., 2016) propose a convolutional model based on characters without attention, with 30 layers in the encoder and 30 layers in the\\u2026\", \"Recent work has applied convolutional neural networks to sequence modeling such as Bradbury et al. (2016) who introduce recurrent pooling between a succession of convolutional layers or Kalchbrenner et al. (2016) who tackle neural translation without attention.\", \"Part of the reason for the low impact on speed is that we batch the computation of an attention module over all target words, similar to Kalchbrenner et al. (2016).\", \"This demonstrates that attention is not the bottleneck in neural machine translation, even though it is quadratic in the sequence length (cf. Kalchbrenner et al., 2016).\", \"On WMT\\u201914 English to German translation we compare to the following prior work: Luong et al. (2015) is based on a four layer LSTM attention model, ByteNet (Kalchbrenner et al., 2016) propose a convolutional model based on characters without attention, with 30 layers in the encoder and 30 layers in the decoder, GNMT (Wu et al., 2016) represents the state of the art on this dataset and they use eight encoder LSTMs as well as eight decoder LSTMs, we quote their result for a word-based model, such as ours, as well as a word-piece model (Schuster & Nakajima, 2012).\"]",
+      "is_influential": true
+    },
+    {
+      "source": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "cites",
+      "contexts": "[\"\\u2026et al., 2016) propose a convolutional model based on characters without attention, with 30 layers in the encoder and 30 layers in the decoder, GNMT (Wu et al., 2016) represents the state of the art on this dataset and they use eight encoder LSTMs as well as eight decoder LSTMs, we quote their\\u2026\", \"Models with many layers often rely on shortcut or residual connections (He et al., 2015a; Zhou et al., 2016; Wu et al., 2016).\", \"Finally, we train on the much larger WMT\\u201914 English-French task where we compare to the state of the art result of GNMT (Wu et al., 2016).\", \"On the WMT\\u201916 English-Romanian task we outperform the previous best result by 1.9 BLEU, on WMT\\u201914 English-French translation we improve over the LSTM model of Wu et al. (2016) by 1.6 BLEU in a comparable setting, and on WMT\\u201914 English-German translation we ouperform the same model by 0.5 BLEU.\", \"On CPU, our model is up to 9.3 times faster, however, the GNMT CPU results were obtained with an 88 core machine whereas our results were obtained with just over half the number of cores.\", \"In machine translation, this architecture has been demonstrated to outperform traditional phrase-based models by large margins (Sennrich et al., 2016b; Zhou et al., 2016; Wu et al., 2016; \\u00a7 2).\", \"Finally, our CPU speed is 2.7 times higher than GNMT on a custom TPU chip which shows that high speed can be achieved on commodity hardware.\", \"For WMT\\u201914 English-German we tune a length normalization constant on a separate development set ( newstest2015 ) and we normalize log-likelihoods by | y | \\u03b1 (Wu et al., 2016).\", \"Furthermore, our model can translate unseen sentences at an order of magnitude faster speed than Wu et al. (2016) on GPU and CPU hardware ( 4, \\u00a7 5).\", \"This can be seen as attention with multiple \\u2019hops\\u2019 (Sukhbaatar et al., 2015) compared to single step attention (Bahdanau et al., 2014; Luong et al., 2015; Zhou et al., 2016; Wu et al., 2016).\", \"5 The results (Table 1) show that our convolutional model outpeforms GNMT by 0.5 BLEU.\", \"On WMT\\u201914 English to German translation we compare to the following prior work: Luong et al. (2015) is based on a four layer LSTM attention model, ByteNet (Kalchbrenner et al., 2016) propose a convolutional model based on characters without attention, with 30 layers in the encoder and 30 layers in the decoder, GNMT (Wu et al., 2016) represents the state of the art on this dataset and they use eight encoder LSTMs as well as eight decoder LSTMs, we quote their result for a word-based model, such as ours, as well as a word-piece model (Schuster & Nakajima, 2012).\", \"Most recent approaches also rely on bi-directional encoders to build representations of both past and future contexts (Bahdanau et al., 2014; Zhou et al., 2016; Wu et al., 2016).\", \"On WMT\\u201914 English-German we outperform the strong LSTM setup of Wu et al. (2016) by 0.5 BLEU and on WMT\\u201914 English-French we outperform the likelihood trained system of Wu et al. (2016) by 1.6 BLEU.\", \"We compare to results reported in Wu et al. (2016) who use Nvidia K80 GPUs which are essentially two K40s.\", \"Our model is trained with a simple token-level likelihood objective and we improve over GNMT in the same setting by 1.6 BLEU on average.\"]",
+      "is_influential": true
+    },
+    {
+      "source": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "target": "b60abe57bc195616063be10638c6437358c81d1e",
+      "type": "cites",
+      "contexts": "[\"Models with many layers often rely on shortcut or residual connections (He et al., 2015a; Zhou et al., 2016; Wu et al., 2016).\", \"In machine translation, this architecture has been demonstrated to outperform traditional phrase-based models by large margins (Sennrich et al., 2016b; Zhou et al., 2016; Wu et al., 2016; \\u00a7 2).\", \", 2015) compared to single step attention (Bahdanau et al., 2014; Luong et al., 2015; Zhou et al., 2016; Wu et al., 2016).\", \"This can be seen as attention with multiple \\u2019hops\\u2019 (Sukhbaatar et al., 2015) compared to single step attention (Bahdanau et al., 2014; Luong et al., 2015; Zhou et al., 2016; Wu et al., 2016).\", \"Most recent approaches also rely on bi-directional encoders to build representations of both past and future contexts (Bahdanau et al., 2014; Zhou et al., 2016; Wu et al., 2016).\"]",
+      "is_influential": true
+    },
+    {
+      "source": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "target": "03ee3c8994edfc3bca62b51fb4d4cc13595b5046",
+      "type": "cites",
+      "contexts": "[\"Similar to Shen et al. (2016) we use a source and target vocabulary of 30K words and require outputs to be at least 14 words long.\", \"Sequence to sequence learning has been successful in many tasks such as machine translation, speech recognition (Sutskever et al., 2014; Chorowski et al., 2015) and text summarization (Rush et al., 2015; Nallapati et al., 2016; Shen et al., 2016) amongst others.\", \", 2015) and text summarization (Rush et al., 2015; Nallapati et al., 2016; Shen et al., 2016) amongst others.\", \"RNN MLE (Shen et al., 2016) 24 Aside from increasing the depth of the networks, we can also change the kernel width.\", \"The current best models on this task are recurrent neural networks which either optimize the evaluation metric (Shen et al., 2016) or address specific problems of summarization such as avoiding repeated generations (Suzuki & Nagata, 2017).\", \"The current best models on this task are recurrent neural networks which either optimize the evaluation metric (Shen et al., 2016) or address speci\\ufb01c problems of summarization such as avoiding repeated generations (Suzuki & Nagata, 2017).\", \"DUC-2004 Gigaword RG-1 (R) RG-2 (R) RG-L (R) RG-1 (F) RG-2 (F) RG-L (F) RNN MLE (Shen et al., 2016) 24.\", \"Table 6 shows that our likelhood trained model outperforms the likelihood trained model (RNN MLE) of Shen et al. (2016) and is not far behind the best models on this task which bene\\ufb01t from task-speci\\ufb01c optimization and model structure.\"]",
+      "is_influential": true
+    },
+    {
+      "source": "2401865",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "authored"
+    },
+    {
+      "source": "2325985",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "authored"
+    },
+    {
+      "source": "2325985",
+      "target": "88caa4a0253a8b0076176745ebc072864eab66e1",
+      "type": "authored"
+    },
+    {
+      "source": "2529182",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "authored"
+    },
+    {
+      "source": "2529182",
+      "target": "88caa4a0253a8b0076176745ebc072864eab66e1",
+      "type": "authored"
+    },
+    {
+      "source": "13759615",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "authored"
+    },
+    {
+      "source": "2921469",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "authored"
+    },
+    {
+      "source": "2921469",
+      "target": "88caa4a0253a8b0076176745ebc072864eab66e1",
+      "type": "authored"
+    },
+    {
+      "source": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "target": "5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+      "type": "cites",
+      "contexts": "[\"As a baseline for our investigation of active memory models, we will use the Neural GPU model from [12], depicted in Figure 3, and defined as follows.\", \"A solution to this problem, already proposed in the recent literature (for instance, the Neural GPU from [12]), is to allow the model to access and change all its memory at each decoding step.\", \"The Neural GPUs [12] demonstrated that active memory yields superior results on algorithmic tasks.\", \"But what about non-image models? The Neural GPUs [12] demonstrated that active memory yields superior results on algorithmic tasks.\", \"Let us focus on the convolutional GRU, which we define in the same way as in [12], namely: CGRU(s) = u s+ (1\\u2212 u) tanh(U \\u2217 (r s) +B), where u = \\u03c3(U \\u2032 \\u2217 s+B\\u2032) and r = \\u03c3(U \\u2032\\u2032 \\u2217 s+B\\u2032\\u2032).\", \"If only a single attention mechanism is present, the model will have a hard time learning this task and will not generalize properly, as was demonstrated in [12, 13].\"]",
+      "is_influential": true
+    },
+    {
+      "source": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "target": "5b791cd374c7109693aaddee2c12d659ae4e3ec0",
+      "type": "cites",
+      "contexts": "[\"The experiments from [22] are only performed on a very small dataset of 44K short sentences.\", \"Another recently introduced model, the Grid LSTM [22], might look less related to active memory, as it does not use convolutions at all.\", \"Therefore, in the same spirit as LSTM gates [3] and GRU gates [19] improve over pure RNNs, one can introduce convolutional LSTM and GRU operators.\", \"This model is identical as the one in [7], except that is uses GRU cells instead of LSTM cells.\", \"But in fact it is to a large extend an active memory model \\u2013 the memory is on the diagonal of the grid of the running LSTM cells.\", \"In earlier works, such dependence (and training with teacher forcing) was always used in LSTM and GRU models, but very rarely in other kinds models.\", \"This is almost 1000 times smaller than the dataset we are experimenting with and makes is unclear whether Grid LSTMs can be applied to large-scale real-world tasks.\", \"In particular, sequence-to-sequence recurrent neural networks (RNNs) with long short-term memory (LSTM) cells [3] have proven especially successful at natural language processing (NLP) tasks, including machine translation [4, 5, 6].\", \"They use convolutional LSTMs, an architecture similar to CGRU, and have recently been used for weather prediction [23] and image compression [24], in both cases surpassing the state-of-the-art.\"]",
+      "is_influential": true
+    },
+    {
+      "source": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "target": "4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "type": "cites",
+      "contexts": "[\"In the extreme case, also known as hard attention [8], one of the memory elements is selected and the selection is trained using the REINFORCE algorithm (since this is not differentiable) [11].\", \"In image processing, in addition to the captioning [8] and generative models [16, 17] that we mentioned before, there are several other active memory models.\", \"Image models can benefit from attention too; for instance, image captioning models can focus on the relevant parts of the image when describing it [8]; generative models for images yield especially good results with attention, as was demonstrated by the DRAW model [9], where the network focuses on a part of the\"]",
+      "is_influential": true
+    },
+    {
+      "source": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "target": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "type": "cites",
+      "contexts": "[\"This model is identical as the one in [7], except that is uses GRU cells instead of LSTM cells.\", \"In addition to the main large-scale translation task, we tested the Extended Neural GPU on English constituency parsing, the same task as in [7].\", \"This clearly manifests itself in the degradation of translation quality on longer sentences (see Figure 6) and hurts even more when there is less training data [7].\", \"3 reported in [7], but we didn\\u2019t use any of their optimizations (no early stopping, no POS-tag substitution, no special tuning).\"]",
+      "is_influential": true
+    },
+    {
+      "source": "1751569",
+      "target": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "type": "authored"
+    },
+    {
+      "source": "48607963",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "144927151",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "2545358",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "2827616",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "144739074",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "3153147",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "2048712",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "145144022",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "145312180",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "113439369",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "2367620",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "145825976",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "145657834",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "2109059862",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "2776283",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "2739610",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "1765329",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "1754386",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "144077726",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "1753079661",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "2056800684",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "49337181",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "39660914",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "2119125158",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "2909504",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "29951847",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "1689108",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "1689108",
+      "target": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "type": "authored"
+    },
+    {
+      "source": "32131713",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "48342565",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "49959210",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+      "type": "authored"
+    },
+    {
+      "source": "1745899",
+      "target": "7345843e87c81e24e42264859b214d26042f8d51",
+      "type": "authored"
+    },
+    {
+      "source": "3376845",
+      "target": "7345843e87c81e24e42264859b214d26042f8d51",
+      "type": "authored"
+    },
+    {
+      "source": "143668305",
+      "target": "7345843e87c81e24e42264859b214d26042f8d51",
+      "type": "authored"
+    },
+    {
+      "source": "144365875",
+      "target": "7345843e87c81e24e42264859b214d26042f8d51",
+      "type": "authored"
+    },
+    {
+      "source": "2154627738",
+      "target": "7c69a7061e1ec610152722e330db14c260abaf98",
+      "type": "authored"
+    },
+    {
+      "source": "145517354",
+      "target": "7c69a7061e1ec610152722e330db14c260abaf98",
+      "type": "authored"
+    },
+    {
+      "source": "2557150",
+      "target": "7c69a7061e1ec610152722e330db14c260abaf98",
+      "type": "authored"
+    },
+    {
+      "source": "2264902313",
+      "target": "7c69a7061e1ec610152722e330db14c260abaf98",
+      "type": "authored"
+    },
+    {
+      "source": "2500712",
+      "target": "7c69a7061e1ec610152722e330db14c260abaf98",
+      "type": "authored"
+    },
+    {
+      "source": "2283328270",
+      "target": "7c69a7061e1ec610152722e330db14c260abaf98",
+      "type": "authored"
+    },
+    {
+      "source": "2272308520",
+      "target": "5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "type": "authored"
+    },
+    {
+      "source": "2272279615",
+      "target": "5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "type": "authored"
+    },
+    {
+      "source": "2167998592",
+      "target": "5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "type": "authored"
+    },
+    {
+      "source": "2272427148",
+      "target": "5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "type": "authored"
+    },
+    {
+      "source": "2272916948",
+      "target": "5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "type": "authored"
+    },
+    {
+      "source": "2272331553",
+      "target": "5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "type": "authored"
+    },
+    {
+      "source": "2271453774",
+      "target": "5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "type": "authored"
+    },
+    {
+      "source": "2266139832",
+      "target": "5b5faef0f6ac23a9c2e25f9b841f6f950ae2b3ae",
+      "type": "authored"
+    },
+    {
+      "source": "2261253070",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "authored"
+    },
+    {
+      "source": "40214487",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "authored"
+    },
+    {
+      "source": "40214487",
+      "target": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "authored"
+    },
+    {
+      "source": "2054400422",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "authored"
+    },
+    {
+      "source": "2054400422",
+      "target": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "authored"
+    },
+    {
+      "source": "2244260994",
+      "target": "eba5a1b950abfc16958d937511a3071bbd3f5be9",
+      "type": "authored"
+    },
+    {
+      "source": "2153475884",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2143347853",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2154759662",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2202532211",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2209018630",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2256925715",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2249768498",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2157949237",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2000781357",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2152508056",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2242514788",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2153397881",
+      "target": "0874e1d2b98a54a0f0034e00bb080ad2335da721",
+      "type": "authored"
+    },
+    {
+      "source": "2112700478",
+      "target": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "authored"
+    },
+    {
+      "source": "2109091209",
+      "target": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "authored"
+    },
+    {
+      "source": "2108029549",
+      "target": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "authored"
+    },
+    {
+      "source": "2184837813",
+      "target": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "authored"
+    },
+    {
+      "source": "144061555",
+      "target": "413f18f068a3fc1311f82658fe4f606a2aa26218",
+      "type": "authored"
+    },
+    {
+      "source": "2292660409",
+      "target": "b2b41dac933cceed1faf3e27e335c3ef8e2908ef",
+      "type": "authored"
+    },
+    {
+      "source": "2292680169",
+      "target": "b2b41dac933cceed1faf3e27e335c3ef8e2908ef",
+      "type": "authored"
+    },
+    {
+      "source": "2292681020",
+      "target": "b2b41dac933cceed1faf3e27e335c3ef8e2908ef",
+      "type": "authored"
+    },
+    {
+      "source": "2257974085",
+      "target": "b2b41dac933cceed1faf3e27e335c3ef8e2908ef",
+      "type": "authored"
+    },
+    {
+      "source": "2291991362",
+      "target": "b2b41dac933cceed1faf3e27e335c3ef8e2908ef",
+      "type": "authored"
+    },
+    {
+      "source": "2292672647",
+      "target": "b2b41dac933cceed1faf3e27e335c3ef8e2908ef",
+      "type": "authored"
+    },
+    {
+      "source": "2292883013",
+      "target": "b2b41dac933cceed1faf3e27e335c3ef8e2908ef",
+      "type": "authored"
+    },
+    {
+      "source": "2243437545",
+      "target": "a6f2f252c88983965f60dfa8325afcd2eed03eb1",
+      "type": "authored"
+    },
+    {
+      "source": "2243298334",
+      "target": "a6f2f252c88983965f60dfa8325afcd2eed03eb1",
+      "type": "authored"
+    },
+    {
+      "source": "2243298334",
+      "target": "05aa3f348b3a4237907ef4615dcaad851e88262a",
+      "type": "authored"
+    },
+    {
+      "source": "2216447644",
+      "target": "a6f2f252c88983965f60dfa8325afcd2eed03eb1",
+      "type": "authored"
+    },
+    {
+      "source": "2216447644",
+      "target": "05aa3f348b3a4237907ef4615dcaad851e88262a",
+      "type": "authored"
+    },
+    {
+      "source": "48831702",
+      "target": "a6f2f252c88983965f60dfa8325afcd2eed03eb1",
+      "type": "authored"
+    },
+    {
+      "source": "48831702",
+      "target": "05aa3f348b3a4237907ef4615dcaad851e88262a",
+      "type": "authored"
+    },
+    {
+      "source": "2109452502",
+      "target": "05aa3f348b3a4237907ef4615dcaad851e88262a",
+      "type": "authored"
+    },
+    {
+      "source": "2108960018",
+      "target": "000a3aabf022728020bdbf32a132112a48ad57fe",
+      "type": "authored"
+    },
+    {
+      "source": "2189877362",
+      "target": "000a3aabf022728020bdbf32a132112a48ad57fe",
+      "type": "authored"
+    },
+    {
+      "source": "46759532",
+      "target": "000a3aabf022728020bdbf32a132112a48ad57fe",
+      "type": "authored"
+    },
+    {
+      "source": "37756048",
+      "target": "000a3aabf022728020bdbf32a132112a48ad57fe",
+      "type": "authored"
+    },
+    {
+      "source": "2210927292",
+      "target": "84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "type": "authored"
+    },
+    {
+      "source": "51046120",
+      "target": "84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "type": "authored"
+    },
+    {
+      "source": "12676114",
+      "target": "84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "type": "authored"
+    },
+    {
+      "source": "144619020",
+      "target": "84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "type": "authored"
+    },
+    {
+      "source": "145258783",
+      "target": "84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "type": "authored"
+    },
+    {
+      "source": "2049680571",
+      "target": "84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "type": "authored"
+    },
+    {
+      "source": "51064932",
+      "target": "84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "type": "authored"
+    },
+    {
+      "source": "2970085",
+      "target": "84cca73c872ed26075e1230b17056b3408cbf4b0",
+      "type": "authored"
+    },
+    {
+      "source": "2293174982",
+      "target": "10a6edd78e84edfb193bc10bad4f42378c89c374",
+      "type": "authored"
+    },
+    {
+      "source": "2295357065",
+      "target": "10a6edd78e84edfb193bc10bad4f42378c89c374",
+      "type": "authored"
+    },
+    {
+      "source": "1391221817",
+      "target": "10a6edd78e84edfb193bc10bad4f42378c89c374",
+      "type": "authored"
+    },
+    {
+      "source": "2294810287",
+      "target": "10a6edd78e84edfb193bc10bad4f42378c89c374",
+      "type": "authored"
+    },
+    {
+      "source": "2264462200",
+      "target": "10a6edd78e84edfb193bc10bad4f42378c89c374",
+      "type": "authored"
+    },
+    {
+      "source": "1995670243",
+      "target": "f5a1e0b59c53290409119444a434e55566f89101",
+      "type": "authored"
+    },
+    {
+      "source": "2136961838",
+      "target": "f5a1e0b59c53290409119444a434e55566f89101",
+      "type": "authored"
+    },
+    {
+      "source": "2283213205",
+      "target": "f5a1e0b59c53290409119444a434e55566f89101",
+      "type": "authored"
+    },
+    {
+      "source": "2283350129",
+      "target": "f5a1e0b59c53290409119444a434e55566f89101",
+      "type": "authored"
+    },
+    {
+      "source": "2283167283",
+      "target": "f5a1e0b59c53290409119444a434e55566f89101",
+      "type": "authored"
+    },
+    {
+      "source": "2283166599",
+      "target": "f5a1e0b59c53290409119444a434e55566f89101",
+      "type": "authored"
+    },
+    {
+      "source": "2141361957",
+      "target": "a599d52cae8e9df2ca641f441691c8f2199bdfe0",
+      "type": "authored"
+    },
+    {
+      "source": "2291886356",
+      "target": "a599d52cae8e9df2ca641f441691c8f2199bdfe0",
+      "type": "authored"
+    },
+    {
+      "source": "2783094",
+      "target": "a599d52cae8e9df2ca641f441691c8f2199bdfe0",
+      "type": "authored"
+    },
+    {
+      "source": "2110616123",
+      "target": "a599d52cae8e9df2ca641f441691c8f2199bdfe0",
+      "type": "authored"
+    },
+    {
+      "source": "2239964615",
+      "target": "a599d52cae8e9df2ca641f441691c8f2199bdfe0",
+      "type": "authored"
+    },
+    {
+      "source": "2256807035",
+      "target": "a599d52cae8e9df2ca641f441691c8f2199bdfe0",
+      "type": "authored"
+    },
+    {
+      "source": "1411370729",
+      "target": "ccd8e6ebaba5c1edf78ae209dbb9c1b9f262d24b",
+      "type": "authored"
+    },
+    {
+      "source": "40538943",
+      "target": "ccd8e6ebaba5c1edf78ae209dbb9c1b9f262d24b",
+      "type": "authored"
+    },
+    {
+      "source": "2115622662",
+      "target": "ccd8e6ebaba5c1edf78ae209dbb9c1b9f262d24b",
+      "type": "authored"
+    },
+    {
+      "source": "2088588647",
+      "target": "ccd8e6ebaba5c1edf78ae209dbb9c1b9f262d24b",
+      "type": "authored"
+    },
+    {
+      "source": "2166597539",
+      "target": "ccd8e6ebaba5c1edf78ae209dbb9c1b9f262d24b",
+      "type": "authored"
+    },
+    {
+      "source": "50771379",
+      "target": "ccd8e6ebaba5c1edf78ae209dbb9c1b9f262d24b",
+      "type": "authored"
+    },
+    {
+      "source": "3078465",
+      "target": "ccd8e6ebaba5c1edf78ae209dbb9c1b9f262d24b",
+      "type": "authored"
+    },
+    {
+      "source": "29836894",
+      "target": "848a049060f1228fb4428c20841dafa424390d81",
+      "type": "authored"
+    },
+    {
+      "source": "100833170",
+      "target": "848a049060f1228fb4428c20841dafa424390d81",
+      "type": "authored"
+    },
+    {
+      "source": "2256029669",
+      "target": "dda9d5ae72ccabcbbe7bcae39d7d0083b1e7f950",
+      "type": "authored"
+    },
+    {
+      "source": "73543637",
+      "target": "7eddaf7b7a264ff50f241b39782283612a21b3f3",
+      "type": "authored"
+    },
+    {
+      "source": "2254142473",
+      "target": "7eddaf7b7a264ff50f241b39782283612a21b3f3",
+      "type": "authored"
+    },
+    {
+      "source": "1741861",
+      "target": "7eddaf7b7a264ff50f241b39782283612a21b3f3",
+      "type": "authored"
+    },
+    {
+      "source": "2254591937",
+      "target": "7eddaf7b7a264ff50f241b39782283612a21b3f3",
+      "type": "authored"
+    },
+    {
+      "source": "2118273929",
+      "target": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "authored"
+    },
+    {
+      "source": "2283310452",
+      "target": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "authored"
+    },
+    {
+      "source": "2141688991",
+      "target": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "authored"
+    },
+    {
+      "source": "2283132148",
+      "target": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "authored"
+    },
+    {
+      "source": "2199110414",
+      "target": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "authored"
+    },
+    {
+      "source": "2282602010",
+      "target": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "authored"
+    },
+    {
+      "source": "2237415582",
+      "target": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "authored"
+    },
+    {
+      "source": "2254309552",
+      "target": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "authored"
+    },
+    {
+      "source": "2254295524",
+      "target": "82f4507fb0daaa41fbd427976c77fe27717aaf89",
+      "type": "authored"
+    },
+    {
+      "source": "2143361521",
+      "target": "20486e25b91fb166dcf6a0bc483382cb531f6e45",
+      "type": "authored"
+    },
+    {
+      "source": "2188861172",
+      "target": "20486e25b91fb166dcf6a0bc483382cb531f6e45",
+      "type": "authored"
+    },
+    {
+      "source": "2154990462",
+      "target": "20486e25b91fb166dcf6a0bc483382cb531f6e45",
+      "type": "authored"
+    },
+    {
+      "source": "2108729094",
+      "target": "20486e25b91fb166dcf6a0bc483382cb531f6e45",
+      "type": "authored"
+    },
+    {
+      "source": "41072174",
+      "target": "20486e25b91fb166dcf6a0bc483382cb531f6e45",
+      "type": "authored"
+    },
+    {
+      "source": "145720325",
+      "target": "20486e25b91fb166dcf6a0bc483382cb531f6e45",
+      "type": "authored"
+    },
+    {
+      "source": "2290130444",
+      "target": "b78d8182e9bc67b506f2caf9c415a20c8bff7a30",
+      "type": "authored"
+    },
+    {
+      "source": "48324368",
+      "target": "b78d8182e9bc67b506f2caf9c415a20c8bff7a30",
+      "type": "authored"
+    },
+    {
+      "source": "2237246577",
+      "target": "b78d8182e9bc67b506f2caf9c415a20c8bff7a30",
+      "type": "authored"
+    },
+    {
+      "source": "2269387554",
+      "target": "b78d8182e9bc67b506f2caf9c415a20c8bff7a30",
+      "type": "authored"
+    },
+    {
+      "source": "79298694",
+      "target": "42b0d3e1208063531702b0303b2df637449e77f0",
+      "type": "authored"
+    },
+    {
+      "source": "9393382",
+      "target": "42b0d3e1208063531702b0303b2df637449e77f0",
+      "type": "authored"
+    },
+    {
+      "source": "2146342045",
+      "target": "42b0d3e1208063531702b0303b2df637449e77f0",
+      "type": "authored"
+    },
+    {
+      "source": "2269773604",
+      "target": "42b0d3e1208063531702b0303b2df637449e77f0",
+      "type": "authored"
+    },
+    {
+      "source": "2269750042",
+      "target": "42b0d3e1208063531702b0303b2df637449e77f0",
+      "type": "authored"
+    },
+    {
+      "source": "30620279",
+      "target": "65b6aa3def17b2045ad3b1d0d94ca69621d5ed2f",
+      "type": "authored"
+    },
+    {
+      "source": "2239073395",
+      "target": "65b6aa3def17b2045ad3b1d0d94ca69621d5ed2f",
+      "type": "authored"
+    },
+    {
+      "source": "2278807147",
+      "target": "65b6aa3def17b2045ad3b1d0d94ca69621d5ed2f",
+      "type": "authored"
+    },
+    {
+      "source": "2278803244",
+      "target": "65b6aa3def17b2045ad3b1d0d94ca69621d5ed2f",
+      "type": "authored"
+    },
+    {
+      "source": "1379982213",
+      "target": "65b6aa3def17b2045ad3b1d0d94ca69621d5ed2f",
+      "type": "authored"
+    },
+    {
+      "source": "2117163",
+      "target": "65b6aa3def17b2045ad3b1d0d94ca69621d5ed2f",
+      "type": "authored"
+    },
+    {
+      "source": "2243235837",
+      "target": "65b6aa3def17b2045ad3b1d0d94ca69621d5ed2f",
+      "type": "authored"
+    },
+    {
+      "source": "2244530558",
+      "target": "455c1b51dab3e524705e8e774d97c9efd173c08a",
+      "type": "authored"
+    },
+    {
+      "source": "2244592691",
+      "target": "455c1b51dab3e524705e8e774d97c9efd173c08a",
+      "type": "authored"
+    },
+    {
+      "source": "2309698",
+      "target": "455c1b51dab3e524705e8e774d97c9efd173c08a",
+      "type": "authored"
+    },
+    {
+      "source": "144180338",
+      "target": "455c1b51dab3e524705e8e774d97c9efd173c08a",
+      "type": "authored"
+    },
+    {
+      "source": "c4b96526d1e23baa98a2bc9805d3f47a35fd6119",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "cites",
+      "contexts": "[\"However, in 2017, Gehring et al. [25] introduced a sequence-to sequence fully convolutional neural network (F-Conv).\", \"Finally for the fully convolutional model inspired from [25], a dropout rate of 0.1 was applied.\"]",
+      "is_influential": true
+    },
+    {
+      "source": "49304180",
+      "target": "c4b96526d1e23baa98a2bc9805d3f47a35fd6119",
+      "type": "authored"
+    },
+    {
+      "source": "1817556",
+      "target": "c4b96526d1e23baa98a2bc9805d3f47a35fd6119",
+      "type": "authored"
+    },
+    {
+      "source": "3094465",
+      "target": "c4b96526d1e23baa98a2bc9805d3f47a35fd6119",
+      "type": "authored"
+    },
+    {
+      "source": "94db12288350f71060e2cf5291df06373ccd28d6",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2243962815",
+      "target": "94db12288350f71060e2cf5291df06373ccd28d6",
+      "type": "authored"
+    },
+    {
+      "source": "2345304919",
+      "target": "94db12288350f71060e2cf5291df06373ccd28d6",
+      "type": "authored"
+    },
+    {
+      "source": "2283199388",
+      "target": "94db12288350f71060e2cf5291df06373ccd28d6",
+      "type": "authored"
+    },
+    {
+      "source": "2185393208",
+      "target": "94db12288350f71060e2cf5291df06373ccd28d6",
+      "type": "authored"
+    },
+    {
+      "source": "100591164",
+      "target": "94db12288350f71060e2cf5291df06373ccd28d6",
+      "type": "authored"
+    },
+    {
+      "source": "2146003250",
+      "target": "94db12288350f71060e2cf5291df06373ccd28d6",
+      "type": "authored"
+    },
+    {
+      "source": "797c00b7f8a4b3822a02aba0d9d7962888bfa85c",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "2302356386",
+      "target": "797c00b7f8a4b3822a02aba0d9d7962888bfa85c",
+      "type": "authored"
+    },
+    {
+      "source": "2197146548",
+      "target": "797c00b7f8a4b3822a02aba0d9d7962888bfa85c",
+      "type": "authored"
+    },
+    {
+      "source": "23fcd0f77ef7f98c9b2475f23e5f498f545b21bd",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "cites",
+      "contexts": "[\"CNN models with gated linear units (Dauphin et al., 2017) and residual connections (He et al., 2016a) achieved impressive results over Long-Short Term Memory (LSTM) (Hochre-iter and Schmidhuber, 1997) in seq2seq modeling (Gehring et al., 2017).\"]",
+      "is_influential": false
+    },
+    {
+      "source": "2345923190",
+      "target": "23fcd0f77ef7f98c9b2475f23e5f498f545b21bd",
+      "type": "authored"
+    },
+    {
+      "source": "17814101",
+      "target": "23fcd0f77ef7f98c9b2475f23e5f498f545b21bd",
+      "type": "authored"
+    },
+    {
+      "source": "2300103092",
+      "target": "23fcd0f77ef7f98c9b2475f23e5f498f545b21bd",
+      "type": "authored"
+    },
+    {
+      "source": "2345924723",
+      "target": "23fcd0f77ef7f98c9b2475f23e5f498f545b21bd",
+      "type": "authored"
+    },
+    {
+      "source": "1403620579",
+      "target": "23fcd0f77ef7f98c9b2475f23e5f498f545b21bd",
+      "type": "authored"
+    },
+    {
+      "source": "d93b0327fb206afb85cb1b4b5aa3815cf1f420a1",
+      "target": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+      "type": "cites",
+      "contexts": "[\"Again, Encoder-decoder combinations were explored [65], [17], [8], [25] for generative learning, but bottlenecks persisted in this domain.\"]",
+      "is_influential": false
+    },
+    {
+      "source": "2345702359",
+      "target": "d93b0327fb206afb85cb1b4b5aa3815cf1f420a1",
+      "type": "authored"
+    },
+    {
+      "source": "2346116938",
+      "target": "d93b0327fb206afb85cb1b4b5aa3815cf1f420a1",
+      "type": "authored"
+    },
+    {
+      "source": "2346118356",
+      "target": "d93b0327fb206afb85cb1b4b5aa3815cf1f420a1",
+      "type": "authored"
+    },
+    {
+      "source": "2346118280",
+      "target": "d93b0327fb206afb85cb1b4b5aa3815cf1f420a1",
+      "type": "authored"
+    },
+    {
+      "source": "2346117930",
+      "target": "d93b0327fb206afb85cb1b4b5aa3815cf1f420a1",
+      "type": "authored"
+    },
+    {
+      "source": "2346121450",
+      "target": "d93b0327fb206afb85cb1b4b5aa3815cf1f420a1",
+      "type": "authored"
+    },
+    {
+      "source": "144270981",
+      "target": "88caa4a0253a8b0076176745ebc072864eab66e1",
+      "type": "authored"
+    },
+    {
+      "source": "2583391",
+      "target": "98445f4172659ec5e891e031d8202c102135c644",
+      "type": "authored"
+    },
+    {
+      "source": "2583391",
+      "target": "5b791cd374c7109693aaddee2c12d659ae4e3ec0",
+      "type": "authored"
+    },
+    {
+      "source": "2311318",
+      "target": "98445f4172659ec5e891e031d8202c102135c644",
+      "type": "authored"
+    },
+    {
+      "source": "34838386",
+      "target": "98445f4172659ec5e891e031d8202c102135c644",
+      "type": "authored"
+    },
+    {
+      "source": "3422336",
+      "target": "98445f4172659ec5e891e031d8202c102135c644",
+      "type": "authored"
+    },
+    {
+      "source": "1753223",
+      "target": "98445f4172659ec5e891e031d8202c102135c644",
+      "type": "authored"
+    },
+    {
+      "source": "1753223",
+      "target": "5b791cd374c7109693aaddee2c12d659ae4e3ec0",
+      "type": "authored"
+    },
+    {
+      "source": "2645384",
+      "target": "98445f4172659ec5e891e031d8202c102135c644",
+      "type": "authored"
+    },
+    {
+      "source": "49178343",
+      "target": "b60abe57bc195616063be10638c6437358c81d1e",
+      "type": "authored"
+    },
+    {
+      "source": "2112866139",
+      "target": "b60abe57bc195616063be10638c6437358c81d1e",
+      "type": "authored"
+    },
+    {
+      "source": "2108084524",
+      "target": "b60abe57bc195616063be10638c6437358c81d1e",
+      "type": "authored"
+    },
+    {
+      "source": "144326610",
+      "target": "b60abe57bc195616063be10638c6437358c81d1e",
+      "type": "authored"
+    },
+    {
+      "source": "145738410",
+      "target": "b60abe57bc195616063be10638c6437358c81d1e",
+      "type": "authored"
+    },
+    {
+      "source": "3393818",
+      "target": "03ee3c8994edfc3bca62b51fb4d4cc13595b5046",
+      "type": "authored"
+    },
+    {
+      "source": "2589625",
+      "target": "03ee3c8994edfc3bca62b51fb4d4cc13595b5046",
+      "type": "authored"
+    },
+    {
+      "source": "2110263406",
+      "target": "03ee3c8994edfc3bca62b51fb4d4cc13595b5046",
+      "type": "authored"
+    },
+    {
+      "source": "49293587",
+      "target": "03ee3c8994edfc3bca62b51fb4d4cc13595b5046",
+      "type": "authored"
+    },
+    {
+      "source": "1753344",
+      "target": "03ee3c8994edfc3bca62b51fb4d4cc13595b5046",
+      "type": "authored"
+    },
+    {
+      "source": "858bf51cb8275935e1bb50e2579a59413cd88869",
+      "target": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "type": "cites",
+      "contexts": "[\"Modeling hidden layers of neural networks to be discrete 38 in addition to hard attention modeling has shown bene\\ufb01ts in allowing improved reasoning from the discrete hidden representations.\", \"38 Furthermore, it appears that our assumption that through capturing the complete context of the data (in particular the time aspect of activities for our problems) allows the hard attention layer with semantic hashing to truly highlight the remaining noise in the data either through eliminating\\u2026\", \"38 Hard attention mechanism was successfully employed using Gumbel-softmax technique on several computer vision tasks 36,37 by forcing attention weights of the feature maps to be zero selecting only a few or only a single value from the entire feature map.\", \"From h n two vectors are computed: , where ^ r is the hard-sigmoid function 38 : with r ( x ) \\u2018\\u2018stretched\\u2019\\u2019 to the ( b , c ) interval, with b < 0 and c > 1 (i.e., b = (cid:4) 0 : 1 and c = 1 : 1).\"]",
+      "is_influential": true
+    },
+    {
+      "source": "2486589",
+      "target": "858bf51cb8275935e1bb50e2579a59413cd88869",
+      "type": "authored"
+    },
+    {
+      "source": "50371776",
+      "target": "858bf51cb8275935e1bb50e2579a59413cd88869",
+      "type": "authored"
+    },
+    {
+      "source": "144944214",
+      "target": "858bf51cb8275935e1bb50e2579a59413cd88869",
+      "type": "authored"
+    },
+    {
+      "source": "7b0c42e4076104e8ffa4981350af7019fe5447f1",
+      "target": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "type": "cites",
+      "contexts": "[\"The Neural GPU [Freivalds and Liepins, 2017] [Kaiser and Bengio, 2016] [Kaiser and Sutskever, 2015], which introduced an active-memory model, achieved impressive algorithmic results in [Kaiser and Sutskever, 2015], and also achieved impressive machine translation results in [Kaiser and Bengio, 2016].\", \"The authors of [Kaiser and Bengio, 2016] pointed out that an attention mechanism would likely struggle to solve a task which required a model to focus on multiple tokens at a given time-step.\", \", 2017] and active-memory [Kaiser and Bengio, 2016], in this paper we investigate the Transformer\\u2019s self-attention mechanism in comparison to a variety of active-memory mechanisms.\", \"The Neural GPU [Freivalds and Liepins, 2017] [Kaiser and Bengio, 2016] [Kaiser and Sutskever, 2015], which introduced an active-memory model, achieved impressive algorithmic results in [Kaiser and Sutskever, 2015], and also achieved impressive machine translation results in [Kaiser and Bengio,\\u2026\", \"In [Kaiser and Bengio, 2016],\\nthe authors used an active-memory system to translate English to French, and was capable of outperforming an RNN model, both with and without an attention mechanism.\", \"In this paper, we use the hard-sigmoid function [Kaiser and Bengio, 2016] to stabilize gradients, which is defined as:\\ny = max(0,min(1, 1.2 \\u2217 sigmoid(x)\\u2212 0.1))\", \"Motivated by the success of attention mechanism [Vaswani et al., 2017] and active-memory [Kaiser and Bengio, 2016], in this paper we investigate the Transformer\\u2019s self-attention mechanism in comparison to a variety of active-memory mechanisms.\", \"This would appear to vindicate the hypothesis stated by [Kaiser and Bengio, 2016], suggesting that the nature of the attention mechanism does indeed limit the effectiveness and accuracy of the model.\", \"In [Kaiser and Bengio, 2016], Figure 1: The active memory mechanism.\", \"\\u2026Neural GPU [Freivalds and Liepins, 2017] [Kaiser and Bengio, 2016] [Kaiser and Sutskever, 2015], which introduced an active-memory model, achieved impressive algorithmic results in [Kaiser and Sutskever, 2015], and also achieved impressive machine translation results in [Kaiser and Bengio, 2016].\", \"In this paper, we use the hard-sigmoid function [Kaiser and Bengio, 2016] to stabilize gradients, which is defined as:\"]",
+      "is_influential": true
+    },
+    {
+      "source": "118838347",
+      "target": "7b0c42e4076104e8ffa4981350af7019fe5447f1",
+      "type": "authored"
+    },
+    {
+      "source": "46702864",
+      "target": "7b0c42e4076104e8ffa4981350af7019fe5447f1",
+      "type": "authored"
+    },
+    {
+      "source": "c2d8b10fd6d411afbbdc017ef9ca0e947e4ead3a",
+      "target": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "type": "cites",
+      "contexts": "[\"However, their token-pair based attention requires O ( n 2 ) memory consumption within the GPUs, where n denotes the length of the document.\", \"Across all experiments we only time GPU eclipsed time (i.e. forward and backward passes through the networks) since CPU bounded operations are not our focuses.\", \"Figure 8 shows the F1 score on the development partition of the SQuAD dataset for the various algorithms, Conv BiDAF, Conv DrQA, BiDAF, DrQA, and R-NET (Wang et al., 2017) as a function of inference GPU time.\", \"There has been a lot of effort in applying ConvNet architectures to reduce the sequential computation in sequence to sequence models such as Extended Neural GPU(Kaiser & Bengio, 2016), ByteNet (Kalchbrenner et al., 2016) and ConvS2S Gehring et al. (2017).\", \"The models are trained with either a NVIDIA Tesla P100 GPU or a NVIDIA Titan X (Pascal) GPU, but the latter is used exclusively for all timing experiments.\", \"Because of the GPU memory constraint, the model is trained with the documents shorter than or equal to 400 word tokens as what the authors did in the paper.\"]",
+      "is_influential": true
+    },
+    {
+      "source": "24277779",
+      "target": "c2d8b10fd6d411afbbdc017ef9ca0e947e4ead3a",
+      "type": "authored"
+    },
+    {
+      "source": "1914797",
+      "target": "c2d8b10fd6d411afbbdc017ef9ca0e947e4ead3a",
+      "type": "authored"
+    },
+    {
+      "source": "2116927",
+      "target": "c2d8b10fd6d411afbbdc017ef9ca0e947e4ead3a",
+      "type": "authored"
+    },
+    {
+      "source": "29983981",
+      "target": "c2d8b10fd6d411afbbdc017ef9ca0e947e4ead3a",
+      "type": "authored"
+    },
+    {
+      "source": "7446832",
+      "target": "c2d8b10fd6d411afbbdc017ef9ca0e947e4ead3a",
+      "type": "authored"
+    },
+    {
+      "source": "e62e0494084d2ce854b39cb118e5eabe1cb21a15",
+      "target": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+      "type": "cites",
+      "contexts": "[]",
+      "is_influential": false
+    },
+    {
+      "source": "47472462",
+      "target": "e62e0494084d2ce854b39cb118e5eabe1cb21a15",
+      "type": "authored"
+    },
+    {
+      "source": "2281344788",
+      "target": "e62e0494084d2ce854b39cb118e5eabe1cb21a15",
+      "type": "authored"
+    },
+    {
+      "source": "2281346435",
+      "target": "e62e0494084d2ce854b39cb118e5eabe1cb21a15",
+      "type": "authored"
+    },
+    {
+      "source": "2340228863",
+      "target": "e62e0494084d2ce854b39cb118e5eabe1cb21a15",
+      "type": "authored"
+    },
+    {
+      "source": "49244135",
+      "target": "e62e0494084d2ce854b39cb118e5eabe1cb21a15",
+      "type": "authored"
+    },
+    {
+      "source": "2287972484",
+      "target": "e62e0494084d2ce854b39cb118e5eabe1cb21a15",
+      "type": "authored"
+    },
+    {
+      "source": "1701686",
+      "target": "5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+      "type": "authored"
+    },
+    {
+      "source": "1701686",
+      "target": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "type": "authored"
+    },
+    {
+      "source": "1841008",
+      "target": "5b791cd374c7109693aaddee2c12d659ae4e3ec0",
+      "type": "authored"
+    },
+    {
+      "source": "2117101253",
+      "target": "4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "type": "authored"
+    },
+    {
+      "source": "2503659",
+      "target": "4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "type": "authored"
+    },
+    {
+      "source": "3450996",
+      "target": "4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "type": "authored"
+    },
+    {
+      "source": "1979489",
+      "target": "4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "type": "authored"
+    },
+    {
+      "source": "1760871",
+      "target": "4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "type": "authored"
+    },
+    {
+      "source": "145124475",
+      "target": "4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "type": "authored"
+    },
+    {
+      "source": "1804104",
+      "target": "4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "type": "authored"
+    },
+    {
+      "source": "1751762",
+      "target": "4d8f2d14af5991d4f0d050d22216825cac3157bd",
+      "type": "authored"
+    },
+    {
+      "source": "2060101052",
+      "target": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "type": "authored"
+    },
+    {
+      "source": "1754497",
+      "target": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "type": "authored"
+    },
+    {
+      "source": "1695689",
+      "target": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+      "type": "authored"
+    }
+  ]
+}

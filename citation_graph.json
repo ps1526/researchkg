@@ -1,1019 +1,894 @@
 {
   "nodes": [
     {
-      "id": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "id": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
       "type": "paper",
-      "title": "Attention is All you Need",
-      "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
-      "year": 2017,
-      "venue": "Neural Information Processing Systems",
-      "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776",
-      "citation_count": 116294,
-      "reference_count": 41,
-      "fields_of_study": "[\"Computer Science\"]",
+      "title": "An Introduction to Variational Autoencoders",
+      "abstract": "Variational autoencoders provide a principled framework for learning deep latent-variable models and corresponding inference models. In this work, we provide an introduction to variational autoencoders and some important extensions.",
+      "year": 2019,
+      "venue": "Found. Trends Mach. Learn.",
+      "url": "https://www.semanticscholar.org/paper/329b84a919bfd1771be5bd14fa81e7b3f74cc961",
+      "citation_count": 2110,
+      "reference_count": 148,
+      "fields_of_study": "[\"Computer Science\", \"Mathematics\"]",
+      "is_open_access": true,
+      "tldr": "This work provides an introduction to variational autoencoders and some important extensions, which provide a principled framework for learning deep latent-variable models and corresponding inference models.",
+      "open_access_pdf_url": "https://arxiv.org/pdf/1906.02691",
+      "open_access_status": "GREEN",
+      "external_id_mag": "2948978827",
+      "external_id_dblp": "journals/corr/abs-1906-02691",
+      "external_id_arxiv": "1906.02691",
+      "external_id_doi": "10.1561/2200000056",
+      "external_id_corpusid": 174802445,
+      "publication_date": "2019-06-06",
+      "journal_name": "Found. Trends Mach. Learn.",
+      "journal_volume": "12",
+      "journal_pages": "307-392"
+    },
+    {
+      "id": "1726807",
+      "type": "author",
+      "name": "Diederik P. Kingma"
+    },
+    {
+      "id": "1678311",
+      "type": "author",
+      "name": "M. Welling"
+    },
+    {
+      "id": "3c2b6f5498539cae79f6ba35952c68e5964f799a",
+      "type": "paper",
+      "title": "Deep evolving semi-supervised anomaly detection",
+      "abstract": "The aim of this paper is to formalise the task of continual semi-supervised anomaly detection (CSAD), with the aim of highlighting the importance of such a problem formulation which assumes as close to real-world conditions as possible. After an overview of the relevant definitions of continual semi-supervised learning, its components, anomaly detection extension, and the training protocols; the paper introduces a baseline model of a variational autoencoder (VAE) to work with semi-supervised data along with a continual learning method of deep generative replay with outlier rejection. The results show that such a use of extreme value theory (EVT) applied to anomaly detection can provide promising results even in comparison to an upper baseline of joint training. The results explore the effects of how much labelled and unlabelled data is present, of which class, and where it is located in the data stream. Outlier rejection shows promising initial results where it often surpasses a baseline method of Elastic Weight Consolidation (EWC). A baseline for CSAD is put forward along with the specific dataset setups used for reproducability and testability for other practitioners. Future research directions include other CSAD settings and further research into efficient continual hyperparameter tuning.",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/3c2b6f5498539cae79f6ba35952c68e5964f799a",
+      "citation_count": 0,
+      "reference_count": 52,
+      "fields_of_study": "[\"Computer Science\", \"Mathematics\"]",
       "is_open_access": false,
-      "tldr": "A new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely is proposed, which generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
-      "external_id_mag": "2963403868",
-      "external_id_dblp": "journals/corr/VaswaniSPUJGKP17",
-      "external_id_arxiv": "1706.03762",
-      "external_id_corpusid": 13756489,
-      "publication_date": "2017-06-12",
-      "journal_pages": "5998-6008"
+      "tldr": "The results show that such a use of extreme value theory (EVT) applied to anomaly detection can provide promising results even in comparison to an upper baseline of joint training.",
+      "external_id_dblp": "journals/corr/abs-2412-00860",
+      "external_id_arxiv": "2412.00860",
+      "external_id_doi": "10.48550/arXiv.2412.00860",
+      "external_id_corpusid": 274437337,
+      "publication_date": "2024-12-01",
+      "journal_name": "ArXiv",
+      "journal_volume": "abs/2412.00860"
     },
     {
-      "id": "40348417",
+      "id": "2333364447",
       "type": "author",
-      "name": "Ashish Vaswani"
+      "name": "Jack Belham"
     },
     {
-      "id": "1846258",
+      "id": "2333362862",
       "type": "author",
-      "name": "Noam M. Shazeer"
+      "name": "Aryan Bhosale"
     },
     {
-      "id": "3877127",
+      "id": "2333418209",
       "type": "author",
-      "name": "Niki Parmar"
+      "name": "Samrat Mukherjee"
     },
     {
-      "id": "39328010",
+      "id": "2333364327",
       "type": "author",
-      "name": "Jakob Uszkoreit"
+      "name": "Biplab Banerjee"
     },
     {
-      "id": "145024664",
+      "id": "2333362756",
       "type": "author",
-      "name": "Llion Jones"
+      "name": "Fabio Cuzzolin"
     },
     {
-      "id": "19177000",
-      "type": "author",
-      "name": "Aidan N. Gomez"
-    },
-    {
-      "id": "40527594",
-      "type": "author",
-      "name": "Lukasz Kaiser"
-    },
-    {
-      "id": "3443442",
-      "type": "author",
-      "name": "Illia Polosukhin"
-    },
-    {
-      "id": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "id": "9419c33662c4a2f793db43a5a70e5106bb51f703",
       "type": "paper",
-      "title": "MSAByNet: A multiscale subtraction attention network framework based on Bayesian loss for medical image segmentation",
+      "title": "Visible Light Communication Channel Modeling Using Variational Autoencoders with Real-World Data",
+      "abstract": "This paper explores the application of artificial neural networks in Visible Light Communication (VLC) technology, addressing the gap in channel modeling for light-emitting diodes (LEDs). Using a prototype emitter/receiver setup, we collected real-world data to train a Variational Autoencoder (VAE). The VAE simulates the VLC channel as a black box, capturing its behavior with high fidelity. Our results demonstrate that the VAE closely replicates the real VLC channel, with an average Error Vector Magnitude (EVM) difference of approximately 1% compared to actual measurements. These findings indicate that VAEs can effectively model VLC channels, providing accurate simulations that closely match real-world data.",
+      "year": 2024,
+      "venue": "2024 IEEE URUCON",
+      "url": "https://www.semanticscholar.org/paper/9419c33662c4a2f793db43a5a70e5106bb51f703",
+      "citation_count": 0,
+      "reference_count": 20,
+      "fields_of_study": "",
+      "is_open_access": false,
+      "tldr": "Findings indicate that VAEs can effectively model VLC channels, providing accurate simulations that closely match real-world data.",
+      "external_id_doi": "10.1109/URUCON63440.2024.10850424",
+      "external_id_corpusid": 276020595,
+      "publication_date": "2024-11-18",
+      "journal_name": "2024 IEEE URUCON",
+      "journal_pages": "1-5"
+    },
+    {
+      "id": "2240146011",
+      "type": "author",
+      "name": "Rodrigo Fuchs Miranda"
+    },
+    {
+      "id": "1740870",
+      "type": "author",
+      "name": "C. H. Barriquello"
+    },
+    {
+      "id": "3350404",
+      "type": "author",
+      "name": "V. A. Reguera"
+    },
+    {
+      "id": "5657b36c83506db3bdb62a63814b78b5e12f7c1c",
+      "type": "paper",
+      "title": "Reconstruction of neuromorphic dynamics from a single scalar time series using variational autoencoder and neural network map",
       "abstract": "",
-      "year": 2025,
-      "venue": "Biomedical Signal Processing and Control",
-      "url": "https://www.semanticscholar.org/paper/eba122f6ffcd430037ea753f47385126caebf5b1",
+      "year": 2024,
+      "venue": "Chaos, Solitons &amp; Fractals",
+      "url": "https://www.semanticscholar.org/paper/5657b36c83506db3bdb62a63814b78b5e12f7c1c",
       "citation_count": 0,
       "reference_count": 37,
+      "fields_of_study": "[\"Physics\", \"Computer Science\"]",
+      "is_open_access": true,
+      "tldr": "This paper examines the reconstruction of a family of dynamical systems with neuromorphic behavior using a single scalar time series using a model of a physiological neuron based on the Hodgkin-Huxley formalism to train a neural network that can operate as a discrete time dynamical system with one control parameter.",
+      "open_access_pdf_url": "http://arxiv.org/pdf/2411.07055",
+      "open_access_status": "GREEN",
+      "external_id_arxiv": "2411.07055",
+      "external_id_dblp": "journals/corr/abs-2411-07055",
+      "external_id_doi": "10.1016/j.chaos.2024.115818",
+      "external_id_corpusid": 273963090,
+      "publication_date": "2024-11-11",
+      "journal_name": "ArXiv",
+      "journal_volume": "abs/2411.07055"
+    },
+    {
+      "id": "2849554",
+      "type": "author",
+      "name": "P. V. Kuptsov"
+    },
+    {
+      "id": "2275397592",
+      "type": "author",
+      "name": "Nataliya V. Stankevich"
+    },
+    {
+      "id": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "type": "paper",
+      "title": "Textual Decomposition Then Sub-motion-space Scattering for Open-Vocabulary Motion Generation",
+      "abstract": "Text-to-motion generation is a crucial task in computer vision, which generates the target 3D motion by the given text. The existing annotated datasets are limited in scale, resulting in most existing methods overfitting to the small datasets and unable to generalize to the motions of the open domain. Some methods attempt to solve the open-vocabulary motion generation problem by aligning to the CLIP space or using the Pretrain-then-Finetuning paradigm. However, the current annotated dataset's limited scale only allows them to achieve mapping from sub-text-space to sub-motion-space, instead of mapping between full-text-space and full-motion-space (full mapping), which is the key to attaining open-vocabulary motion generation. To this end, this paper proposes to leverage the atomic motion (simple body part motions over a short time period) as an intermediate representation, and leverage two orderly coupled steps, i.e., Textual Decomposition and Sub-motion-space Scattering, to address the full mapping problem. For Textual Decomposition, we design a fine-grained description conversion algorithm, and combine it with the generalization ability of a large language model to convert any given motion text into atomic texts. Sub-motion-space Scattering learns the compositional process from atomic motions to the target motions, to make the learned sub-motion-space scattered to form the full-motion-space. For a given motion of the open domain, it transforms the extrapolation into interpolation and thereby significantly improves generalization. Our network, $DSO$-Net, combines textual $d$ecomposition and sub-motion-space $s$cattering to solve the $o$pen-vocabulary motion generation. Extensive experiments demonstrate that our DSO-Net achieves significant improvements over the state-of-the-art methods on open-vocabulary motion generation. Code is available at https://vankouf.github.io/DSONet/.",
+      "year": 2024,
+      "venue": "arXiv.org",
+      "url": "https://www.semanticscholar.org/paper/a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "citation_count": 0,
+      "reference_count": 42,
       "fields_of_study": "[\"Computer Science\"]",
       "is_open_access": false,
-      "tldr": "",
-      "external_id_dblp": "journals/bspc/ZhaoWCZTZTCT25",
-      "external_id_doi": "10.1016/j.bspc.2024.107393",
-      "external_id_corpusid": 275021943,
-      "publication_date": "2025-05-01",
-      "journal_name": "Biomed. Signal Process. Control.",
-      "journal_volume": "103",
-      "journal_pages": "107393"
+      "tldr": "This paper proposes to leverage the atomic motion as an intermediate representation, and leverage two orderly coupled steps, i.e., Textual Decomposition and Sub-motion-space Scattering, to address the full mapping problem of the open-vocabulary motion generation.",
+      "external_id_arxiv": "2411.04079",
+      "external_id_dblp": "journals/corr/abs-2411-04079",
+      "external_id_doi": "10.48550/arXiv.2411.04079",
+      "external_id_corpusid": 273850050,
+      "publication_date": "2024-11-06",
+      "journal_name": "ArXiv",
+      "journal_volume": "abs/2411.04079"
     },
     {
-      "id": "2261258970",
+      "id": "2318981947",
       "type": "author",
-      "name": "Longxuan Zhao"
+      "name": "Ke Fan"
     },
     {
-      "id": "2257008742",
+      "id": "2306831155",
       "type": "author",
-      "name": "Tao Wang"
+      "name": "Jiangning Zhang"
     },
     {
-      "id": "2232946813",
+      "id": "2294877670",
       "type": "author",
-      "name": "Yuanbin Chen"
+      "name": "Ran Yi"
     },
     {
-      "id": "2261251068",
+      "id": "6578956",
       "type": "author",
-      "name": "Xinlin Zhang"
+      "name": "Jing-yu Gong"
     },
     {
-      "id": "2261259483",
+      "id": "2628601",
       "type": "author",
-      "name": "Hui Tang"
+      "name": "Yabiao Wang"
     },
     {
-      "id": "2236703737",
+      "id": "2295687473",
       "type": "author",
-      "name": "Ruige Zong"
+      "name": "Yating Wang"
     },
     {
-      "id": "2261121285",
+      "id": "2302505492",
       "type": "author",
-      "name": "Tao Tan"
+      "name": "Xin Tan"
     },
     {
-      "id": "2337150125",
+      "id": "2238285797",
       "type": "author",
-      "name": "Shun Chen"
+      "name": "Chengjie Wang"
     },
     {
-      "id": "2284530727",
+      "id": "2293356664",
       "type": "author",
-      "name": "Tong Tong"
+      "name": "Lizhuang Ma"
     },
     {
-      "id": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "id": "38a2570ce6ded9bd492a1ff695f0b1dd7a841f00",
       "type": "paper",
-      "title": "Direction-guided network for retinal vessel segmentation in OCTA images",
+      "title": "Re-ACGAN: Structural damage identification with class-imbalance reweighted ACGAN for data augmentation",
       "abstract": "",
       "year": 2025,
-      "venue": "Biomedical Signal Processing and Control",
-      "url": "https://www.semanticscholar.org/paper/0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "venue": "Engineering structures",
+      "url": "https://www.semanticscholar.org/paper/38a2570ce6ded9bd492a1ff695f0b1dd7a841f00",
       "citation_count": 0,
-      "reference_count": 30,
-      "fields_of_study": "[\"Computer Science\"]",
+      "reference_count": 49,
+      "fields_of_study": "",
       "is_open_access": false,
       "tldr": "",
-      "external_id_dblp": "journals/bspc/LiZZSZ25",
-      "external_id_doi": "10.1016/j.bspc.2024.107455",
-      "external_id_corpusid": 275417915,
-      "publication_date": "2025-05-01",
-      "journal_name": "Biomed. Signal Process. Control.",
-      "journal_volume": "103",
-      "journal_pages": "107455"
+      "external_id_doi": "10.1016/j.engstruct.2025.119814",
+      "external_id_corpusid": 275978630,
+      "publication_date": "2025-04-01",
+      "journal_name": "Engineering Structures"
     },
     {
-      "id": "2339412438",
+      "id": "2183276540",
       "type": "author",
-      "name": "Zhenli Li"
+      "name": "Qingsong Xiong"
     },
     {
-      "id": "2108083657",
-      "type": "author",
-      "name": "Xinpeng Zhang"
-    },
-    {
-      "id": "2339501181",
-      "type": "author",
-      "name": "Meng Zhao"
-    },
-    {
-      "id": "2053741160",
-      "type": "author",
-      "name": "Fan Shi"
-    },
-    {
-      "id": "2339419387",
-      "type": "author",
-      "name": "Wei Zhou"
-    },
-    {
-      "id": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
-      "type": "paper",
-      "title": "LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation",
-      "abstract": "",
-      "year": 2025,
-      "venue": "Biomedical Signal Processing and Control",
-      "url": "https://www.semanticscholar.org/paper/6fb3893b9c8338d2d381eec4ea19e62467ceb557",
-      "citation_count": 0,
-      "reference_count": 36,
-      "fields_of_study": "[\"Computer Science\"]",
-      "is_open_access": false,
-      "tldr": "",
-      "external_id_dblp": "journals/bspc/HuDLJZP25",
-      "external_id_doi": "10.1016/j.bspc.2024.107456",
-      "external_id_corpusid": 275461577,
-      "publication_date": "2025-05-01",
-      "journal_name": "Biomed. Signal Process. Control.",
-      "journal_volume": "103",
-      "journal_pages": "107456"
-    },
-    {
-      "id": "2339736402",
-      "type": "author",
-      "name": "Mengxiang Hu"
-    },
-    {
-      "id": "2332719665",
-      "type": "author",
-      "name": "Yongquan Dong"
-    },
-    {
-      "id": "2339716351",
-      "type": "author",
-      "name": "Junchi Li"
-    },
-    {
-      "id": "2339721710",
-      "type": "author",
-      "name": "Le Jiang"
-    },
-    {
-      "id": "2340251765",
-      "type": "author",
-      "name": "Peilin Zhang"
-    },
-    {
-      "id": "2332598099",
-      "type": "author",
-      "name": "Yuchao Ping"
-    },
-    {
-      "id": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
-      "type": "paper",
-      "title": "Advances in attention mechanisms for medical image segmentation",
-      "abstract": "",
-      "year": 2025,
-      "venue": "Computer Science Review",
-      "url": "https://www.semanticscholar.org/paper/d02e4e2b39271c85b14c416a336ea8bd38581f38",
-      "citation_count": 0,
-      "reference_count": 132,
-      "fields_of_study": "[\"Computer Science\"]",
-      "is_open_access": false,
-      "tldr": "",
-      "external_id_dblp": "journals/csr/ZhangCYGCCWXX25",
-      "external_id_doi": "10.1016/j.cosrev.2024.100721",
-      "external_id_corpusid": 275517495,
-      "publication_date": "2025-05-01",
-      "journal_name": "Comput. Sci. Rev.",
-      "journal_volume": "56",
-      "journal_pages": "100721"
-    },
-    {
-      "id": "49049926",
-      "type": "author",
-      "name": "Jianpeng Zhang"
-    },
-    {
-      "id": "2340079194",
-      "type": "author",
-      "name": "Xiaomin Chen"
-    },
-    {
-      "id": "2254298657",
-      "type": "author",
-      "name": "Bing Yang"
-    },
-    {
-      "id": "2210643082",
-      "type": "author",
-      "name": "Qingbiao Guan"
-    },
-    {
-      "id": "2295678067",
-      "type": "author",
-      "name": "Qi Chen"
-    },
-    {
-      "id": "2331688396",
-      "type": "author",
-      "name": "Jian Chen"
-    },
-    {
-      "id": "2190940933",
-      "type": "author",
-      "name": "Qi Wu"
-    },
-    {
-      "id": "2154709897",
-      "type": "author",
-      "name": "Yutong Xie"
-    },
-    {
-      "id": "2284828594",
+      "id": "2289321814",
       "type": "author",
       "name": "Yong Xia"
     },
     {
-      "id": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "id": "2188504852",
+      "type": "author",
+      "name": "Haibei Xiong"
+    },
+    {
+      "id": "2117730571",
+      "type": "author",
+      "name": "Cheng Yuan"
+    },
+    {
+      "id": "2269409988",
+      "type": "author",
+      "name": "Jiawei Chen"
+    },
+    {
+      "id": "2238676215",
+      "type": "author",
+      "name": "Qingzhao Kong"
+    },
+    {
+      "id": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
       "type": "paper",
-      "title": "Understandable time frame-based biosignal processing",
-      "abstract": "",
-      "year": 2025,
-      "venue": "Biomedical Signal Processing and Control",
-      "url": "https://www.semanticscholar.org/paper/2284be47be4cc580d60fadc049a50aed0ecfac06",
-      "citation_count": 0,
-      "reference_count": 46,
-      "fields_of_study": "[\"Computer Science\"]",
-      "is_open_access": false,
-      "tldr": "",
-      "external_id_dblp": "journals/bspc/RafieiA25",
-      "external_id_doi": "10.1016/j.bspc.2024.107429",
-      "external_id_corpusid": 276004643,
-      "publication_date": "2025-05-01",
-      "journal_name": "Biomed. Signal Process. Control.",
-      "journal_volume": "103",
-      "journal_pages": "107429"
-    },
-    {
-      "id": "2077186815",
-      "type": "author",
-      "name": "Hamed Rafiei"
-    },
-    {
-      "id": "2324108063",
-      "type": "author",
-      "name": "Mohammad R. Akbarzadeh-Totonchi"
-    },
-    {
-      "id": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "type": "paper",
-      "title": "SASU-Net: Hyperspectral video tracker based on spectral adaptive aggregation weighting and scale updating",
-      "abstract": "",
-      "year": 2025,
-      "venue": "Expert systems with applications",
-      "url": "https://www.semanticscholar.org/paper/bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "citation_count": 1,
-      "reference_count": 39,
-      "fields_of_study": "[\"Computer Science\"]",
-      "is_open_access": false,
-      "tldr": "",
-      "external_id_dblp": "journals/eswa/ZhaoZHZAJLPZ25",
-      "external_id_doi": "10.1016/j.eswa.2025.126721",
-      "external_id_corpusid": 276204872,
-      "publication_date": "2025-05-01",
-      "journal_name": "Expert Syst. Appl.",
-      "journal_volume": "272",
-      "journal_pages": "126721"
-    },
-    {
-      "id": "2210675334",
-      "type": "author",
-      "name": "Dong Zhao"
-    },
-    {
-      "id": "2259299392",
-      "type": "author",
-      "name": "Haorui Zhang"
-    },
-    {
-      "id": "2260847568",
-      "type": "author",
-      "name": "Kunpeng Huang"
-    },
-    {
-      "id": "2259641412",
-      "type": "author",
-      "name": "Xuguang Zhu"
-    },
-    {
-      "id": "2259021188",
-      "type": "author",
-      "name": "P. V. Arun"
-    },
-    {
-      "id": "2344611643",
-      "type": "author",
-      "name": "Wenhao Jiang"
-    },
-    {
-      "id": "2304014903",
-      "type": "author",
-      "name": "Shiyu Li"
-    },
-    {
-      "id": "2332001684",
-      "type": "author",
-      "name": "Xiaofang Pei"
-    },
-    {
-      "id": "2259333099",
-      "type": "author",
-      "name": "Huixin Zhou"
-    },
-    {
-      "id": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "type": "paper",
-      "title": "OCSCNet-Tracker: Hyperspectral Video Tracker Based on Octave Convolution and Spatial–Spectral Capsule Network",
-      "abstract": "In the field of hyperspectral video tracking (HVT), occclusion poses a challenging issue without a satisfactory solution. To address this challenge, the current study explores the application of capsule networks in HVT and proposes an approach based on octave convolution and a spatial–spectral capsule network (OCSCNet). Specifically, the spatial–spectral octave convolution module is designed to learn features from hyperspectral images by integrating spatial and spectral information. Hence, unlike traditional convolution, which is limited to learning spatial features, the proposed strategy also focuses on learning and modeling the spectral features. The proposed spatial–spectral capsule network integrates spectral information to distinguish among underlying capsule categories based on their spectral similarity. The approach enhances separability and establishes relationships between different components and targets at various scales. Finally, a confidence threshold judgment module utilizes the information from the initial and adjacent frames for relocating the lost target. Experiments conducted on the HOT2023 dataset illustrate that the proposed model outperforms state-of-the-art methods, achieving a success rate of 65.2% and a precision of 89.3%. In addition, extensive experimental results and visualizations further demonstrate the effectiveness and interpretability of the proposed OCSCNet.",
-      "year": 2025,
-      "venue": "Remote Sensing",
-      "url": "https://www.semanticscholar.org/paper/2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "citation_count": 0,
-      "reference_count": 43,
-      "fields_of_study": "",
-      "is_open_access": true,
-      "tldr": "This study explores the application of capsule networks in HVT and proposes an approach based on octave convolution and a spatial–spectral capsule network (OCSCNet), designed to learn features from hyperspectral images by integrating spatial and spectral information.",
-      "external_id_doi": "10.3390/rs17040693",
-      "external_id_corpusid": 276474341,
-      "publication_date": "2025-02-18",
-      "journal_name": "Remote Sensing"
-    },
-    {
-      "id": "2346506042",
-      "type": "author",
-      "name": "Mengyuan Wang"
-    },
-    {
-      "id": "2346504984",
-      "type": "author",
-      "name": "Weixiang Zhong"
-    },
-    {
-      "id": "2346893753",
-      "type": "author",
-      "name": "Yunpeng Li"
-    },
-    {
-      "id": "2346237065",
-      "type": "author",
-      "name": "Yuta Asano"
-    },
-    {
-      "id": "2346274461",
-      "type": "author",
-      "name": "Li Wu"
-    },
-    {
-      "id": "63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "type": "paper",
-      "title": "Retrieval augmented generation-driven information retrieval and question answering in construction management",
-      "abstract": "",
-      "year": 2025,
-      "venue": "Advanced Engineering Informatics",
-      "url": "https://www.semanticscholar.org/paper/63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "citation_count": 0,
-      "reference_count": 44,
-      "fields_of_study": "",
-      "is_open_access": false,
-      "tldr": "",
-      "external_id_doi": "10.1016/j.aei.2025.103158",
-      "external_id_corpusid": 276210473,
-      "publication_date": "2025-05-01",
-      "journal_name": "Advanced Engineering Informatics"
-    },
-    {
-      "id": "71854808",
-      "type": "author",
-      "name": "Chengke Wu"
-    },
-    {
-      "id": "2344728212",
-      "type": "author",
-      "name": "Wenjun Ding"
-    },
-    {
-      "id": "2344388688",
-      "type": "author",
-      "name": "Qisen Jin"
-    },
-    {
-      "id": "2274903373",
-      "type": "author",
-      "name": "Junjie Jiang"
-    },
-    {
-      "id": "2344443470",
-      "type": "author",
-      "name": "Rui Jiang"
-    },
-    {
-      "id": "2344994587",
-      "type": "author",
-      "name": "Qinge Xiao"
-    },
-    {
-      "id": "2344326506",
-      "type": "author",
-      "name": "Longhui Liao"
-    },
-    {
-      "id": "2303478105",
-      "type": "author",
-      "name": "Xiao Li"
-    },
-    {
-      "id": "b7aad266e52b5017709f029401a055692201e1e3",
-      "type": "paper",
-      "title": "Combining profile features for offensiveness detection on Spanish social media",
-      "abstract": "",
-      "year": 2025,
-      "venue": "Expert systems with applications",
-      "url": "https://www.semanticscholar.org/paper/b7aad266e52b5017709f029401a055692201e1e3",
-      "citation_count": 0,
-      "reference_count": 25,
-      "fields_of_study": "[\"Computer Science\"]",
-      "is_open_access": false,
-      "tldr": "",
-      "external_id_dblp": "journals/eswa/RodriguezAM25",
-      "external_id_doi": "10.1016/j.eswa.2025.126705",
-      "external_id_corpusid": 276218624,
-      "publication_date": "2025-05-01",
-      "journal_name": "Expert Syst. Appl.",
-      "journal_volume": "272",
-      "journal_pages": "126705"
-    },
-    {
-      "id": "2261474776",
-      "type": "author",
-      "name": "María Estrella Vallecillo Rodríguez"
-    },
-    {
-      "id": "3455118",
-      "type": "author",
-      "name": "Flor Miriam Plaza del Arco"
-    },
-    {
-      "id": "2261403337",
-      "type": "author",
-      "name": "Arturo Montejo Ráez"
-    },
-    {
-      "id": "b69ead1205e77bdf404f04c7131314870f7dd036",
-      "type": "paper",
-      "title": "Improved two-stage deep learning algorithm and lightweight YOLOv5n for classifying cottonseed damage",
+      "title": "Applications and perspectives of Generative Artificial Intelligence in agriculture",
       "abstract": "",
       "year": 2025,
       "venue": "Computers and Electronics in Agriculture",
-      "url": "https://www.semanticscholar.org/paper/b69ead1205e77bdf404f04c7131314870f7dd036",
+      "url": "https://www.semanticscholar.org/paper/9f48c80d7a4858831dde6a872f75c4c5477830fb",
       "citation_count": 0,
-      "reference_count": 27,
+      "reference_count": 97,
       "fields_of_study": "[\"Computer Science\"]",
-      "is_open_access": true,
+      "is_open_access": false,
       "tldr": "",
-      "external_id_dblp": "journals/cea/HeWSCWX25",
-      "external_id_doi": "10.1016/j.compag.2025.110042",
-      "external_id_corpusid": 276226313,
-      "publication_date": "2025-05-01",
+      "external_id_dblp": "journals/cea/PallottinoVFPACNMCAMMCO25",
+      "external_id_doi": "10.1016/j.compag.2025.109919",
+      "external_id_corpusid": 275475919,
+      "publication_date": "2025-03-01",
       "journal_name": "Comput. Electron. Agric.",
-      "journal_volume": "232",
-      "journal_pages": "110042"
+      "journal_volume": "230",
+      "journal_pages": "109919"
     },
     {
-      "id": "2306766694",
+      "id": "3379148",
       "type": "author",
-      "name": "Weilong He"
+      "name": "F. Pallottino"
     },
     {
-      "id": "2312701292",
+      "id": "151224683",
       "type": "author",
-      "name": "Fan Wu"
+      "name": "S. Violino"
     },
     {
-      "id": "2344512147",
+      "id": "3362957",
       "type": "author",
-      "name": "Lori Unruh Snyder"
+      "name": "S. Figorilli"
     },
     {
-      "id": "2344564067",
+      "id": "2275247813",
       "type": "author",
-      "name": "Jean Cheng"
+      "name": "Catello Pane"
     },
     {
-      "id": "2344516558",
+      "id": "2260978723",
       "type": "author",
-      "name": "Evelynn Wilcox"
+      "name": "Jacopo Aguzzi"
     },
     {
-      "id": "2303653185",
+      "id": "49815382",
       "type": "author",
-      "name": "Lirong Xiang"
+      "name": "Giacomo Colle"
+    },
+    {
+      "id": "150988769",
+      "type": "author",
+      "name": "E. Nemmi"
+    },
+    {
+      "id": "2339799646",
+      "type": "author",
+      "name": "Alessandro Montaghi"
+    },
+    {
+      "id": "8670112",
+      "type": "author",
+      "name": "D. Chatzievangelou"
+    },
+    {
+      "id": "49753151",
+      "type": "author",
+      "name": "F. Antonucci"
+    },
+    {
+      "id": "2143135405",
+      "type": "author",
+      "name": "L. Moscovini"
+    },
+    {
+      "id": "2339800633",
+      "type": "author",
+      "name": "Alessandro Mei"
+    },
+    {
+      "id": "2105645240",
+      "type": "author",
+      "name": "C. Costa"
+    },
+    {
+      "id": "145057282",
+      "type": "author",
+      "name": "L. Ortenzi"
+    },
+    {
+      "id": "954a8be1d79b573c37dbb632333b096e74d1df3d",
+      "type": "paper",
+      "title": "CIDM: A comprehensive inpainting diffusion model for missing weather radar data with knowledge guidance",
+      "abstract": "",
+      "year": 2025,
+      "venue": "Isprs Journal of Photogrammetry and Remote Sensing",
+      "url": "https://www.semanticscholar.org/paper/954a8be1d79b573c37dbb632333b096e74d1df3d",
+      "citation_count": 0,
+      "reference_count": 43,
+      "fields_of_study": "",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_doi": "10.1016/j.isprsjprs.2025.02.001",
+      "external_id_corpusid": 276436254,
+      "publication_date": "2025-03-01",
+      "journal_name": "ISPRS Journal of Photogrammetry and Remote Sensing"
+    },
+    {
+      "id": "2268374574",
+      "type": "author",
+      "name": "Wei Zhang"
+    },
+    {
+      "id": "2302219775",
+      "type": "author",
+      "name": "Xinyu Zhang"
+    },
+    {
+      "id": "2268410559",
+      "type": "author",
+      "name": "Junyu Dong"
+    },
+    {
+      "id": "2268401869",
+      "type": "author",
+      "name": "Xiaojiang Song"
+    },
+    {
+      "id": "1878069",
+      "type": "author",
+      "name": "Renbo Pang"
+    },
+    {
+      "id": "4ee608fad47b8c98004af8ba785f54b2cb6f0dd3",
+      "type": "paper",
+      "title": "Enhancing Sparse Index-Tracking Portfolios Using Deep Learning Models",
+      "abstract": "",
+      "year": 2025,
+      "venue": "SN Computer Science",
+      "url": "https://www.semanticscholar.org/paper/4ee608fad47b8c98004af8ba785f54b2cb6f0dd3",
+      "citation_count": 0,
+      "reference_count": 20,
+      "fields_of_study": "",
+      "is_open_access": false,
+      "tldr": "",
+      "external_id_doi": "10.1007/s42979-025-03746-3",
+      "external_id_corpusid": 276528052,
+      "publication_date": "2025-02-20",
+      "journal_name": "SN Computer Science"
+    },
+    {
+      "id": "1683095989",
+      "type": "author",
+      "name": "Carlos Andrés Zapata Quimbayo"
+    },
+    {
+      "id": "2346621974",
+      "type": "author",
+      "name": "Daniel Aragón Urrego"
+    },
+    {
+      "id": "2346616385",
+      "type": "author",
+      "name": "John Freddy Moreno Trujillo"
+    },
+    {
+      "id": "2346622675",
+      "type": "author",
+      "name": "Oscar Eduardo Reyes Nieto"
+    },
+    {
+      "id": "e4ee03cdfceaef84fd30e0a690be97f7938c641d",
+      "type": "paper",
+      "title": "Ensemble Kalman filter in latent space using a variational autoencoder pair",
+      "abstract": "Popular (ensemble) Kalman filter data assimilation (DA) approaches assume that the errors in both the a priori estimate of the state and those in the observations are Gaussian. For constrained variables, e.g. sea ice concentration or stress, such an assumption does not hold. The variational autoencoder (VAE) is a machine learning (ML) technique that allows to map an arbitrary distribution to/from a latent space in which the distribution is supposedly closer to a Gaussian. We propose a novel hybrid DA-ML approach in which VAEs are incorporated in the DA procedure. Specifically, we introduce a variant of the popular ensemble transform Kalman filter (ETKF) in which the analysis is applied in the latent space of a single VAE or a pair of VAEs. In twin experiments with a simple circular model, whereby the circle represents an underlying submanifold to be respected, we find that the use of a VAE ensures that a posteri ensemble members lie close to the manifold containing the truth. Furthermore, online updating of the VAE is necessary and achievable when this manifold varies in time, i.e. when it is non-stationary. We demonstrate that introducing an additional second latent space for the observational innovations improves robustness against detrimental effects of non-Gaussianity and bias in the observational errors but it slightly lessens the performance if observational errors are strictly Gaussian.",
+      "year": 2025,
+      "venue": "",
+      "url": "https://www.semanticscholar.org/paper/e4ee03cdfceaef84fd30e0a690be97f7938c641d",
+      "citation_count": 0,
+      "reference_count": 96,
+      "fields_of_study": "[\"Computer Science\", \"Physics\"]",
+      "is_open_access": false,
+      "tldr": "It is demonstrated that introducing an additional second latent space for the observational innovations improves robustness against detrimental effects of non-Gaussianity and bias in the observational errors but it slightly lessens the performance if observational errors are strictly Gaussian.",
+      "external_id_arxiv": "2502.12987",
+      "external_id_corpusid": 276422099,
+      "publication_date": "2025-02-18"
+    },
+    {
+      "id": "104535227",
+      "type": "author",
+      "name": "I. Pasmans"
+    },
+    {
+      "id": "2346076371",
+      "type": "author",
+      "name": "Yumeng Chen"
+    },
+    {
+      "id": "2274786130",
+      "type": "author",
+      "name": "T. S. Finn"
+    },
+    {
+      "id": "2261222882",
+      "type": "author",
+      "name": "M. Bocquet"
+    },
+    {
+      "id": "48842120",
+      "type": "author",
+      "name": "A. Carrassi"
+    },
+    {
+      "id": "71da4c2d8c6249ddec0522605665af4bab508d8f",
+      "type": "paper",
+      "title": "End-to-end Trajectory Generation - Contrasting Deep Generative Models and Language Models",
+      "abstract": "Due to the limited availability of actual large-scale datasets, realistic synthetic trajectory data play a crucial role in various research domains, including spatiotemporal data mining and data management, and domain-driven research related to transportation planning and urban analytics. Existing generation methods rely on predefined heuristics and cannot learn the unknown underlying generative mechanisms. This work introduces two end-to-end approaches for trajectory generation. The first approach comprises deep generative VAE-like models that factorize global and local semantics (habits vs. random routing change). We further enhance this approach by developing novel inference strategies based on variational inference and constrained optimization to ensure the validity of spatiotemporal aspects. This novel deep neural network architecture implements generative and inference models with dynamic latent priors. The second approach introduces a language model (LM) inspired generation as another benchmarking and foundational approach. The LM-inspired approach conceptualizes trajectories as sentences with the aim of predicting the likelihood of subsequent locations on a trajectory, given the locations as context. As a result, the LM-inspired approach implicitly learns the inherent spatiotemporal structure and other embedded semantics within the trajectories. These proposed methods demonstrate substantial quantitative and qualitative improvements over existing approaches, as evidenced by extensive experimental evaluations.",
+      "year": 2025,
+      "venue": "ACM Transactions on Spatial Algorithms and Systems",
+      "url": "https://www.semanticscholar.org/paper/71da4c2d8c6249ddec0522605665af4bab508d8f",
+      "citation_count": 0,
+      "reference_count": 17,
+      "fields_of_study": "",
+      "is_open_access": false,
+      "tldr": "This work introduces two end-to-end approaches for trajectory generation that comprises deep generative VAE-like models that factorize global and local semantics and introduces a language model (LM) inspired generation as another benchmarking and foundational approach.",
+      "external_id_doi": "10.1145/3716892",
+      "external_id_corpusid": 276376170,
+      "publication_date": "2025-02-13",
+      "journal_name": "ACM Transactions on Spatial Algorithms and Systems"
+    },
+    {
+      "id": "2345576106",
+      "type": "author",
+      "name": "Liming Zhang"
+    },
+    {
+      "id": "2203795479",
+      "type": "author",
+      "name": "Jonathan Mbuya"
+    },
+    {
+      "id": "2309440239",
+      "type": "author",
+      "name": "Liang Zhao"
+    },
+    {
+      "id": "2319965714",
+      "type": "author",
+      "name": "Dieter Pfoser"
+    },
+    {
+      "id": "2261741456",
+      "type": "author",
+      "name": "Antonios Anastasopoulos"
     }
   ],
   "edges": [
     {
-      "source": "40348417",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "1726807",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
       "type": "authored"
     },
     {
-      "source": "1846258",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "1678311",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
       "type": "authored"
     },
     {
-      "source": "3877127",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "3c2b6f5498539cae79f6ba35952c68e5964f799a",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
+      "type": "cites",
+      "contexts": "[\"A more detailed derivation of the loss functions used within a VAE can be found here [41][19].\", \"[19].\", \"It is vital that all parts of the model are smooth functions such that gradient descent can be performed on the model in order to train a variational autoencoder [19].\", \"To adapt a variational autoencoder, which is typically trained in a supervised or unsupervised manner, an additional classifier is added to the network to optionally classify inputs where the class is missing [19].\", \"[19] between an input x , and its reconstruction x \\u2032 .\"]",
+      "is_influential": true
+    },
+    {
+      "source": "2333364447",
+      "target": "3c2b6f5498539cae79f6ba35952c68e5964f799a",
       "type": "authored"
     },
     {
-      "source": "39328010",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "2333362862",
+      "target": "3c2b6f5498539cae79f6ba35952c68e5964f799a",
       "type": "authored"
     },
     {
-      "source": "145024664",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "2333418209",
+      "target": "3c2b6f5498539cae79f6ba35952c68e5964f799a",
       "type": "authored"
     },
     {
-      "source": "19177000",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "2333364327",
+      "target": "3c2b6f5498539cae79f6ba35952c68e5964f799a",
       "type": "authored"
     },
     {
-      "source": "40527594",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "2333362756",
+      "target": "3c2b6f5498539cae79f6ba35952c68e5964f799a",
       "type": "authored"
     },
     {
-      "source": "3443442",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "9419c33662c4a2f793db43a5a70e5106bb51f703",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
+      "type": "cites",
+      "contexts": "[\"The learning rate of 0.0001 was selected to facilitate stable and gradual convergence during training, as suggested by Kingma and Welling [12].\", \"The encoder maps the input data x to a latent variable z , while the decoder reconstructs x from z [12].\"]",
+      "is_influential": true
+    },
+    {
+      "source": "2240146011",
+      "target": "9419c33662c4a2f793db43a5a70e5106bb51f703",
       "type": "authored"
     },
     {
-      "source": "eba122f6ffcd430037ea753f47385126caebf5b1",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "1740870",
+      "target": "9419c33662c4a2f793db43a5a70e5106bb51f703",
+      "type": "authored"
+    },
+    {
+      "source": "3350404",
+      "target": "9419c33662c4a2f793db43a5a70e5106bb51f703",
+      "type": "authored"
+    },
+    {
+      "source": "5657b36c83506db3bdb62a63814b78b5e12f7c1c",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
+      "type": "cites",
+      "contexts": "[\"The mathematics theory of VAEs can be found in paper 20 and for the software implementation we have followed the description form the book 21 .\", \"We use variational autoencoder (VAE) 20,21 and neural network map 22,23 as tools to perform reconstruction.\", \"It is the random sampling from the latent space that provides the very training constraint that ensures the proximity preservation 20 .\", \"(B1) and the paper 20 for corresponding theoretical considerations.\", \"Autoencoders are neural networks that are trained via self supervised procedure 20,21 .\"]",
+      "is_influential": true
+    },
+    {
+      "source": "2849554",
+      "target": "5657b36c83506db3bdb62a63814b78b5e12f7c1c",
+      "type": "authored"
+    },
+    {
+      "source": "2275397592",
+      "target": "5657b36c83506db3bdb62a63814b78b5e12f7c1c",
+      "type": "authored"
+    },
+    {
+      "source": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
+      "type": "cites",
+      "contexts": "[\"It adopts a residual VQ-VAE (RVQ-VAE) and represents human motion as multi-layer discrete motion tokens with high-fidelity details.\", \"T2M-GPT (Zhang et al., 2023a) first introduces the VQ-VAE technique into text-to-motion tasks and leverages the autoregressive paradigm to generate motions.\", \"For the pre-traning stage, we use 1 base layer and 5 residual layers for our residual VQ-VAE.\", \"First, we pretrain a residual VQ-VAE (Martinez et al., 2014) network using a pre-processed large-scale unlabeled motion dataset, to enable the network to have prior knowledge of large-scale motion.\", \"TEMOS (Petrovich et al., 2022) uses a variational autoencoder (VAE) (Kingma et al., 2019) architecture to establish a shared latent space for motion and text.\", \"Action2Motion (Guo et al., 2020) uses a recurrent conditional variational autoencoder (VAE) for motion generation.\"]",
+      "is_influential": true
+    },
+    {
+      "source": "2318981947",
+      "target": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "type": "authored"
+    },
+    {
+      "source": "2306831155",
+      "target": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "type": "authored"
+    },
+    {
+      "source": "2294877670",
+      "target": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "type": "authored"
+    },
+    {
+      "source": "6578956",
+      "target": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "type": "authored"
+    },
+    {
+      "source": "2628601",
+      "target": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "type": "authored"
+    },
+    {
+      "source": "2295687473",
+      "target": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "type": "authored"
+    },
+    {
+      "source": "2302505492",
+      "target": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "type": "authored"
+    },
+    {
+      "source": "2238285797",
+      "target": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "type": "authored"
+    },
+    {
+      "source": "2293356664",
+      "target": "a8aa9b2977c53a2d2544fb0fbe1378d381177fcb",
+      "type": "authored"
+    },
+    {
+      "source": "38a2570ce6ded9bd492a1ff695f0b1dd7a841f00",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
       "type": "cites",
       "contexts": "[]",
       "is_influential": false
     },
     {
-      "source": "2261258970",
-      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "source": "2183276540",
+      "target": "38a2570ce6ded9bd492a1ff695f0b1dd7a841f00",
       "type": "authored"
     },
     {
-      "source": "2257008742",
-      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "source": "2289321814",
+      "target": "38a2570ce6ded9bd492a1ff695f0b1dd7a841f00",
       "type": "authored"
     },
     {
-      "source": "2232946813",
-      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "source": "2188504852",
+      "target": "38a2570ce6ded9bd492a1ff695f0b1dd7a841f00",
       "type": "authored"
     },
     {
-      "source": "2261251068",
-      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "source": "2117730571",
+      "target": "38a2570ce6ded9bd492a1ff695f0b1dd7a841f00",
       "type": "authored"
     },
     {
-      "source": "2261259483",
-      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "source": "2269409988",
+      "target": "38a2570ce6ded9bd492a1ff695f0b1dd7a841f00",
       "type": "authored"
     },
     {
-      "source": "2236703737",
-      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
+      "source": "2238676215",
+      "target": "38a2570ce6ded9bd492a1ff695f0b1dd7a841f00",
       "type": "authored"
     },
     {
-      "source": "2261121285",
-      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
-      "type": "authored"
-    },
-    {
-      "source": "2337150125",
-      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
-      "type": "authored"
-    },
-    {
-      "source": "2284530727",
-      "target": "eba122f6ffcd430037ea753f47385126caebf5b1",
-      "type": "authored"
-    },
-    {
-      "source": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
       "type": "cites",
       "contexts": "[]",
       "is_influential": false
     },
     {
-      "source": "2339412438",
-      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "source": "3379148",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
       "type": "authored"
     },
     {
-      "source": "2108083657",
-      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "source": "151224683",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
       "type": "authored"
     },
     {
-      "source": "2339501181",
-      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "source": "3362957",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
       "type": "authored"
     },
     {
-      "source": "2053741160",
-      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "source": "2275247813",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
       "type": "authored"
     },
     {
-      "source": "2339419387",
-      "target": "0bacdb96989822e77d0e5cfe9bed1b59bf13c669",
+      "source": "2260978723",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
       "type": "authored"
     },
     {
-      "source": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "49815382",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
+      "type": "authored"
+    },
+    {
+      "source": "150988769",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
+      "type": "authored"
+    },
+    {
+      "source": "2339799646",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
+      "type": "authored"
+    },
+    {
+      "source": "8670112",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
+      "type": "authored"
+    },
+    {
+      "source": "49753151",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
+      "type": "authored"
+    },
+    {
+      "source": "2143135405",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
+      "type": "authored"
+    },
+    {
+      "source": "2339800633",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
+      "type": "authored"
+    },
+    {
+      "source": "2105645240",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
+      "type": "authored"
+    },
+    {
+      "source": "145057282",
+      "target": "9f48c80d7a4858831dde6a872f75c4c5477830fb",
+      "type": "authored"
+    },
+    {
+      "source": "954a8be1d79b573c37dbb632333b096e74d1df3d",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
       "type": "cites",
       "contexts": "[]",
       "is_influential": false
     },
     {
-      "source": "2339736402",
-      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "source": "2268374574",
+      "target": "954a8be1d79b573c37dbb632333b096e74d1df3d",
       "type": "authored"
     },
     {
-      "source": "2332719665",
-      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "source": "2302219775",
+      "target": "954a8be1d79b573c37dbb632333b096e74d1df3d",
       "type": "authored"
     },
     {
-      "source": "2339716351",
-      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "source": "2268410559",
+      "target": "954a8be1d79b573c37dbb632333b096e74d1df3d",
       "type": "authored"
     },
     {
-      "source": "2339721710",
-      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "source": "2268401869",
+      "target": "954a8be1d79b573c37dbb632333b096e74d1df3d",
       "type": "authored"
     },
     {
-      "source": "2340251765",
-      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
+      "source": "1878069",
+      "target": "954a8be1d79b573c37dbb632333b096e74d1df3d",
       "type": "authored"
     },
     {
-      "source": "2332598099",
-      "target": "6fb3893b9c8338d2d381eec4ea19e62467ceb557",
-      "type": "authored"
-    },
-    {
-      "source": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "4ee608fad47b8c98004af8ba785f54b2cb6f0dd3",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
       "type": "cites",
       "contexts": "[]",
       "is_influential": false
     },
     {
-      "source": "49049926",
-      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "source": "1683095989",
+      "target": "4ee608fad47b8c98004af8ba785f54b2cb6f0dd3",
       "type": "authored"
     },
     {
-      "source": "2340079194",
-      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "source": "2346621974",
+      "target": "4ee608fad47b8c98004af8ba785f54b2cb6f0dd3",
       "type": "authored"
     },
     {
-      "source": "2254298657",
-      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "source": "2346616385",
+      "target": "4ee608fad47b8c98004af8ba785f54b2cb6f0dd3",
       "type": "authored"
     },
     {
-      "source": "2210643082",
-      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "source": "2346622675",
+      "target": "4ee608fad47b8c98004af8ba785f54b2cb6f0dd3",
       "type": "authored"
     },
     {
-      "source": "2295678067",
-      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "source": "e4ee03cdfceaef84fd30e0a690be97f7938c641d",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
+      "type": "cites",
+      "contexts": "[\"One such scheme is the variational autoencoder (VAE, Kingma and Welling , 2019).\", \"The VAE aims to find parameters such that the parametrised PDF p \\u03b8 ( x ) approximates as good as possible the PDF p X by minimising the Kullback-Leibner (KL) divergence KL [ p X ( x ) || p \\u03b8 ( x )] ( Rezende et al. , 2014; Kingma and Welling , 2019).\"]",
+      "is_influential": false
+    },
+    {
+      "source": "104535227",
+      "target": "e4ee03cdfceaef84fd30e0a690be97f7938c641d",
       "type": "authored"
     },
     {
-      "source": "2331688396",
-      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "source": "2346076371",
+      "target": "e4ee03cdfceaef84fd30e0a690be97f7938c641d",
       "type": "authored"
     },
     {
-      "source": "2190940933",
-      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "source": "2274786130",
+      "target": "e4ee03cdfceaef84fd30e0a690be97f7938c641d",
       "type": "authored"
     },
     {
-      "source": "2154709897",
-      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "source": "2261222882",
+      "target": "e4ee03cdfceaef84fd30e0a690be97f7938c641d",
       "type": "authored"
     },
     {
-      "source": "2284828594",
-      "target": "d02e4e2b39271c85b14c416a336ea8bd38581f38",
+      "source": "48842120",
+      "target": "e4ee03cdfceaef84fd30e0a690be97f7938c641d",
       "type": "authored"
     },
     {
-      "source": "2284be47be4cc580d60fadc049a50aed0ecfac06",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "source": "71da4c2d8c6249ddec0522605665af4bab508d8f",
+      "target": "329b84a919bfd1771be5bd14fa81e7b3f74cc961",
       "type": "cites",
       "contexts": "[]",
       "is_influential": false
     },
     {
-      "source": "2077186815",
-      "target": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "source": "2345576106",
+      "target": "71da4c2d8c6249ddec0522605665af4bab508d8f",
       "type": "authored"
     },
     {
-      "source": "2324108063",
-      "target": "2284be47be4cc580d60fadc049a50aed0ecfac06",
+      "source": "2203795479",
+      "target": "71da4c2d8c6249ddec0522605665af4bab508d8f",
       "type": "authored"
     },
     {
-      "source": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
-      "type": "cites",
-      "contexts": "[]",
-      "is_influential": false
-    },
-    {
-      "source": "2210675334",
-      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
+      "source": "2309440239",
+      "target": "71da4c2d8c6249ddec0522605665af4bab508d8f",
       "type": "authored"
     },
     {
-      "source": "2210675334",
-      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
+      "source": "2319965714",
+      "target": "71da4c2d8c6249ddec0522605665af4bab508d8f",
       "type": "authored"
     },
     {
-      "source": "2259299392",
-      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "type": "authored"
-    },
-    {
-      "source": "2260847568",
-      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "type": "authored"
-    },
-    {
-      "source": "2260847568",
-      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "type": "authored"
-    },
-    {
-      "source": "2259641412",
-      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "type": "authored"
-    },
-    {
-      "source": "2259021188",
-      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "type": "authored"
-    },
-    {
-      "source": "2259021188",
-      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "type": "authored"
-    },
-    {
-      "source": "2344611643",
-      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "type": "authored"
-    },
-    {
-      "source": "2304014903",
-      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "type": "authored"
-    },
-    {
-      "source": "2332001684",
-      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "type": "authored"
-    },
-    {
-      "source": "2259333099",
-      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "type": "authored"
-    },
-    {
-      "source": "2259333099",
-      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "type": "authored"
-    },
-    {
-      "source": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "target": "bbab7b10346555e02257ebc2a77d610d48f908a2",
-      "type": "cites",
-      "contexts": "[]",
-      "is_influential": false
-    },
-    {
-      "source": "2346506042",
-      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "type": "authored"
-    },
-    {
-      "source": "2346504984",
-      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "type": "authored"
-    },
-    {
-      "source": "2346893753",
-      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "type": "authored"
-    },
-    {
-      "source": "2346237065",
-      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "type": "authored"
-    },
-    {
-      "source": "2346274461",
-      "target": "2528dc17dfd9aba929eefa50d14f8a1ee32f1764",
-      "type": "authored"
-    },
-    {
-      "source": "63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
-      "type": "cites",
-      "contexts": "[]",
-      "is_influential": false
-    },
-    {
-      "source": "71854808",
-      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "type": "authored"
-    },
-    {
-      "source": "2344728212",
-      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "type": "authored"
-    },
-    {
-      "source": "2344388688",
-      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "type": "authored"
-    },
-    {
-      "source": "2274903373",
-      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "type": "authored"
-    },
-    {
-      "source": "2344443470",
-      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "type": "authored"
-    },
-    {
-      "source": "2344994587",
-      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "type": "authored"
-    },
-    {
-      "source": "2344326506",
-      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "type": "authored"
-    },
-    {
-      "source": "2303478105",
-      "target": "63a15a72c04ad338b0eab40c59993ff356f745e2",
-      "type": "authored"
-    },
-    {
-      "source": "b7aad266e52b5017709f029401a055692201e1e3",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
-      "type": "cites",
-      "contexts": "[]",
-      "is_influential": false
-    },
-    {
-      "source": "2261474776",
-      "target": "b7aad266e52b5017709f029401a055692201e1e3",
-      "type": "authored"
-    },
-    {
-      "source": "3455118",
-      "target": "b7aad266e52b5017709f029401a055692201e1e3",
-      "type": "authored"
-    },
-    {
-      "source": "2261403337",
-      "target": "b7aad266e52b5017709f029401a055692201e1e3",
-      "type": "authored"
-    },
-    {
-      "source": "b69ead1205e77bdf404f04c7131314870f7dd036",
-      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
-      "type": "cites",
-      "contexts": "[]",
-      "is_influential": false
-    },
-    {
-      "source": "2306766694",
-      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
-      "type": "authored"
-    },
-    {
-      "source": "2312701292",
-      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
-      "type": "authored"
-    },
-    {
-      "source": "2344512147",
-      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
-      "type": "authored"
-    },
-    {
-      "source": "2344564067",
-      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
-      "type": "authored"
-    },
-    {
-      "source": "2344516558",
-      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
-      "type": "authored"
-    },
-    {
-      "source": "2303653185",
-      "target": "b69ead1205e77bdf404f04c7131314870f7dd036",
+      "source": "2261741456",
+      "target": "71da4c2d8c6249ddec0522605665af4bab508d8f",
       "type": "authored"
     }
   ]
